@@ -18,6 +18,7 @@ body:
       label: POI Name / 兴趣点名称
       description: "E.g., Spring Xixi Grassland Camp"
       placeholder: "春晓苕溪大草坪营地"
+    validations:
       required: true
 
   - type: textinput
@@ -26,6 +27,7 @@ body:
       label: City / 城市
       description: "E.g., Hangzhou, Shaoxing, Ningbo"
       placeholder: "杭州市"
+    validations:
       required: true
 
   - type: textinput
@@ -34,6 +36,7 @@ body:
       label: Cost per Person (Yuan) / 人均费用(元)
       description: "0 means free"
       placeholder: "0, 128, or 300"
+    validations:
       required: true
 
   - type: textarea
@@ -46,6 +49,7 @@ body:
         - Book via WeChat mini program
         - Contact via Xiaohongshu
         - Phone booking: XXXXX
+    validations:
       required: true
 
   - type: textinput
@@ -54,6 +58,7 @@ body:
       label: Longitude / 经度
       description: "WGS84 coordinate, e.g., 120.1551"
       placeholder: "120.1551"
+    validations:
       required: true
 
   - type: textinput
@@ -62,6 +67,7 @@ body:
       label: Latitude / 纬度
       description: "WGS84 coordinate, e.g., 30.2741"
       placeholder: "30.2741"
+    validations:
       required: true
 
   - type: markdown
