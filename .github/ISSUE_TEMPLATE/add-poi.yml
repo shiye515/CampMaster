@@ -1,119 +1,100 @@
 name: Add New POI
 description: Submit a new camping site or point of interest (POI) to CampMaster
-title: "📍 Add POI: "
+title: "Add POI: "
 labels: ["data", "poi-submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        # 🏕️ Add New POI (兴趣点/营地数据提交)
+        # Add New POI / 添加新的兴趣点
         
-        Thank you for contributing to CampMaster! Please fill in the following information about a camping site or point of interest you'd like to add.
+        Thank you for contributing! Please provide information about a new camping site or point of interest.
         
-        感谢您为 CampMaster 贡献数据！请填写以下关于营地或兴趣点的信息。
+        感谢您的贡献！请提供一个新营地或兴趣点的信息。
 
   - type: textinput
     id: poi_name
     attributes:
-      label: POI Name (兴趣点名称) *
-      description: "E.g., 春晓苕溪大草坪营地"
-      placeholder: "Enter the complete name of the camping site or point of interest"
-    validations:
+      label: POI Name / 兴趣点名称
+      description: "E.g., Spring Xixi Grassland Camp"
+      placeholder: "春晓苕溪大草坪营地"
       required: true
 
   - type: textinput
     id: city
     attributes:
-      label: City (城市) *
-      description: "E.g., 杭州市, 绍兴市, 宁波市"
-      placeholder: "Enter the city name"
-    validations:
+      label: City / 城市
+      description: "E.g., Hangzhou, Shaoxing, Ningbo"
+      placeholder: "杭州市"
       required: true
 
   - type: textinput
     id: cost
     attributes:
-      label: Cost per Person (人均费用, 元) *
-      description: "Enter the cost in CNY. 0 means free."
-      placeholder: "E.g., 0, 128, 300"
-    validations:
+      label: Cost per Person (Yuan) / 人均费用(元)
+      description: "0 means free"
+      placeholder: "0, 128, or 300"
       required: true
 
   - type: textarea
     id: booking_method
     attributes:
-      label: Booking Method (预约方式) *
-      description: "How to book or visit this place"
+      label: Booking Method / 预约方式
+      description: "How to book or visit"
       placeholder: |
-        - 现场扫码无需预约
-        - 微信小程序预订
-        - 小红书私信联系
-        - 电话预订：XXXXX
-        - Other booking methods
-      value: ""
-    validations:
+        - Scan code on-site, no reservation needed
+        - Book via WeChat mini program
+        - Contact via Xiaohongshu
+        - Phone booking: XXXXX
       required: true
 
   - type: textinput
     id: longitude
     attributes:
-      label: Longitude (经度) *
-      description: "E.g., 120.1551"
-      placeholder: "Enter longitude (WGS84)"
-    validations:
+      label: Longitude / 经度
+      description: "WGS84 coordinate, e.g., 120.1551"
+      placeholder: "120.1551"
       required: true
 
   - type: textinput
     id: latitude
     attributes:
-      label: Latitude (纬度) *
-      description: "E.g., 30.2741"
-      placeholder: "Enter latitude (WGS84)"
-    validations:
+      label: Latitude / 纬度
+      description: "WGS84 coordinate, e.g., 30.2741"
+      placeholder: "30.2741"
       required: true
 
   - type: markdown
     attributes:
       value: |
-        💡 **Tip**: Right-click on the location in [Amap](https://www.amap.com/) or [Google Maps](https://maps.google.com/) to copy coordinates.
-
-  - type: markdown
-    attributes:
-      value: |
-        ## 📱 Media Links (Optional) - 媒体链接（可选）
+        💡 **Tip**: You can get coordinates by right-clicking on location in [Amap](https://www.amap.com/) or [Google Maps](https://maps.google.com/)
 
   - type: textarea
     id: media_links
     attributes:
-      label: Media Links (抖音、小红书、大众点评等)
-      description: "Provide links to related content on social media platforms"
+      label: Media Links (Optional) / 媒体链接(可选)
+      description: "Links to Douyin, Xiaohongshu, or other platforms"
       placeholder: |
-        Platform: 抖音 (Douyin)
-        Title: 最美草坪营地体验
-        URL: https://...
-        
-        Platform: 小红书 (Xiaohongshu)
-        Title: 春游必去的童话营地
+        Platform: Douyin
+        Title: Best Camping Experience
         URL: https://...
 
   - type: textarea
     id: description
     attributes:
-      label: Description (Optional) - 补充说明（可选）
-      description: "Add any additional details about this POI"
-      placeholder: "Share your experience, special features, or any important notes"
+      label: Additional Details (Optional) / 补充说明(可选)
+      description: "Any other information about this POI"
+      placeholder: "Share your experience, features, etc."
 
   - type: checkboxes
     id: confirmation
     attributes:
-      label: Confirmation (确认)
+      label: Confirmation / 确认
       description: "Please confirm before submitting"
       options:
-        - label: "I confirm that all information is accurate and complete"
+        - label: "I confirm the information is accurate"
           required: true
         - label: "I have verified the coordinates are correct"
           required: true
-        - label: "I agree that this information can be publicly displayed in CampMaster"
+        - label: "I agree this information can be publicly displayed"
           required: true
-        - label: "I have read the contribution guidelines"
-          required: false
