@@ -1,0 +1,38 @@
+{
+  "name": "poi-map-app",
+  "version": "1.0.0",
+  "description": "High-performance POI list retrieval and map interaction web application",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "convert": "node scripts/convert.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.20.0",
+    "@tanstack/react-virtual": "^3.5.1",
+    "clsx": "^2.1.1",
+    "flatgeobuf": "^4.1.1",
+    "lucide-react": "^0.408.0",
+    "maplibre-gl": "^4.0.0",
+    "rbush": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.3.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "geojson": "^0.5.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.1",
+    "terser": "^5.51.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}

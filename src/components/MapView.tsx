@@ -1,0 +1,260 @@
+import { useEffect, useRef } from 'react';
+import maplibregl, { Map, Popup, GeoJSONSource } from 'maplibre-gl';
+import { usePoiStore } from '../store/usePoiStore';
+import { ZoomIn, ZoomOut } from 'lucide-react';
+
+const MAP_STYLE = 'https://tiles.openfreemap.org/styles/bright';
+
+export function MapView() {
+  const mapContainer = useRef<HTMLDivElement>(null);
+  const map = useRef<Map | null>(null);
+  const popupRef = useRef<Popup | null>(null);
+
+  const filteredFeatures = usePoiStore((s) => s.filteredFeatures);
+  const activePoi = usePoiStore((s) => s.activePoi);
+  const setViewportBbox = usePoiStore((s) => s.setViewportBbox);
+  const setActivePoi = usePoiStore((s) => s.setActivePoi);
+  const enableViewportFilter = usePoiStore((s) => s.enableViewportFilter);
+
+  // 初始化地图
+  useEffect(() => {
+    if (!mapContainer.current) return;
+
+    map.current = new Map({
+      container: mapContainer.current,
+      style: MAP_STYLE,
+      center: [120.15, 30.27], // 杭州坐标
+      zoom: 9,
+      attributionControl: false,
+    });
+
+    map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    // 监听地图移动以更新视口 Bbox
+    const handleMove = () => {
+      if (!map.current) return;
+      const bounds = map.current.getBounds();
+      setViewportBbox([
+        bounds.getWest(),
+        bounds.getSouth(),
+        bounds.getEast(),
+        bounds.getNorth(),
+      ]);
+    };
+
+    map.current.on('move', handleMove);
+    map.current.on('load', () => {
+      handleMove();
+
+      // 添加 POI 数据源
+      map.current!.addSource('pois', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: [] },
+        cluster: true,
+        clusterMaxZoom: 14,
+        clusterRadius: 50,
+      });
+
+      // 集群样式
+      map.current!.addLayer({
+        id: 'clusters',
+        type: 'circle',
+        source: 'pois',
+        filter: ['has', 'point_count'],
+        paint: {
+          'circle-color': '#1e40af',
+          'circle-radius': [
+            'step',
+            ['get', 'point_count'],
+            20,
+            100,
+            30,
+            750,
+            40,
+          ],
+          'circle-opacity': 0.75,
+        },
+      });
+
+      // 集群文字
+      map.current!.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'pois',
+        filter: ['has', 'point_count'],
+        layout: {
+          'text-field': '{point_count_abbreviated}',
+          'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+          'text-size': 12,
+        },
+        paint: {
+          'text-color': '#fff',
+        },
+      });
+
+      // 单个 POI 点
+      map.current!.addLayer({
+        id: 'unclustered-point',
+        type: 'circle',
+        source: 'pois',
+        filter: ['!', ['has', 'point_count']],
+        paint: {
+          'circle-color': [
+            'case',
+            ['boolean', ['feature-state', 'hover'], false],
+            '#dc2626',
+            ['boolean', ['feature-state', 'active'], false],
+            '#ea580c',
+            '#10b981',
+          ],
+          'circle-radius': 7,
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#fff',
+          'circle-opacity': 0.85,
+        },
+      });
+
+      // 点击集群展开
+      map.current!.on('click', 'clusters', (e: any) => {
+        const source = map.current!.getSource('pois') as GeoJSONSource;
+        if (!source) return;
+
+        const clusterId = e.features[0].properties.cluster_id;
+        (source as any).getClusterExpansionZoom(clusterId, (err: Error | null, zoom: number) => {
+          if (err || zoom === undefined) return;
+          map.current!.flyTo({
+            center: e.geometry.coordinates,
+            zoom,
+            duration: 300,
+          });
+        });
+      });
+
+      // 点击单个 POI
+      map.current!.on('click', 'unclustered-point', (e: any) => {
+        const feature = e.features[0];
+        const id = feature.properties.id;
+        setActivePoi(id);
+
+        if (popupRef.current) popupRef.current.remove();
+
+        popupRef.current = new Popup()
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML(createPopupHTML(feature.properties))
+          .addTo(map.current!);
+
+        map.current!.flyTo({
+          center: feature.geometry.coordinates,
+          zoom: 15,
+          duration: 500,
+        });
+      });
+
+      // 鼠标悬停效果
+      map.current!.on('mouseenter', 'unclustered-point', () => {
+        map.current!.getCanvas().style.cursor = 'pointer';
+      });
+
+      map.current!.on('mouseleave', 'unclustered-point', () => {
+        map.current!.getCanvas().style.cursor = '';
+      });
+    });
+
+    return () => {
+      if (map.current) {
+        map.current.off('move', handleMove);
+        map.current.remove();
+      }
+    };
+  }, [setViewportBbox, setActivePoi]);
+
+  // 更新 GeoJSON 数据
+  useEffect(() => {
+    if (!map.current || !map.current.isStyleLoaded()) return;
+
+    const source = map.current.getSource('pois') as GeoJSONSource;
+    if (source) {
+      source.setData({
+        type: 'FeatureCollection',
+        features: filteredFeatures,
+      });
+    }
+  }, [filteredFeatures]);
+
+  // 高亮激活的 POI
+  useEffect(() => {
+    if (!map.current || !map.current.isStyleLoaded()) return;
+
+    const source = map.current.getSource('pois');
+    if (!source) return;
+
+    // 清除之前的状态
+    filteredFeatures.forEach((f) => {
+      map.current?.setFeatureState(
+        { source: 'pois', id: f.properties?.id },
+        { active: false }
+      );
+    });
+
+    // 设置新的活跃状态
+    if (activePoi !== null) {
+      map.current.setFeatureState(
+        { source: 'pois', id: activePoi },
+        { active: true }
+      );
+    }
+  }, [activePoi, filteredFeatures]);
+
+  return (
+    <div className="relative w-full h-full bg-gray-100">
+      <div ref={mapContainer} className="absolute inset-0" />
+
+      {/* 缩放控件 */}
+      <div className="absolute top-4 right-4 flex flex-col gap-2 z-10">
+        <button
+          onClick={() => map.current?.zoomIn()}
+          className="bg-white p-2 rounded shadow hover:shadow-lg transition"
+          title="放大"
+        >
+          <ZoomIn size={18} className="text-gray-700" />
+        </button>
+        <button
+          onClick={() => map.current?.zoomOut()}
+          className="bg-white p-2 rounded shadow hover:shadow-lg transition"
+          title="缩小"
+        >
+          <ZoomOut size={18} className="text-gray-700" />
+        </button>
+      </div>
+
+      {/* 视口过滤指示器 */}
+      {enableViewportFilter && (
+        <div className="absolute top-4 left-4 bg-blue-50 border border-blue-200 text-blue-800 text-sm px-3 py-2 rounded z-10">
+          ✓ 仅显示当前视口范围
+        </div>
+      )}
+    </div>
+  );
+}
+
+/**
+ * 生成 POI 点位的弹窗 HTML
+ */
+function createPopupHTML(props: any): string {
+  const mediaLinksHTML = (props.mediaLinks || [])
+    .map(
+      (link: any) =>
+        `<a href="${link.url}" target="_blank" rel="noopener" class="inline-block bg-blue-500 text-white text-xs px-2 py-1 rounded mr-1 hover:bg-blue-600">${link.platform}</a>`
+    )
+    .join('');
+
+  return `
+    <div class="w-64">
+      <h3 class="font-bold text-base mb-1">${props.name}</h3>
+      <p class="text-xs text-gray-600 mb-2">${props.city}</p>
+      <p class="text-sm mb-1"><strong>人均费用:</strong> ¥${props.cost}</p>
+      <p class="text-sm mb-2"><strong>下单:</strong> ${props.bookingMethod}</p>
+      <div class="text-xs">${mediaLinksHTML}</div>
+    </div>
+  `;
+}

@@ -1,0 +1,255 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.1551, 30.2741]
+      },
+      "properties": {
+        "id": "poi-001",
+        "name": "春晓苕溪大草坪营地",
+        "city": "杭州市",
+        "cost": 128,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "春晓营地露营体验",
+            "url": "https://www.xiaohongshu.com"
+          },
+          {
+            "platform": "抖音",
+            "title": "看看我们的营地环境",
+            "url": "https://www.douyin.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3321, 30.1841]
+      },
+      "properties": {
+        "id": "poi-002",
+        "name": "萧山瓜沥露营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "免费，现场登记",
+        "mediaLinks": [
+          {
+            "platform": "大众点评",
+            "title": "露营地评价及攻略",
+            "url": "https://www.dianping.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.1858, 30.3145]
+      },
+      "properties": {
+        "id": "poi-003",
+        "name": "西湖边野外营地",
+        "city": "杭州市",
+        "cost": 198,
+        "bookingMethod": "微信小程序提前预订",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "西湖露营完全攻略",
+            "url": "https://www.xiaohongshu.com"
+          },
+          {
+            "platform": "抖音",
+            "title": "西湖夕阳下的营地美景",
+            "url": "https://www.douyin.com"
+          },
+          {
+            "platform": "大众点评",
+            "title": "用户评价",
+            "url": "https://www.dianping.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5321, 30.2541]
+      },
+      "properties": {
+        "id": "poi-004",
+        "name": "江南水乡营地度假村",
+        "city": "杭州市",
+        "cost": 299,
+        "bookingMethod": "官网预订或电话预约：0571-xxxx",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "古镇露营文化节",
+            "url": "https://www.xiaohongshu.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.6891, 30.4159]
+      },
+      "properties": {
+        "id": "poi-005",
+        "name": "临安山里营地森林公园",
+        "city": "杭州市",
+        "cost": 158,
+        "bookingMethod": "App 预订（临安文旅）",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "山里露营生活",
+            "url": "https://www.douyin.com"
+          },
+          {
+            "platform": "其他",
+            "title": "官方网站",
+            "url": "https://example.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.9421, 30.5234]
+      },
+      "properties": {
+        "id": "poi-006",
+        "name": "富阳龙门古镇营地",
+        "city": "杭州市",
+        "cost": 88,
+        "bookingMethod": "现场报名无需预约，节假日需提前1天",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "龙门古镇徒步+露营",
+            "url": "https://www.xiaohongshu.com"
+          },
+          {
+            "platform": "大众点评",
+            "title": "古镇里的露营体验",
+            "url": "https://www.dianping.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.8534, 29.8921]
+      },
+      "properties": {
+        "id": "poi-007",
+        "name": "新昌大佛寺露营基地",
+        "city": "绍兴市",
+        "cost": 118,
+        "bookingMethod": "景区微信公众号预订",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "大佛脚下的星空露营",
+            "url": "https://www.douyin.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.2345, 29.9876]
+      },
+      "properties": {
+        "id": "poi-008",
+        "name": "诸暨五泄风景区营地",
+        "city": "绍兴市",
+        "cost": 0,
+        "bookingMethod": "免费露营，需办理景区进山证",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "五泄瀑布露营攻略",
+            "url": "https://www.xiaohongshu.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.6234, 29.4521]
+      },
+      "properties": {
+        "id": "poi-009",
+        "name": "桐庐瑶琳仙境营地",
+        "city": "杭州市",
+        "cost": 168,
+        "bookingMethod": "景区售票处或抖音直播间预定",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "溶洞营地直播间预定",
+            "url": "https://www.douyin.com"
+          },
+          {
+            "platform": "小红书",
+            "title": "溶洞探险+露营二合一",
+            "url": "https://www.xiaohongshu.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.7654, 30.6234]
+      },
+      "properties": {
+        "id": "poi-010",
+        "name": "天目山森林小镇营地",
+        "city": "杭州市",
+        "cost": 238,
+        "bookingMethod": "小红书、抖音私信联系客服预订",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "天目山露营全攻略",
+            "url": "https://www.xiaohongshu.com"
+          },
+          {
+            "platform": "抖音",
+            "title": "天目山视频介绍",
+            "url": "https://www.douyin.com"
+          },
+          {
+            "platform": "大众点评",
+            "title": "用户点评",
+            "url": "https://www.dianping.com"
+          }
+        ]
+      }
+    }
+  ]
+}
