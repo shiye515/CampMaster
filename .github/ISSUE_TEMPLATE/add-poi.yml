@@ -1,6 +1,6 @@
 name: Add New POI
 description: Submit a new camping site or point of interest to CampMaster
-labels: ["data"]
+labels: ["data", "poi-submission"]
 body:
   - type: markdown
     attributes:
