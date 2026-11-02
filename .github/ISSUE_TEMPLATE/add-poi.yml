@@ -1,64 +1,61 @@
 name: Add New POI
 description: Submit a new camping site or point of interest to CampMaster
 title: Add POI
-labels: ["data"]
+labels:
+  - data
 body:
   - type: markdown
     attributes:
       value: |
         # Add New POI / 添加新兴趣点
         Thank you for contributing to CampMaster!
-
   - type: textinput
-    id: name
+    id: poi_name
     attributes:
       label: POI Name / 兴趣点名称
-      placeholder: "E.g., Spring Grassland Camp"
+      description: E.g. Spring Grassland Camp
+      placeholder: 春晓苕溪大草坪营地
     validations:
       required: true
-
   - type: textinput
-    id: city
+    id: city_name
     attributes:
       label: City / 城市
-      placeholder: "E.g., Hangzhou"
+      description: E.g. Hangzhou
+      placeholder: 杭州市
     validations:
       required: true
-
   - type: textinput
-    id: cost
+    id: cost_yuan
     attributes:
-      label: Cost (Yuan) / 人均费用
-      placeholder: "0, 100, 300"
+      label: Cost per Person Yuan / 人均费用元
+      description: 0 means free
+      placeholder: "100"
     validations:
       required: true
-
+  - type: textarea
+    id: booking_method
+    attributes:
+      label: Booking Method / 预约方式
+      placeholder: How to book or visit
+    validations:
+      required: true
   - type: textinput
-    id: longitude
+    id: longitude_coord
     attributes:
       label: Longitude / 经度
       placeholder: "120.1551"
     validations:
       required: true
-
   - type: textinput
-    id: latitude
+    id: latitude_coord
     attributes:
       label: Latitude / 纬度
       placeholder: "30.2741"
     validations:
       required: true
-
   - type: textarea
-    id: booking
+    id: additional_info
     attributes:
-      label: Booking Method / 预约方式
-      placeholder: "How to book or visit"
-    validations:
-      required: true
-
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes (Optional) / 备注
-      placeholder: "Any additional information"
+      label: Additional Info / 其他信息
+      placeholder: Optional information
