@@ -2,19 +2,19 @@
   "blank_issues_enabled": true,
   "contact_links": [
     {
-      "name": "📚 查看文档",
+      "name": "📚 Documentation",
       "url": "https://github.com/shiye515/CampMaster#readme",
-      "about": "阅读 README 和使用指南"
+      "about": "Read README and guides"
     },
     {
-      "name": "🎯 问题讨论",
+      "name": "🎯 Discussions",
       "url": "https://github.com/shiye515/CampMaster/discussions",
-      "about": "在讨论区提问或分享想法"
+      "about": "Ask questions or share ideas"
     },
     {
-      "name": "📊 查看项目进度",
+      "name": "📊 Project Board",
       "url": "https://github.com/shiye515/CampMaster/projects",
-      "about": "查看项目的开发规划和进度"
+      "about": "View development roadmap"
     }
   ]
 }
