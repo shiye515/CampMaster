@@ -1,61 +1,52 @@
 name: Add New POI
-description: Submit a new camping site or point of interest to CampMaster
+description: Submit a new camping site or point of interest
 title: Add POI
 labels:
   - data
+  - poi
 body:
   - type: markdown
     attributes:
-      value: |
-        # Add New POI / 添加新兴趣点
-        Thank you for contributing to CampMaster!
+      value: "# Add New POI"
   - type: textinput
-    id: poi_name
+    id: name
     attributes:
-      label: POI Name / 兴趣点名称
-      description: E.g. Spring Grassland Camp
-      placeholder: 春晓苕溪大草坪营地
+      label: Name
+      placeholder: Spring Grassland Camp
     validations:
       required: true
   - type: textinput
-    id: city_name
+    id: city
     attributes:
-      label: City / 城市
-      description: E.g. Hangzhou
-      placeholder: 杭州市
+      label: City
+      placeholder: Hangzhou
     validations:
       required: true
   - type: textinput
-    id: cost_yuan
+    id: cost
     attributes:
-      label: Cost per Person Yuan / 人均费用元
-      description: 0 means free
-      placeholder: "100"
+      label: Cost
+      placeholder: "0"
     validations:
       required: true
   - type: textarea
-    id: booking_method
+    id: booking
     attributes:
-      label: Booking Method / 预约方式
-      placeholder: How to book or visit
+      label: Booking Method
+      placeholder: How to book
     validations:
       required: true
   - type: textinput
-    id: longitude_coord
+    id: longitude
     attributes:
-      label: Longitude / 经度
+      label: Longitude
       placeholder: "120.1551"
     validations:
       required: true
   - type: textinput
-    id: latitude_coord
+    id: latitude
     attributes:
-      label: Latitude / 纬度
+      label: Latitude
       placeholder: "30.2741"
     validations:
       required: true
-  - type: textarea
-    id: additional_info
-    attributes:
-      label: Additional Info / 其他信息
-      placeholder: Optional information
