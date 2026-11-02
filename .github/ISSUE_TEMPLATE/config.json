@@ -1,0 +1,20 @@
+{
+  "blank_issues_enabled": false,
+  "contact_links": [
+    {
+      "name": "📚 查看文档",
+      "url": "https://github.com/shiye515/CampMaster#readme",
+      "about": "阅读 README 和使用指南"
+    },
+    {
+      "name": "🎯 问题讨论",
+      "url": "https://github.com/shiye515/CampMaster/discussions",
+      "about": "在讨论区提问或分享想法"
+    },
+    {
+      "name": "📊 查看项目进度",
+      "url": "https://github.com/shiye515/CampMaster/projects",
+      "about": "查看项目的开发规划和进度"
+    }
+  ]
+}
