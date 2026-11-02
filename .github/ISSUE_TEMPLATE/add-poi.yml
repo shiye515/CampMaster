@@ -1,9 +1,7 @@
 name: Add New POI
 description: Submit a new camping site or point of interest
 title: Add POI
-labels:
-  - data
-  - poi
+labels: ["data", "poi"]
 body:
   - type: markdown
     attributes:
