@@ -1,23 +1,19 @@
 name: Add New POI
-description: Submit a new camping site or point of interest (POI) to CampMaster
-title: "Add POI: "
-labels: ["data", "poi-submission"]
+description: Submit a new camping site or point of interest to CampMaster
+title: Add POI
+labels: ["data"]
 body:
   - type: markdown
     attributes:
       value: |
-        # Add New POI / 添加新的兴趣点
-        
-        Thank you for contributing! Please provide information about a new camping site or point of interest.
-        
-        感谢您的贡献！请提供一个新营地或兴趣点的信息。
+        # Add New POI / 添加新兴趣点
+        Thank you for contributing to CampMaster!
 
   - type: textinput
-    id: poi_name
+    id: name
     attributes:
       label: POI Name / 兴趣点名称
-      description: "E.g., Spring Xixi Grassland Camp"
-      placeholder: "春晓苕溪大草坪营地"
+      placeholder: "E.g., Spring Grassland Camp"
     validations:
       required: true
 
@@ -25,30 +21,15 @@ body:
     id: city
     attributes:
       label: City / 城市
-      description: "E.g., Hangzhou, Shaoxing, Ningbo"
-      placeholder: "杭州市"
+      placeholder: "E.g., Hangzhou"
     validations:
       required: true
 
   - type: textinput
     id: cost
     attributes:
-      label: Cost per Person (Yuan) / 人均费用(元)
-      description: "0 means free"
-      placeholder: "0, 128, or 300"
-    validations:
-      required: true
-
-  - type: textarea
-    id: booking_method
-    attributes:
-      label: Booking Method / 预约方式
-      description: "How to book or visit"
-      placeholder: |
-        - Scan code on-site, no reservation needed
-        - Book via WeChat mini program
-        - Contact via Xiaohongshu
-        - Phone booking: XXXXX
+      label: Cost (Yuan) / 人均费用
+      placeholder: "0, 100, 300"
     validations:
       required: true
 
@@ -56,7 +37,6 @@ body:
     id: longitude
     attributes:
       label: Longitude / 经度
-      description: "WGS84 coordinate, e.g., 120.1551"
       placeholder: "120.1551"
     validations:
       required: true
@@ -65,42 +45,20 @@ body:
     id: latitude
     attributes:
       label: Latitude / 纬度
-      description: "WGS84 coordinate, e.g., 30.2741"
       placeholder: "30.2741"
     validations:
       required: true
 
-  - type: markdown
+  - type: textarea
+    id: booking
     attributes:
-      value: |
-        💡 **Tip**: You can get coordinates by right-clicking on location in [Amap](https://www.amap.com/) or [Google Maps](https://maps.google.com/)
+      label: Booking Method / 预约方式
+      placeholder: "How to book or visit"
+    validations:
+      required: true
 
   - type: textarea
-    id: media_links
+    id: notes
     attributes:
-      label: Media Links (Optional) / 媒体链接(可选)
-      description: "Links to Douyin, Xiaohongshu, or other platforms"
-      placeholder: |
-        Platform: Douyin
-        Title: Best Camping Experience
-        URL: https://...
-
-  - type: textarea
-    id: description
-    attributes:
-      label: Additional Details (Optional) / 补充说明(可选)
-      description: "Any other information about this POI"
-      placeholder: "Share your experience, features, etc."
-
-  - type: checkboxes
-    id: confirmation
-    attributes:
-      label: Confirmation / 确认
-      description: "Please confirm before submitting"
-      options:
-        - label: "I confirm the information is accurate"
-          required: true
-        - label: "I have verified the coordinates are correct"
-          required: true
-        - label: "I agree this information can be publicly displayed"
-          required: true
+      label: Notes (Optional) / 备注
+      placeholder: "Any additional information"
