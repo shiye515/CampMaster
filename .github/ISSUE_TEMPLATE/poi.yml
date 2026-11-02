@@ -1,0 +1,28 @@
+name: POI Submission
+description: Submit a camping site or POI
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: "# Submit POI"
+  - type: textinput
+    id: name
+    attributes:
+      label: Name
+      placeholder: Camp Name
+    validations:
+      required: true
+  - type: textinput
+    id: city
+    attributes:
+      label: City
+      placeholder: City Name
+    validations:
+      required: true
+  - type: textinput
+    id: cost
+    attributes:
+      label: Cost
+      placeholder: "0"
+    validations:
+      required: true
