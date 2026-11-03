@@ -170,38 +170,57 @@ export function MapView() {
 
   // 更新 GeoJSON 数据
   useEffect(() => {
-    if (!map.current || !map.current.isStyleLoaded()) return;
+    if (!map.current) return;
 
-    const source = map.current.getSource('pois') as GeoJSONSource;
-    if (source) {
-      source.setData({
-        type: 'FeatureCollection',
-        features: filteredFeatures,
-      });
+    // 等待地图加载完成后更新数据
+    const updateData = () => {
+      const source = map.current?.getSource('pois') as GeoJSONSource;
+      if (source) {
+        source.setData({
+          type: 'FeatureCollection',
+          features: filteredFeatures,
+        });
+      }
+    };
+
+    if (map.current.isStyleLoaded()) {
+      updateData();
+    } else {
+      map.current.once('style.load', updateData);
     }
   }, [filteredFeatures]);
 
   // 高亮激活的 POI
   useEffect(() => {
-    if (!map.current || !map.current.isStyleLoaded()) return;
+    if (!map.current) return;
 
-    const source = map.current.getSource('pois');
-    if (!source) return;
+    const updateHighlight = () => {
+      if (!map.current) return;
+      
+      const source = map.current.getSource('pois');
+      if (!source) return;
 
-    // 清除之前的状态
-    filteredFeatures.forEach((f) => {
-      map.current?.setFeatureState(
-        { source: 'pois', id: f.properties?.id },
-        { active: false }
-      );
-    });
+      // 清除之前的状态
+      filteredFeatures.forEach((f) => {
+        map.current?.setFeatureState(
+          { source: 'pois', id: f.properties?.id },
+          { active: false }
+        );
+      });
 
-    // 设置新的活跃状态
-    if (activePoi !== null) {
-      map.current.setFeatureState(
-        { source: 'pois', id: activePoi },
-        { active: true }
-      );
+      // 设置新的活跃状态
+      if (activePoi !== null) {
+        map.current.setFeatureState(
+          { source: 'pois', id: activePoi },
+          { active: true }
+        );
+      }
+    };
+
+    if (map.current.isStyleLoaded()) {
+      updateHighlight();
+    } else {
+      map.current.once('style.load', updateHighlight);
     }
   }, [activePoi, filteredFeatures]);
 
