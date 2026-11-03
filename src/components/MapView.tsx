@@ -20,6 +20,11 @@ export function MapView() {
   useEffect(() => {
     if (!mapContainer.current) return;
 
+    (window as any).__mapDebug = {
+      initStarted: true,
+      features: []
+    };
+
     map.current = new Map({
       container: mapContainer.current,
       style: MAP_STYLE,
@@ -44,6 +49,7 @@ export function MapView() {
 
     map.current.on('move', handleMove);
     map.current.on('load', () => {
+      (window as any).__mapDebug.mapLoaded = true;
       handleMove();
 
       // 添加 POI 数据源（禁用聚类，全zoom级别都显示单个点）
@@ -55,12 +61,12 @@ export function MapView() {
             data: { type: 'FeatureCollection', features: [] },
             cluster: false,
           });
-          console.log('[MapView] Added pois source');
+          (window as any).__mapDebug.sourceAdded = true;
         } else {
-          console.log('[MapView] pois source already exists');
+          (window as any).__mapDebug.sourceExists = true;
         }
       } catch (e) {
-        console.error('[MapView] Error adding source:', e);
+        (window as any).__mapDebug.sourceError = String(e);
       }
 
       // 单个 POI 点（禁用聚类后的图层）
@@ -86,12 +92,12 @@ export function MapView() {
               'circle-opacity': 0.85,
             },
           });
-          console.log('[MapView] Added poi-points layer');
+          (window as any).__mapDebug.layerAdded = true;
         } else {
-          console.log('[MapView] poi-points layer already exists');
+          (window as any).__mapDebug.layerExists = true;
         }
       } catch (e) {
-        console.error('[MapView] Error adding layer:', e);
+        (window as any).__mapDebug.layerError = String(e);
       }
 
       // 点击单个 POI
@@ -140,20 +146,23 @@ export function MapView() {
     const updateData = () => {
       const source = map.current?.getSource('pois') as GeoJSONSource;
       if (source) {
-        console.log(`[MapView] Updating source with ${filteredFeatures.length} features`);
+        (window as any).__mapDebug.lastUpdate = {
+          featureCount: filteredFeatures.length,
+          timestamp: new Date().toISOString()
+        };
         source.setData({
           type: 'FeatureCollection',
           features: filteredFeatures,
         });
       } else {
-        console.warn('[MapView] Source "pois" not found');
+        (window as any).__mapDebug.sourceNotFoundOnUpdate = true;
       }
     };
 
     if (map.current.isStyleLoaded()) {
       updateData();
     } else {
-      console.log('[MapView] Waiting for style.load...');
+      (window as any).__mapDebug.waitingForStyleLoad = true;
       map.current.once('style.load', updateData);
     }
   }, [filteredFeatures]);
