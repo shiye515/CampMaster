@@ -46,58 +46,18 @@ export function MapView() {
     map.current.on('load', () => {
       handleMove();
 
-      // 添加 POI 数据源
+      // 添加 POI 数据源（禁用聚类，全zoom级别都显示单个点）
       map.current!.addSource('pois', {
         type: 'geojson',
         data: { type: 'FeatureCollection', features: [] },
-        cluster: true,
-        clusterMaxZoom: 14,
-        clusterRadius: 50,
+        cluster: false,
       });
 
-      // 集群样式
+      // 单个 POI 点（禁用聚类后的图层）
       map.current!.addLayer({
-        id: 'clusters',
+        id: 'poi-points',
         type: 'circle',
         source: 'pois',
-        filter: ['has', 'point_count'],
-        paint: {
-          'circle-color': '#1e40af',
-          'circle-radius': [
-            'step',
-            ['get', 'point_count'],
-            20,
-            100,
-            30,
-            750,
-            40,
-          ],
-          'circle-opacity': 0.75,
-        },
-      });
-
-      // 集群文字
-      map.current!.addLayer({
-        id: 'cluster-count',
-        type: 'symbol',
-        source: 'pois',
-        filter: ['has', 'point_count'],
-        layout: {
-          'text-field': '{point_count_abbreviated}',
-          'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
-          'text-size': 12,
-        },
-        paint: {
-          'text-color': '#fff',
-        },
-      });
-
-      // 单个 POI 点
-      map.current!.addLayer({
-        id: 'unclustered-point',
-        type: 'circle',
-        source: 'pois',
-        filter: ['!', ['has', 'point_count']],
         paint: {
           'circle-color': [
             'case',
@@ -114,24 +74,8 @@ export function MapView() {
         },
       });
 
-      // 点击集群展开
-      map.current!.on('click', 'clusters', (e: any) => {
-        const source = map.current!.getSource('pois') as GeoJSONSource;
-        if (!source) return;
-
-        const clusterId = e.features[0].properties.cluster_id;
-        (source as any).getClusterExpansionZoom(clusterId, (err: Error | null, zoom: number) => {
-          if (err || zoom === undefined) return;
-          map.current!.flyTo({
-            center: e.geometry.coordinates,
-            zoom,
-            duration: 300,
-          });
-        });
-      });
-
       // 点击单个 POI
-      map.current!.on('click', 'unclustered-point', (e: any) => {
+      map.current!.on('click', 'poi-points', (e: any) => {
         const feature = e.features[0];
         const id = feature.properties.id;
         setActivePoi(id);
@@ -151,11 +95,11 @@ export function MapView() {
       });
 
       // 鼠标悬停效果
-      map.current!.on('mouseenter', 'unclustered-point', () => {
+      map.current!.on('mouseenter', 'poi-points', () => {
         map.current!.getCanvas().style.cursor = 'pointer';
       });
 
-      map.current!.on('mouseleave', 'unclustered-point', () => {
+      map.current!.on('mouseleave', 'poi-points', () => {
         map.current!.getCanvas().style.cursor = '';
       });
     });
