@@ -48,8 +48,10 @@ export function MapView() {
     };
 
     map.current.on('move', handleMove);
-    map.current.on('load', () => {
-      (window as any).__mapDebug.mapLoaded = true;
+    
+    // 等待样式加载后再添加source和layer
+    const onStyleLoad = () => {
+      (window as any).__mapDebug.styleLoadTriggered = true;
       handleMove();
 
       // 添加 POI 数据源（禁用聚类，全zoom级别都显示单个点）
@@ -99,35 +101,47 @@ export function MapView() {
       } catch (e) {
         (window as any).__mapDebug.layerError = String(e);
       }
+    };
 
-      // 点击单个 POI
-      map.current!.on('click', 'poi-points', (e: any) => {
-        const feature = e.features[0];
-        const id = feature.properties.id;
-        setActivePoi(id);
+    // 如果样式已加载，立即调用；否则等待style.load
+    if (map.current.isStyleLoaded()) {
+      onStyleLoad();
+    } else {
+      map.current.on('style.load', onStyleLoad);
+    }
 
-        if (popupRef.current) popupRef.current.remove();
+    // 点击单个 POI
+    map.current.on('click', 'poi-points', (e: any) => {
+      const feature = e.features[0];
+      const id = feature.properties.id;
+      setActivePoi(id);
 
-        popupRef.current = new Popup()
-          .setLngLat(feature.geometry.coordinates)
-          .setHTML(createPopupHTML(feature.properties))
-          .addTo(map.current!);
+      if (popupRef.current) popupRef.current.remove();
 
-        map.current!.flyTo({
-          center: feature.geometry.coordinates,
-          zoom: 15,
-          duration: 500,
-        });
+      popupRef.current = new Popup()
+        .setLngLat(feature.geometry.coordinates)
+        .setHTML(createPopupHTML(feature.properties))
+        .addTo(map.current!);
+
+      map.current!.flyTo({
+        center: feature.geometry.coordinates,
+        zoom: 15,
+        duration: 500,
       });
+    });
 
-      // 鼠标悬停效果
-      map.current!.on('mouseenter', 'poi-points', () => {
-        map.current!.getCanvas().style.cursor = 'pointer';
-      });
+    // 鼠标悬停效果
+    map.current.on('mouseenter', 'poi-points', () => {
+      map.current!.getCanvas().style.cursor = 'pointer';
+    });
 
-      map.current!.on('mouseleave', 'poi-points', () => {
-        map.current!.getCanvas().style.cursor = '';
-      });
+    map.current.on('mouseleave', 'poi-points', () => {
+      map.current!.getCanvas().style.cursor = '';
+    });
+
+    // 记录map加载完成
+    map.current.on('load', () => {
+      (window as any).__mapDebug.mapLoaded = true;
     });
 
     return () => {
