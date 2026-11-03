@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "convert": "node scripts/convert.mjs"
+    "convert": "node scripts/convert.mjs",
+    "crawl": "cd crawler && node crawl.mjs",
+    "crawl:process": "cd crawler && node process_and_merge.mjs",
+    "crawl:hangzhou": "cd crawler && node crawl.mjs -k '杭州 露营' -n 30"
   },
   "dependencies": {
     "@tanstack/react-table": "^8.20.0",
