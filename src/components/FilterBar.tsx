@@ -1,9 +1,8 @@
 import { useEffect } from 'react';
 import { usePoiStore } from '../store/usePoiStore';
-import { X } from 'lucide-react';
 
 const COST_PRESETS = [
-  { label: '全部', min: 0, max: 10000 },
+  { label: '全部价格', min: 0, max: 10000 },
   { label: '免费 (0元)', min: 0, max: 0 },
   { label: '100元以内', min: 0, max: 100 },
   { label: '100-300元', min: 100, max: 300 },
@@ -22,7 +21,6 @@ export function FilterBar({ onApplyFilters }: FilterBarProps) {
 
   const setSelectedCity = usePoiStore((s) => s.setSelectedCity);
   const setCostRange = usePoiStore((s) => s.setCostRange);
-  const clearFilters = usePoiStore((s) => s.clearFilters);
 
   // 当任何过滤条件变化时，触发应用过滤
   useEffect(() => {
@@ -35,68 +33,50 @@ export function FilterBar({ onApplyFilters }: FilterBarProps) {
 
   return (
     <div className="bg-white border-b border-gray-200 p-4 space-y-4">
-      {/* 城市选择 */}
+      {/* 城市选择 - 下拉框 */}
       <div>
         <label className="text-xs font-semibold text-gray-700 block mb-2">
           城市
         </label>
-        <div className="flex flex-wrap gap-2">
+        <select
+          value={selectedCity || ''}
+          onChange={(e) => setSelectedCity(e.target.value || selectedCity)}
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+        >
           {citiesList.map((city) => (
-            <button
-              key={city}
-              onClick={() => setSelectedCity(city === selectedCity ? null : city)}
-              className={`px-3 py-1 rounded-full text-sm transition ${
-                selectedCity === city
-                  ? 'bg-blue-500 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
-            >
+            <option key={city} value={city}>
               {city}
-            </button>
+            </option>
           ))}
-        </div>
+        </select>
       </div>
 
-      {/* 费用范围 */}
+      {/* 费用范围 - 下拉框 */}
       <div>
         <label className="text-xs font-semibold text-gray-700 block mb-2">
           人均费用
         </label>
-        <div className="flex flex-wrap gap-2">
-          {COST_PRESETS.map((preset) => {
-            const isActive =
-              costRange[0] === preset.min && costRange[1] === preset.max;
-            return (
-              <button
-                key={preset.label}
-                onClick={() => setCostRange([preset.min, preset.max])}
-                className={`px-3 py-1 rounded text-sm transition ${
-                  isActive
-                    ? 'bg-green-500 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {preset.label}
-              </button>
-            );
-          })}
-        </div>
+        <select
+          value={`${costRange[0]}-${costRange[1]}`}
+          onChange={(e) => {
+            const [minStr, maxStr] = e.target.value.split('-');
+            setCostRange([parseInt(minStr), parseInt(maxStr)]);
+          }}
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+        >
+          {COST_PRESETS.map((preset) => (
+            <option key={preset.label} value={`${preset.min}-${preset.max}`}>
+              {preset.label}
+            </option>
+          ))}
+        </select>
       </div>
 
-      {/* 结果统计与清除 */}
-      <div className="flex items-center justify-between pt-2 border-t border-gray-200">
+      {/* 结果统计 */}
+      <div className="pt-2 border-t border-gray-200">
         <p className="text-sm text-gray-600">
           找到 <span className="font-bold text-blue-600">{filteredFeatures.length}</span> 个结果
         </p>
-        {(selectedCity) && (
-          <button
-            onClick={() => clearFilters()}
-            className="text-xs text-red-500 hover:text-red-700 flex items-center gap-1"
-          >
-            <X size={14} />
-            清除筛选
-          </button>
-        )}
       </div>
     </div>
   );

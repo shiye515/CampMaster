@@ -30,7 +30,7 @@ interface PoiStoreState extends FilterState {
 }
 
 const initialFilterState: FilterState = {
-  selectedCity: null,
+  selectedCity: '杭州市',
   costRange: [0, 10000],
 };
 
@@ -46,8 +46,8 @@ export const usePoiStore = create<PoiStoreState>((set) => ({
   loadCitiesList: (cities: string[]) => {
     set({
       citiesList: cities.sort(),
-      // 自动选择第一个城市
-      selectedCity: cities.length > 0 ? cities[0] : null,
+      // 自动选择杭州市作为默认城市
+      selectedCity: cities.includes('杭州市') ? '杭州市' : (cities.length > 0 ? cities[0] : null),
     });
   },
 

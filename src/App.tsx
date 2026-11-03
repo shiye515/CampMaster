@@ -8,6 +8,7 @@ import { Menu, X } from 'lucide-react';
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [citiesLoaded, setCitiesLoaded] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   
   const loadCitiesList_ = usePoiStore((s) => s.loadCitiesList);
@@ -24,9 +25,9 @@ function App() {
         const cities = await loadCitiesList();
         console.log('✅ Cities loaded:', cities);
         loadCitiesList_(cities);
+        setCitiesLoaded(true);
       } catch (error) {
         console.error('Failed to load cities list:', error);
-      } finally {
         setLoading(false);
       }
     }
@@ -34,15 +35,37 @@ function App() {
     initializeCities();
   }, [loadCitiesList_]);
 
+  // 城市列表加载完成后，加载杭州市的数据
+  useEffect(() => {
+    if (!citiesLoaded || loading) return;
+
+    async function loadDefaultCity() {
+      try {
+        console.log(`Loading default city data: ${selectedCity}`);
+        const data = await loadCityData(selectedCity || '杭州市');
+        const sanitized = sanitizePoiData(data);
+        console.log(`✅ Loaded ${sanitized.features.length} POIs for default city`);
+        
+        loadCityFeatures(sanitized);
+        applyFilters();
+        setLoading(false);
+      } catch (error) {
+        console.error('Failed to load default city data:', error);
+        setLoading(false);
+      }
+    }
+
+    loadDefaultCity();
+  }, [citiesLoaded, loadCityFeatures, applyFilters, selectedCity]);
+
   // 监听城市选择变化，加载对应城市的数据
   useEffect(() => {
     if (!selectedCity || !isLoadingCityData) return;
 
     async function loadCityPoiData() {
       try {
-        if (!selectedCity) return;
         console.log(`Loading data for city: ${selectedCity}`);
-        const data = await loadCityData(selectedCity);
+        const data = await loadCityData(selectedCity as string);
         const sanitized = sanitizePoiData(data);
         console.log(`✅ Loaded ${sanitized.features.length} POIs for ${selectedCity}`);
         
