@@ -1,0 +1,26 @@
+---
+# Copilot GitHub App configuration
+# 启用 Copilot 在此项目中的功能
+
+copilot:
+  enabled: true
+  
+  # 启用 Copilot Automations
+  automations:
+    enabled: true
+    # 定义此项目允许的自动化类型和触发器
+    allowed_triggers:
+      - pull_request
+      - pull_request_review
+      - issues
+      - issue_comment
+      - pull_request_review_comment
+      # - schedule  # 如果需要定时触发，取消注释此行
+    
+    # 允许的自动化代理
+    allowed_agents:
+      - copilot
+      
+    # 允许执行的工具集
+    allowed_tools:
+      - github-mcp-server
