@@ -25,15 +25,26 @@ function App() {
         // 验证和清理数据
         data = sanitizePoiData(data);
 
+        // DEBUG
+        (window as any).__poiData = data;
+        console.log('✅ POI Data loaded:', data.features.length);
+
         if (data.features.length === 0) {
           console.warn('No valid POI features loaded');
         }
 
         // 加载到存储
         loadFeatures(data);
+        console.log('✅ loadFeatures called');
+        
+        //  DEBUG: check store state
+        const currentState = usePoiStore.getState();
+        console.log('Store allFeatures:', currentState.allFeatures.length);
+        console.log('Store filteredFeatures:', currentState.filteredFeatures.length);
 
         // 应用初始过滤
         applyFilters();
+        console.log('✅ applyFilters called');
       } catch (error) {
         console.error('Failed to initialize data:', error);
       } finally {

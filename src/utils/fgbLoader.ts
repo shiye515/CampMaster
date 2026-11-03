@@ -6,23 +6,17 @@ import type { PoiFeatureCollection, PoiFeature } from '../types/poi';
  * @returns FeatureCollection
  */
 export async function loadPoiData(dataPath: string): Promise<PoiFeatureCollection> {
-  try {
-    const response = await fetch(dataPath);
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-    }
+  const response = await fetch(dataPath);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+  }
 
-    if (dataPath.endsWith('.fgb')) {
-      return await loadFlatGeobuf(response);
-    } else if (dataPath.endsWith('.geojson') || dataPath.endsWith('.json')) {
-      return await response.json();
-    } else {
-      throw new Error('Unsupported data format. Use .fgb or .geojson');
-    }
-  } catch (error) {
-    console.error(`Failed to load data from ${dataPath}:`, error);
-    // 返回空集合以防止应用崩溃
-    return { type: 'FeatureCollection', features: [] };
+  if (dataPath.endsWith('.fgb')) {
+    return await loadFlatGeobuf(response);
+  } else if (dataPath.endsWith('.geojson') || dataPath.endsWith('.json')) {
+    return await response.json();
+  } else {
+    throw new Error('Unsupported data format. Use .fgb or .geojson');
   }
 }
 
