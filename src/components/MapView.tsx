@@ -144,26 +144,42 @@ export function MapView() {
 
     // 等待地图加载完成后更新数据
     const updateData = () => {
-      const source = map.current?.getSource('pois') as GeoJSONSource;
+      if (!map.current) {
+        (window as any).__mapDebug.mapCurrentIsNull = true;
+        return;
+      }
+      
+      const source = map.current.getSource('pois') as GeoJSONSource;
       if (source) {
         (window as any).__mapDebug.lastUpdate = {
           featureCount: filteredFeatures.length,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
+          success: true
         };
         source.setData({
           type: 'FeatureCollection',
           features: filteredFeatures,
         });
+        (window as any).__mapDebug.dataSet = true;
       } else {
         (window as any).__mapDebug.sourceNotFoundOnUpdate = true;
+        (window as any).__mapDebug.sourceCheckFailure = {
+          mapExists: !!map.current,
+          mapHasSources: !!map.current?.getStyle()?.sources,
+          allSources: Object.keys(map.current?.getStyle()?.sources || {})
+        };
       }
     };
 
     if (map.current.isStyleLoaded()) {
+      (window as any).__mapDebug.styleAlreadyLoaded = true;
       updateData();
     } else {
       (window as any).__mapDebug.waitingForStyleLoad = true;
-      map.current.once('style.load', updateData);
+      map.current.once('style.load', () => {
+        (window as any).__mapDebug.styleLoadComplete = true;
+        updateData();
+      });
     }
   }, [filteredFeatures]);
 
