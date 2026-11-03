@@ -47,32 +47,52 @@ export function MapView() {
       handleMove();
 
       // 添加 POI 数据源（禁用聚类，全zoom级别都显示单个点）
-      map.current!.addSource('pois', {
-        type: 'geojson',
-        data: { type: 'FeatureCollection', features: [] },
-        cluster: false,
-      });
+      try {
+        const existingSource = map.current!.getSource('pois');
+        if (!existingSource) {
+          map.current!.addSource('pois', {
+            type: 'geojson',
+            data: { type: 'FeatureCollection', features: [] },
+            cluster: false,
+          });
+          console.log('[MapView] Added pois source');
+        } else {
+          console.log('[MapView] pois source already exists');
+        }
+      } catch (e) {
+        console.error('[MapView] Error adding source:', e);
+      }
 
       // 单个 POI 点（禁用聚类后的图层）
-      map.current!.addLayer({
-        id: 'poi-points',
-        type: 'circle',
-        source: 'pois',
-        paint: {
-          'circle-color': [
-            'case',
-            ['boolean', ['feature-state', 'hover'], false],
-            '#dc2626',
-            ['boolean', ['feature-state', 'active'], false],
-            '#ea580c',
-            '#10b981',
-          ],
-          'circle-radius': 7,
-          'circle-stroke-width': 2,
-          'circle-stroke-color': '#fff',
-          'circle-opacity': 0.85,
-        },
-      });
+      try {
+        const existingLayer = map.current!.getLayer('poi-points');
+        if (!existingLayer) {
+          map.current!.addLayer({
+            id: 'poi-points',
+            type: 'circle',
+            source: 'pois',
+            paint: {
+              'circle-color': [
+                'case',
+                ['boolean', ['feature-state', 'hover'], false],
+                '#dc2626',
+                ['boolean', ['feature-state', 'active'], false],
+                '#ea580c',
+                '#10b981',
+              ],
+              'circle-radius': 7,
+              'circle-stroke-width': 2,
+              'circle-stroke-color': '#fff',
+              'circle-opacity': 0.85,
+            },
+          });
+          console.log('[MapView] Added poi-points layer');
+        } else {
+          console.log('[MapView] poi-points layer already exists');
+        }
+      } catch (e) {
+        console.error('[MapView] Error adding layer:', e);
+      }
 
       // 点击单个 POI
       map.current!.on('click', 'poi-points', (e: any) => {
@@ -120,16 +140,20 @@ export function MapView() {
     const updateData = () => {
       const source = map.current?.getSource('pois') as GeoJSONSource;
       if (source) {
+        console.log(`[MapView] Updating source with ${filteredFeatures.length} features`);
         source.setData({
           type: 'FeatureCollection',
           features: filteredFeatures,
         });
+      } else {
+        console.warn('[MapView] Source "pois" not found');
       }
     };
 
     if (map.current.isStyleLoaded()) {
       updateData();
     } else {
+      console.log('[MapView] Waiting for style.load...');
       map.current.once('style.load', updateData);
     }
   }, [filteredFeatures]);
