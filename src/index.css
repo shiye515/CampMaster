@@ -21,6 +21,29 @@ body,
 }
 
 /* MapLibre 样式覆盖 */
+.maplibregl-map {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.maplibregl-canvas-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+.maplibregl-canvas {
+  outline: none;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .maplibregl-popup-content {
   padding: 0 !important;
   border-radius: 8px !important;
@@ -29,11 +52,6 @@ body,
 
 .maplibregl-popup-content > div {
   padding: 12px !important;
-}
-
-/* 虚拟滚动列表优化 */
-.maplibregl-canvas {
-  outline: none;
 }
 
 /* 响应式优化 */
