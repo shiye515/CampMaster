@@ -169,8 +169,8 @@ export function MapView() {
   }, [activePoi, filteredFeatures]);
 
   return (
-    <div className="relative w-full h-full bg-gray-100">
-      <div ref={mapContainer} className="absolute inset-0" />
+    <div className="relative w-full h-full bg-gray-100 overflow-hidden">
+      <div ref={mapContainer} className="absolute inset-0 w-full h-full" />
 
       {/* 缩放控件 */}
       <div className="absolute top-4 right-4 flex flex-col gap-2 z-10">
