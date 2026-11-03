@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1551,
+          30.2741
+        ]
+      },
+      "properties": {
+        "name": "西湖露营地",
+        "city": "杭州",
+        "address": "浙江省杭州市西湖区",
+        "poi_id": "test_001",
+        "video_id": "test_video_001",
+        "likes": 12500,
+        "comments": 345
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1632,
+          30.2875
+        ]
+      },
+      "properties": {
+        "name": "龙井山水露营基地",
+        "city": "杭州",
+        "address": "浙江省杭州市西湖区龙井村",
+        "poi_id": "test_002",
+        "video_id": "test_video_002",
+        "likes": 8900,
+        "comments": 267
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.25,
+          30.25
+        ]
+      },
+      "properties": {
+        "name": "钱塘江畔营地",
+        "city": "杭州",
+        "address": "浙江省杭州市钱塘区",
+        "poi_id": "test_003",
+        "video_id": "test_video_003",
+        "likes": 15600,
+        "comments": 512
+      }
+    }
+  ]
+}
