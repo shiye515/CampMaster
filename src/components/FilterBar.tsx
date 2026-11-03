@@ -32,16 +32,14 @@ export function FilterBar({ onApplyFilters }: FilterBarProps) {
   }, [selectedCity, costRange, onApplyFilters]);
 
   return (
-    <div className="bg-white border-b border-gray-200 p-4 space-y-4">
-      {/* 城市选择 - 下拉框 */}
-      <div>
-        <label className="text-xs font-semibold text-gray-700 block mb-2">
-          城市
-        </label>
+    <div className="bg-white border-b border-gray-200 p-3 space-y-3">
+      {/* 筛选项 - 水平排列 */}
+      <div className="flex gap-2 items-center flex-wrap">
+        {/* 城市选择 - 下拉框 */}
         <select
           value={selectedCity || ''}
           onChange={(e) => setSelectedCity(e.target.value || selectedCity)}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+          className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm flex-1 min-w-[140px]"
         >
           {citiesList.map((city) => (
             <option key={city} value={city}>
@@ -49,20 +47,15 @@ export function FilterBar({ onApplyFilters }: FilterBarProps) {
             </option>
           ))}
         </select>
-      </div>
 
-      {/* 费用范围 - 下拉框 */}
-      <div>
-        <label className="text-xs font-semibold text-gray-700 block mb-2">
-          人均费用
-        </label>
+        {/* 费用范围 - 下拉框 */}
         <select
           value={`${costRange[0]}-${costRange[1]}`}
           onChange={(e) => {
             const [minStr, maxStr] = e.target.value.split('-');
             setCostRange([parseInt(minStr), parseInt(maxStr)]);
           }}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+          className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 text-sm flex-1 min-w-[140px]"
         >
           {COST_PRESETS.map((preset) => (
             <option key={preset.label} value={`${preset.min}-${preset.max}`}>
@@ -73,7 +66,7 @@ export function FilterBar({ onApplyFilters }: FilterBarProps) {
       </div>
 
       {/* 结果统计 */}
-      <div className="pt-2 border-t border-gray-200">
+      <div className="pt-1">
         <p className="text-sm text-gray-600">
           找到 <span className="font-bold text-blue-600">{filteredFeatures.length}</span> 个结果
         </p>
