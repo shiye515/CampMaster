@@ -28,10 +28,6 @@ export interface PoiFeatureCollection {
 }
 
 export interface FilterState {
-  searchText: string;
   selectedCity: string | null;
   costRange: [number, number];
-  bookingMethods: string[];
-  viewportBbox: [number, number, number, number] | null;
-  enableViewportFilter: boolean;
 }

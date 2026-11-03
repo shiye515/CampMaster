@@ -12,9 +12,7 @@ export function MapView() {
 
   const filteredFeatures = usePoiStore((s) => s.filteredFeatures);
   const activePoi = usePoiStore((s) => s.activePoi);
-  const setViewportBbox = usePoiStore((s) => s.setViewportBbox);
   const setActivePoi = usePoiStore((s) => s.setActivePoi);
-  const enableViewportFilter = usePoiStore((s) => s.enableViewportFilter);
 
   // 初始化地图
   useEffect(() => {
@@ -34,25 +32,10 @@ export function MapView() {
     });
 
     map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
-
-    // 监听地图移动以更新视口 Bbox
-    const handleMove = () => {
-      if (!map.current) return;
-      const bounds = map.current.getBounds();
-      setViewportBbox([
-        bounds.getWest(),
-        bounds.getSouth(),
-        bounds.getEast(),
-        bounds.getNorth(),
-      ]);
-    };
-
-    map.current.on('move', handleMove);
     
     // 等待样式加载后再添加source和layer
     const onStyleLoad = () => {
       (window as any).__mapDebug.styleLoadTriggered = true;
-      handleMove();
 
       // 添加 POI 数据源（禁用聚类，全zoom级别都显示单个点）
       try {
@@ -139,7 +122,6 @@ export function MapView() {
 
     return () => {
       if (map.current) {
-        map.current.off('move', handleMove);
         map.current.remove();
       }
     };
@@ -245,13 +227,6 @@ export function MapView() {
           <ZoomOut size={18} className="text-gray-700" />
         </button>
       </div>
-
-      {/* 视口过滤指示器 */}
-      {enableViewportFilter && (
-        <div className="absolute top-4 left-4 bg-blue-50 border border-blue-200 text-blue-800 text-sm px-3 py-2 rounded z-10">
-          ✓ 仅显示当前视口范围
-        </div>
-      )}
     </div>
   );
 }

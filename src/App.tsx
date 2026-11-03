@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { usePoiStore } from './store/usePoiStore';
-import { loadPoiData, sanitizePoiData } from './utils/fgbLoader';
+import { loadCitiesList, loadCityData, sanitizePoiData } from './utils/fgbLoader';
 import { MapView } from './components/MapView';
 import { PoiList } from './components/PoiList';
 import { FilterBar } from './components/FilterBar';
@@ -9,58 +9,59 @@ import { Menu, X } from 'lucide-react';
 function App() {
   const [loading, setLoading] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(true);
-  const loadFeatures = usePoiStore((s) => s.loadFeatures);
+  
+  const loadCitiesList_ = usePoiStore((s) => s.loadCitiesList);
+  const loadCityFeatures = usePoiStore((s) => s.loadCityFeatures);
   const applyFilters = usePoiStore((s) => s.applyFilters);
+  const selectedCity = usePoiStore((s) => s.selectedCity);
+  const isLoadingCityData = usePoiStore((s) => s.isLoadingCityData);
 
-  // 初始化加载数据
+  // 初始化加载城市列表
   useEffect(() => {
-    async function initializeData() {
+    async function initializeCities() {
       setLoading(true);
       try {
-        // 尝试先加载 FlatGeobuf，失败则回退到 GeoJSON
-        let data = await loadPoiData('./data/pois.fgb').catch(() =>
-          loadPoiData('./data/pois.geojson')
-        );
-
-        // 验证和清理数据
-        data = sanitizePoiData(data);
-
-        // DEBUG
-        (window as any).__poiData = data;
-        console.log('✅ POI Data loaded:', data.features.length);
-
-        if (data.features.length === 0) {
-          console.warn('No valid POI features loaded');
-        }
-
-        // 加载到存储
-        loadFeatures(data);
-        console.log('✅ loadFeatures called');
-        
-        //  DEBUG: check store state
-        const currentState = usePoiStore.getState();
-        console.log('Store allFeatures:', currentState.allFeatures.length);
-        console.log('Store filteredFeatures:', currentState.filteredFeatures.length);
-
-        // 应用初始过滤
-        applyFilters();
-        console.log('✅ applyFilters called');
+        const cities = await loadCitiesList();
+        console.log('✅ Cities loaded:', cities);
+        loadCitiesList_(cities);
       } catch (error) {
-        console.error('Failed to initialize data:', error);
+        console.error('Failed to load cities list:', error);
       } finally {
         setLoading(false);
       }
     }
 
-    initializeData();
-  }, [loadFeatures, applyFilters]);
+    initializeCities();
+  }, [loadCitiesList_]);
+
+  // 监听城市选择变化，加载对应城市的数据
+  useEffect(() => {
+    if (!selectedCity || !isLoadingCityData) return;
+
+    async function loadCityPoiData() {
+      try {
+        if (!selectedCity) return;
+        console.log(`Loading data for city: ${selectedCity}`);
+        const data = await loadCityData(selectedCity);
+        const sanitized = sanitizePoiData(data);
+        console.log(`✅ Loaded ${sanitized.features.length} POIs for ${selectedCity}`);
+        
+        loadCityFeatures(sanitized);
+        applyFilters();
+      } catch (error) {
+        console.error(`Failed to load data for ${selectedCity}:`, error);
+      }
+    }
+
+    loadCityPoiData();
+  }, [selectedCity, isLoadingCityData, loadCityFeatures, applyFilters]);
 
   if (loading) {
     return (
       <div className="w-screen h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100">
         <div className="text-center">
           <div className="w-12 h-12 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-gray-700 font-semibold">加载数据中...</p>
+          <p className="text-gray-700 font-semibold">加载城市列表中...</p>
         </div>
       </div>
     );
@@ -92,7 +93,16 @@ function App() {
 
         {/* POI 列表 */}
         <div className="flex-1 overflow-hidden">
-          <PoiList />
+          {isLoadingCityData ? (
+            <div className="flex items-center justify-center h-full">
+              <div className="text-center">
+                <div className="w-8 h-8 border-3 border-blue-200 border-t-blue-600 rounded-full animate-spin mx-auto mb-2"></div>
+                <p className="text-sm text-gray-600">加载数据中...</p>
+              </div>
+            </div>
+          ) : (
+            <PoiList />
+          )}
         </div>
       </div>
 

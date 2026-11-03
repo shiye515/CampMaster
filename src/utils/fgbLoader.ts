@@ -21,6 +21,34 @@ export async function loadPoiData(dataPath: string): Promise<PoiFeatureCollectio
 }
 
 /**
+ * 加载城市列表（从配置文件）
+ */
+export async function loadCitiesList(): Promise<string[]> {
+  try {
+    const response = await fetch('./data/cities.json');
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data.cities || [];
+  } catch (error) {
+    console.error('Failed to load cities list:', error);
+    return [];
+  }
+}
+
+/**
+ * 加载指定城市的 POI 数据
+ */
+export async function loadCityData(city: string): Promise<PoiFeatureCollection> {
+  // 将城市名转为文件名（例如 "杭州市" -> "hangzhoushi"）
+  const filename = encodeURIComponent(city).toLowerCase();
+  const dataPath = `./data/cities/${filename}.geojson`;
+  
+  return loadPoiData(dataPath);
+}
+
+/**
  * 解析 FlatGeobuf 流式数据
  */
 async function loadFlatGeobuf(response: Response): Promise<PoiFeatureCollection> {
