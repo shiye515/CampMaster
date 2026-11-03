@@ -143,7 +143,7 @@ export function MapView() {
         map.current.remove();
       }
     };
-  }, [setViewportBbox, setActivePoi]);
+  }, []);
 
   // 更新 GeoJSON 数据
   useEffect(() => {
