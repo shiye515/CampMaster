@@ -9,5 +9,45 @@
     "绍兴市",
     "衢州市",
     "金华市"
-  ]
+  ],
+  "cityData": {
+    "杭州市": {
+      "filename": "杭州市.geojson",
+      "poiCount": 262
+    },
+    "绍兴市": {
+      "filename": "绍兴市.geojson",
+      "poiCount": 10
+    },
+    "湖州市": {
+      "filename": "湖州市.geojson",
+      "poiCount": 24
+    },
+    "宁波市": {
+      "filename": "宁波市.geojson",
+      "poiCount": 10
+    },
+    "温州市": {
+      "filename": "温州市.geojson",
+      "poiCount": 8
+    },
+    "台州市": {
+      "filename": "台州市.geojson",
+      "poiCount": 5
+    },
+    "金华市": {
+      "filename": "金华市.geojson",
+      "poiCount": 4
+    },
+    "丽水市": {
+      "filename": "丽水市.geojson",
+      "poiCount": 3
+    },
+    "衢州市": {
+      "filename": "衢州市.geojson",
+      "poiCount": 2
+    }
+  },
+  "timestamp": "2026-11-03T16:09:54.278Z",
+  "totalPois": 328
 }

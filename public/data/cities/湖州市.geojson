@@ -35,35 +35,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.534696,
-          30.483733
-        ]
-      },
-      "properties": {
-        "id": "poi-047",
-        "name": "安吉小杭坑生态露营地2号营区",
-        "city": "湖州市",
-        "cost": 168,
-        "bookingMethod": "微信小程序预约",
-        "mediaLinks": [
-          {
-            "platform": "抖音",
-            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
-            "url": "https://www.douyin.com/video/7700146855052578091"
-          },
-          {
-            "platform": "小红书",
-            "title": "在安吉发现新露营地，大家感觉如何",
-            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           119.60896,
           30.544685
         ]
@@ -686,5 +657,10 @@
         ]
       }
     }
-  ]
+  ],
+  "metadata": {
+    "city": "湖州市",
+    "poiCount": 24,
+    "timestamp": "2026-11-03T16:09:54.277Z"
+  }
 }
