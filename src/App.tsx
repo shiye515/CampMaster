@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-    <div className="w-screen h-screen flex flex-col md:flex-row bg-gray-50">
+    <div className="w-screen h-screen flex flex-col md:flex-row bg-gray-50 overflow-hidden">
       {/* 移动端顶部栏 */}
       <div className="md:hidden bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
         <h1 className="font-bold text-lg text-gray-900">POI 地图</h1>
@@ -97,7 +97,7 @@ function App() {
       </div>
 
       {/* 右侧地图 */}
-      <div className="flex-1 w-full md:w-auto h-96 md:h-full overflow-hidden">
+      <div className="flex-1 w-full overflow-hidden" style={{ height: '100%', minHeight: '0' }}>
         <MapView />
       </div>
     </div>
