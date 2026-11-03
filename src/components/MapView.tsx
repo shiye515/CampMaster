@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
 import maplibregl, { Map, Popup, GeoJSONSource } from 'maplibre-gl';
 import { usePoiStore } from '../store/usePoiStore';
-import { ZoomIn, ZoomOut } from 'lucide-react';
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/bright';
 
@@ -209,24 +208,6 @@ export function MapView() {
   return (
     <div className="relative w-full h-full bg-gray-100 overflow-hidden">
       <div ref={mapContainer} className="absolute inset-0 w-full h-full" />
-
-      {/* 缩放控件 */}
-      <div className="absolute top-4 right-4 flex flex-col gap-2 z-10">
-        <button
-          onClick={() => map.current?.zoomIn()}
-          className="bg-white p-2 rounded shadow hover:shadow-lg transition"
-          title="放大"
-        >
-          <ZoomIn size={18} className="text-gray-700" />
-        </button>
-        <button
-          onClick={() => map.current?.zoomOut()}
-          className="bg-white p-2 rounded shadow hover:shadow-lg transition"
-          title="缩小"
-        >
-          <ZoomOut size={18} className="text-gray-700" />
-        </button>
-      </div>
     </div>
   );
 }
