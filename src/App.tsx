@@ -4,12 +4,10 @@ import { loadCitiesList, loadCityData, sanitizePoiData } from './utils/fgbLoader
 import { MapView } from './components/MapView';
 import { PoiList } from './components/PoiList';
 import { FilterBar } from './components/FilterBar';
-import { Menu, X } from 'lucide-react';
 
 function App() {
   const [loading, setLoading] = useState(true);
   const [citiesLoaded, setCitiesLoaded] = useState(false);
-  const [sidebarOpen, setSidebarOpen] = useState(true);
   
   const loadCitiesList_ = usePoiStore((s) => s.loadCitiesList);
   const loadCityFeatures = usePoiStore((s) => s.loadCityFeatures);
@@ -92,47 +90,70 @@ function App() {
   }
 
   return (
-    <div className="w-screen h-screen flex flex-col md:flex-row bg-gray-50 overflow-hidden">
-      {/* 移动端顶部栏 */}
-      <div className="md:hidden bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between">
-        <h1 className="font-bold text-lg text-gray-900">POI 地图</h1>
-        <button
-          onClick={() => setSidebarOpen(!sidebarOpen)}
-          className="p-2 hover:bg-gray-100 rounded"
-        >
-          {sidebarOpen ? <X size={20} /> : <Menu size={20} />}
-        </button>
-      </div>
+    <div className="w-screen h-screen flex bg-gray-50 overflow-hidden">
+      {/* 桌面端：左侧侧边栏 + 右侧地图 */}
+      <div className="hidden md:flex flex-1 flex-row w-full">
+        {/* 左侧侧边栏 - 筛选与列表 */}
+        <div className="flex flex-col w-96 bg-white border-r border-gray-200 overflow-hidden">
+          {/* 筛选栏 */}
+          <div className="overflow-y-auto flex-shrink-0 border-b border-gray-200">
+            <FilterBar onApplyFilters={() => applyFilters()} />
+          </div>
 
-      {/* 左侧侧边栏 - 筛选与列表 */}
-      <div
-        className={`${
-          sidebarOpen ? 'flex' : 'hidden'
-        } md:flex flex-col w-full md:w-96 bg-white border-r border-gray-200 overflow-hidden`}
-      >
-        {/* 筛选栏 */}
-        <div className="overflow-y-auto flex-shrink-0 border-b border-gray-200">
-          <FilterBar onApplyFilters={() => applyFilters()} />
-        </div>
-
-        {/* POI 列表 */}
-        <div className="flex-1 overflow-hidden">
-          {isLoadingCityData ? (
-            <div className="flex items-center justify-center h-full">
-              <div className="text-center">
-                <div className="w-8 h-8 border-3 border-blue-200 border-t-blue-600 rounded-full animate-spin mx-auto mb-2"></div>
-                <p className="text-sm text-gray-600">加载数据中...</p>
+          {/* POI 列表 */}
+          <div className="flex-1 overflow-hidden">
+            {isLoadingCityData ? (
+              <div className="flex items-center justify-center h-full">
+                <div className="text-center">
+                  <div className="w-8 h-8 border-3 border-blue-200 border-t-blue-600 rounded-full animate-spin mx-auto mb-2"></div>
+                  <p className="text-sm text-gray-600">加载数据中...</p>
+                </div>
               </div>
-            </div>
-          ) : (
-            <PoiList />
-          )}
+            ) : (
+              <PoiList />
+            )}
+          </div>
+        </div>
+
+        {/* 右侧地图 */}
+        <div className="flex-1 w-full overflow-hidden" style={{ height: '100%', minHeight: '0' }}>
+          <MapView />
         </div>
       </div>
 
-      {/* 右侧地图 */}
-      <div className="flex-1 w-full overflow-hidden" style={{ height: '100%', minHeight: '0' }}>
-        <MapView />
+      {/* 移动端：顶部地图 + 底部筛选列表 */}
+      <div className="md:hidden flex flex-col w-full h-full">
+        {/* 移动端顶部地图 - 300px */}
+        <div className="w-full overflow-hidden" style={{ height: '300px', minHeight: '300px' }}>
+          <MapView />
+        </div>
+
+        {/* 移动端底部筛选与列表 */}
+        <div className="flex flex-col flex-1 bg-white overflow-hidden">
+          {/* 标题栏 */}
+          <div className="bg-white border-b border-gray-200 px-4 py-3 flex-shrink-0">
+            <h1 className="font-bold text-lg text-gray-900">POI 列表</h1>
+          </div>
+
+          {/* 筛选栏 */}
+          <div className="overflow-y-auto flex-shrink-0 border-b border-gray-200">
+            <FilterBar onApplyFilters={() => applyFilters()} />
+          </div>
+
+          {/* POI 列表 */}
+          <div className="flex-1 overflow-hidden">
+            {isLoadingCityData ? (
+              <div className="flex items-center justify-center h-full">
+                <div className="text-center">
+                  <div className="w-8 h-8 border-3 border-blue-200 border-t-blue-600 rounded-full animate-spin mx-auto mb-2"></div>
+                  <p className="text-sm text-gray-600">加载数据中...</p>
+                </div>
+              </div>
+            ) : (
+              <PoiList />
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );
