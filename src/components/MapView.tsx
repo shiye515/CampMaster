@@ -80,18 +80,11 @@ export function MapView() {
             type: 'circle',
             source: 'pois',
             paint: {
-              'circle-color': [
-                'case',
-                ['boolean', ['feature-state', 'hover'], false],
-                '#dc2626',
-                ['boolean', ['feature-state', 'active'], false],
-                '#ea580c',
-                '#10b981',
-              ],
-              'circle-radius': 7,
+              'circle-color': '#ff0000',  // 纯红色，非常明显
+              'circle-radius': 8,  // 稍大一点
               'circle-stroke-width': 2,
-              'circle-stroke-color': '#fff',
-              'circle-opacity': 0.85,
+              'circle-stroke-color': '#ffffff',
+              'circle-opacity': 1.0,  // 完全不透明
             },
           });
           (window as any).__mapDebug.layerAdded = true;
