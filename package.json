@@ -10,7 +10,14 @@
     "convert": "node scripts/convert.mjs",
     "crawl": "cd crawler && node crawl.mjs",
     "crawl:process": "cd crawler && node process_and_merge.mjs",
-    "crawl:hangzhou": "cd crawler && node crawl.mjs -k '杭州 露营' -n 30"
+    "crawl:hangzhou": "cd crawler && node crawl.mjs -k '杭州 露营' -n 30",
+    "crawl:multi": "cd crawler && node crawl_multi_keywords.mjs --mode standard",
+    "crawl:multi:fast": "cd crawler && node crawl_multi_keywords.mjs --mode fast",
+    "crawl:multi:full": "cd crawler && node crawl_multi_keywords.mjs --mode full",
+    "influencer:list": "cd crawler && node track_influencers.mjs --list",
+    "influencer:add": "cd crawler && node track_influencers.mjs --add",
+    "influencer:stats": "cd crawler && node track_influencers.mjs --stats",
+    "influencer:export": "cd crawler && node track_influencers.mjs --export"
   },
   "dependencies": {
     "@tanstack/react-table": "^8.20.0",

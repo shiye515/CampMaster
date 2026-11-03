@@ -1,0 +1,10 @@
+{
+  "influencers": [],
+  "lastUpdated": "2026-11-03T22:45:00Z",
+  "stats": {
+    "totalInfluencers": 0,
+    "totalPoisCovered": 0,
+    "avgPoiPerInfluencer": 0
+  },
+  "note": "该文件存储识别出的专业露营博主信息。格式：{uid, name, avatar, poiCount, videoCount, lastUpdate, poiIds}"
+}
