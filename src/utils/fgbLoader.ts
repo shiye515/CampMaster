@@ -41,9 +41,8 @@ export async function loadCitiesList(): Promise<string[]> {
  * 加载指定城市的 POI 数据
  */
 export async function loadCityData(city: string): Promise<PoiFeatureCollection> {
-  // 将城市名转为文件名（例如 "杭州市" -> "hangzhoushi"）
-  const filename = encodeURIComponent(city).toLowerCase();
-  const dataPath = `./data/cities/${filename}.geojson`;
+  // 城市名直接作为文件名（例如 "杭州市" -> "杭州市.geojson"）
+  const dataPath = `./data/cities/${city}.geojson`;
   
   return loadPoiData(dataPath);
 }

@@ -26,6 +26,7 @@ function App() {
         console.log('✅ Cities loaded:', cities);
         loadCitiesList_(cities);
         setCitiesLoaded(true);
+        setLoading(false);
       } catch (error) {
         console.error('Failed to load cities list:', error);
         setLoading(false);
