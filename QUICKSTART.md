@@ -1,334 +1,188 @@
-# 📖 快速开始指南 (Quick Start)
+# 🚀 快速开始指南
 
-## 🚀 5分钟快速启动
+## 在线访问
 
-### 第一步：准备环境
+**无需任何配置，直接打开：**
+👉 [POI 地图应用](https://shiye515.github.io/CampMaster/)
+
+## 本地开发
+
+### 1. 克隆仓库
 ```bash
-# 确保已安装 Node.js 20+
-node -v  # 应显示 v20.x 或更高
-
-# 克隆项目
-git clone <your-repo-url>
+git clone https://github.com/shiye515/CampMaster.git
 cd CampMaster
+```
 
-# 安装依赖（约 2-3 分钟）
+### 2. 安装依赖
+```bash
 npm install
 ```
 
-### 第二步：启动本地开发服务器
+### 3. 启动开发服务器
 ```bash
 npm run dev
+# 访问 http://localhost:5173
 ```
 
-你会看到类似这样的输出：
-```
-  VITE v5.4.21  ready in 245 ms
-
-  ➜  Local:   http://localhost:5173/
-  ➜  press h + enter to show help
+### 4. 生产构建
+```bash
+npm run build
+# 构建输出到 dist/ 目录
 ```
 
-在浏览器中打开 `http://localhost:5173`，应用自动加载并显示：
-- ✅ 地图（中心显示杭州区域）
-- ✅ 左侧筛选栏与 10 条 POI 数据
-- ✅ 响应式交互
+## 基本使用
 
-### 第三步：验证基础功能
-| 功能 | 测试方法 | 预期结果 |
-|------|---------|---------|
-| 搜索 | 在搜索框输入"露营" | 列表过滤为相关结果 |
-| 城市筛选 | 点击"杭州市"胶囊按钮 | 仅显示杭州的 POI |
-| 地图交互 | 点击地图上的绿色点位 | 地图飞跃、弹窗展开、列表高亮 |
-| 列表联动 | 点击左侧 POI 卡片 | 地图自动飞跃到该坐标 |
-| 外链跳转 | 点击卡片上的"小红书" | 新标签页打开小红书链接 |
+### 界面说明
 
----
+**顶部筛选栏：**
+- 城市选择（下拉）：默认"杭州市"
+- 价格范围（下拉）：全部价格 / 免费 / 100元以内 / 100-300元 / 300元以上
+- 结果计数：显示当前过滤的 POI 总数
 
-## 📦 项目初始化详解
+**左侧 POI 列表（桌面端）/ 底部抽屉（移动端）：**
+- 虚拟滚动列表
+- 每张卡片显示：名称、城市、价格、预订方式、推荐资源
+- 点击卡片时：地图自动飞到该位置，圆点变大高亮
 
-### 依赖清单（package.json）
+**右侧地图（桌面端）/ 顶部（移动端）：**
+- 按经纬度展示 POI
+- 点击圆点：显示详情弹窗，列表自动滚动
+- 放大缩小：使用地图右上角控制
 
-**核心依赖：**
+### 常见操作
+
+| 操作 | 说明 |
+|------|------|
+| 切换城市 | 点击顶部城市下拉，选择另一个城市 |
+| 按价格筛选 | 点击"全部价格"，选择价格范围 |
+| 查看详情 | 点击列表卡片或地图圆点 |
+| 访问链接 | 点击卡片中的小红书/抖音等链接 |
+| 移动地图 | 鼠标拖拽地图，或使用控制按钮 |
+
+## 数据来源
+
+POI 数据来自：
+- 用户提交（欢迎 Issue 或 PR）
+- 每日自动爬虫采集（抖音/小红书等）
+
+**数据格式**：GeoJSON（开放标准）  
+**存储位置**：`public/data/cities/{城市}.geojson`
+
+## 技术栈概览
+
+| 类型 | 技术 |
+|------|------|
+| 框架 | React 19 + TypeScript |
+| 地图 | MapLibre GL JS |
+| 状态 | Zustand |
+| 样式 | Tailwind CSS |
+| 列表 | TanStack React Virtual |
+| 构建 | Vite |
+| 部署 | GitHub Pages |
+
+## 特色功能
+
+✨ **实时列表-地图联动**
+- 点击列表：地图自动飞到
+- 圆点变大高亮显示
+- 平滑动画效果
+
+✨ **高性能渲染**
+- 虚拟滚动：262 个 POI 仅 20 个 DOM 节点
+- 60 FPS 无缝滚动
+- WebGL 硬件加速地图
+
+✨ **响应式设计**
+- 桌面端双栏布局
+- 移动端自适应
+- 完美支持平板设备
+
+## 常见问题
+
+### Q: 可以添加新的 POI 吗？
+**A:** 可以！欢迎通过以下方式：
+1. Issue：描述 POI 信息
+2. PR：直接修改 `public/data/cities/{城市}.geojson`
+3. 爬虫自动采集：每天自动从抖音/小红书采集
+
+### Q: 地图加载很慢怎么办？
+**A:** 
+- 检查网络连接
+- 清除浏览器缓存
+- 刷新页面重试
+- 尝试切换网络（4G/WiFi）
+
+### Q: 如何在本地修改数据？
+**A:** 
+编辑 `public/data/cities/{城市}.geojson`，按 GeoJSON 格式添加：
 ```json
 {
-  "react": "^19.0.0",                    // React 19 最新版
-  "maplibre-gl": "^4.0.0",               // WebGL 矢量地图引擎
-  "rbush": "^4.0.0",                     // 2D 空间 R 树索引
-  "flatgeobuf": "^4.1.1",                // 高效地理空间数据格式
-  "zustand": "^5.0.0",                   // 轻量级状态管理
-  "@tanstack/react-virtual": "^3.5.1",  // 虚拟滚动列表
-  "@tanstack/react-table": "^8.20.0",   // 无头表格库（备用）
-  "lucide-react": "^0.408.0"            // 现代图标库
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [120.1234, 30.5678]
+  },
+  "properties": {
+    "id": "poi-xxx",
+    "name": "新营地名称",
+    "city": "杭州市",
+    "cost": 100,
+    "bookingMethod": "微信预订",
+    "mediaLinks": [
+      {
+        "platform": "小红书",
+        "title": "链接标题",
+        "url": "https://..."
+      }
+    ]
+  }
 }
 ```
 
-**开发依赖：**
-```json
-{
-  "vite": "^5.0.8",              // 极速构建工具
-  "typescript": "^5.3.3",        // TypeScript 类型支持
-  "tailwindcss": "^3.4.1",       // 原子化 CSS 框架
-  "@vitejs/plugin-react": "^4.2.1"  // Vite React 插件
-}
-```
+### Q: 支持哪些城市？
+**A:** 目前支持浙江省 9 个城市：
+- 杭州市（262 POI）✓
+- 宁波市 ✓
+- 温州市 ✓
+- 嘉兴市 ✓
+- 湖州市 ✓
+- 绍兴市 ✓
+- 金华市 ✓
+- 衢州市 ✓
+- 舟山市 ✓
+- 台州市 ✓
+- 丽水市 ✓
 
-**安装时间：** ~2-3 分钟（首次），后续由于缓存会更快。
+## 后续计划
 
----
+🚀 **近期**
+- [ ] 高德地图真实地名集成
+- [ ] 搜索功能（跨城市）
+- [ ] 收藏夹功能
+- [ ] 分享链接功能
 
-## 🎯 核心概念速览
+📈 **中期**
+- [ ] 数据质量评分系统
+- [ ] 用户评论功能
+- [ ] 热力图展示
+- [ ] 导出为 Excel/CSV
 
-### 1. **状态管理（Zustand）**
-```typescript
-// src/store/usePoiStore.ts
-// 全局状态：所有 POI 数据、过滤条件、激活项等
+🌐 **远期**
+- [ ] 更多数据源集成
+- [ ] AI 推荐系统
+- [ ] 社区论坛
+- [ ] 移动端 App（PWA）
 
-usePoiStore((state) => ({
-  allFeatures,           // 原始全部数据
-  filteredFeatures,      // 经过筛选后的数据
-  searchText,            // 搜索关键词
-  selectedCity,          // 选中城市
-  costRange,             // 费用范围 [min, max]
-  bookingMethods,        // 预约方式列表
-  enableViewportFilter,  // 是否启用视口过滤
-  activePoi              // 当前激活的 POI ID
-}))
-```
+## 联系与反馈
 
-当任何筛选条件变化时，自动调用 `applyFilters()` 重新计算 `filteredFeatures`。
+- **GitHub Issues**: [提交 bug 或功能请求](https://github.com/shiye515/CampMaster/issues)
+- **GitHub Discussions**: [讨论和建议](https://github.com/shiye515/CampMaster/discussions)
 
-### 2. **空间索引（RBush）**
-```typescript
-// src/utils/spatialIndex.ts
-// 实现毫秒级 Bbox 查询
+## 许可证
 
-spatialIndex.searchBbox([
-  west,  // 西边界（最小经度）
-  south, // 南边界（最小纬度）
-  east,  // 东边界（最大经度）
-  north  // 北边界（最大纬度）
-]) // 返回 [id1, id2, ...] 毫秒内完成
-```
-
-启用"仅显示当前视口"后，拖拽地图实时过滤 POI。
-
-### 3. **组件层级**
-```
-App
-├── FilterBar           // 筛选栏
-├── PoiList
-│   └── PoiCard[]      // 虚拟化列表卡片
-└── MapView            // MapLibre 地图
-```
-
-### 4. **数据流向**
-```
-用户输入（筛选、搜索）
-    ↓
-Zustand 状态更新
-    ↓
-applyFilters() 计算新结果集
-    ↓
-React 自动重新渲染
-    ↓
-MapView + PoiList 同步更新
-```
+MIT License - 自由使用和修改
 
 ---
 
-## 🛠️ 开发工作流
-
-### 修改 POI 数据
-
-**场景 1：快速测试新数据**
-```bash
-# 编辑 public/data/pois.geojson
-vim public/data/pois.geojson
-
-# 保存后，开发服务器会自动热重载（1秒内）
-```
-
-**场景 2：大批量数据导入**
-```bash
-# 准备 CSV/Excel → 转换为 GeoJSON
-# (提供 scripts/convert.mjs 参考实现)
-
-npm run convert
-```
-
-### 本地样式调整
-
-**修改颜色主题**
-```typescript
-// src/components/MapView.tsx
-paint: {
-  'circle-color': '#1e40af',  // 改为你的颜色
-  // ...
-}
-```
-
-**修改地图中心与初始缩放**
-```typescript
-// src/components/MapView.tsx
-center: [120.15, 30.27],  // [经度, 纬度]
-zoom: 9,                  // 初始缩放级别
-```
-
-**修改虚拟列表卡片高度**
-```typescript
-// src/components/PoiList.tsx
-estimateSize: () => 200,  // 卡片约 200px 高（酌情调整）
-```
-
-### 构建与测试
-
-```bash
-# 本地开发（热重载）
-npm run dev
-
-# 生产构建（压缩优化）
-npm run build
-
-# 预览构建结果
-npm run preview
-```
-
----
-
-## 📂 关键文件速查
-
-| 文件 | 用途 | 修改频率 |
-|------|------|---------|
-| `public/data/pois.geojson` | POI 数据 | 高 |
-| `src/store/usePoiStore.ts` | 全局状态 | 低 |
-| `src/components/*.tsx` | UI 组件 | 中 |
-| `src/App.tsx` | 主应用布局 | 低 |
-| `tailwind.config.js` | 样式配置 | 低 |
-| `.github/workflows/deploy.yml` | CI/CD 流水线 | 极低 |
-
----
-
-## ⚡ 常用命令速查
-
-```bash
-# 开发
-npm run dev              # 启动开发服务器
-
-# 构建
-npm run build            # 生产构建
-npm run preview          # 预览构建结果
-
-# 数据
-npm run convert          # 转换 GeoJSON → FlatGeobuf (可选)
-
-# 部署
-git add .
-git commit -m "message"
-git push origin main     # 自动触发 GitHub Actions
-```
-
----
-
-## 🔍 调试技巧
-
-### 1. **浏览器开发者工具**
-```
-F12 → Console 标签
-```
-- 查看加载日志
-- 检查 Fetch 错误
-- 查看 React 组件状态
-
-### 2. **Network 标签**
-```
-F12 → Network 标签
-```
-- 检查 `pois.geojson` 是否加载成功
-- 检查 MapLibre 瓦片加载状态
-- 查看资源大小
-
-### 3. **React DevTools**
-```
-Chrome 扩展: React Developer Tools
-```
-- 检查 Zustand 状态树
-- 追踪组件重新渲染
-
-### 4. **MapLibre 调试**
-```javascript
-// 在控制台执行
-map.showTileBoundaries = true;  // 显示瓦片边界
-```
-
----
-
-## ✅ 本地测试清单
-
-部署前检查清单：
-
-- [ ] `npm install` 成功完成
-- [ ] `npm run dev` 能启动开发服务器
-- [ ] 浏览器能打开 http://localhost:5173
-- [ ] 地图正常显示（中心在杭州）
-- [ ] 10 条 POI 显示在列表和地图上
-- [ ] 搜索框能过滤结果
-- [ ] 城市选择器能筛选
-- [ ] 费用范围选择器工作正常
-- [ ] 点击地图点位能展开弹窗
-- [ ] 点击卡片能飞跃到地图对应位置
-- [ ] 媒体链接能打开（新标签页）
-- [ ] 浏览器控制台无红色错误
-- [ ] 手机浏览器能正常显示（响应式）
-- [ ] `npm run build` 能成功构建
-- [ ] `dist/` 目录包含 `index.html` 和 `data/pois.geojson`
-
----
-
-## 🚀 部署前最后检查
-
-```bash
-# 1. 确保所有代码已提交
-git status  # 应显示 "working tree clean"
-
-# 2. 本地构建测试
-npm run build
-
-# 3. 验证构建输出
-ls -lh dist/
-# 应包含：index.html, .nojekyll, data/pois.geojson, assets/
-
-# 4. 推送到 GitHub
-git push origin main
-
-# 5. 等待 GitHub Actions 完成
-# → 访问 GitHub 仓库 Actions 标签页查看进度
-```
-
----
-
-## 📞 常见问题快速解答
-
-**Q: 开发服务器卡顿？**
-A: 清缓存并重启
-```bash
-rm -rf node_modules/.vite
-npm run dev
-```
-
-**Q: 地图不显示？**
-A: 检查网络连接和浏览器控制台错误
-
-**Q: 数据不更新？**
-A: 强制刷新 (Cmd/Ctrl + Shift + R)
-
-**Q: 构建失败？**
-A: 确保 `npm install` 完成，运行 `npm run build` 查看详细错误
-
-**Q: GitHub Pages 404？**
-A: 检查 `vite.config.ts` 中 `base: './'` 是否正确
-
----
-
-**祝开发顺利！🎉**
-
-下一步：[详细部署指南](./DEPLOYMENT.md)
+**最后更新**: 2026年11月4日  
+**维护者**: [@shiye515](https://github.com/shiye515)
