@@ -3,6 +3,10 @@ import maplibregl, { Map, Popup, GeoJSONSource } from 'maplibre-gl';
 import { usePoiStore } from '../store/usePoiStore';
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/bright';
+const ACTIVE_POI_RADIUS = 16; // 选中POI的圆点大小
+const DEFAULT_POI_RADIUS = 8;  // 默认POI的圆点大小
+const ACTIVE_POI_COLOR = '#ff6b00'; // 选中POI的颜色（深橙色）
+const DEFAULT_POI_COLOR = '#ff0000'; // 默认POI的颜色（红色）
 
 export function MapView() {
   const mapContainer = useRef<HTMLDivElement>(null);
@@ -62,8 +66,19 @@ export function MapView() {
             type: 'circle',
             source: 'pois',
             paint: {
-              'circle-color': '#ff0000',  // 纯红色，非常明显
-              'circle-radius': 8,  // 稍大一点
+              // 基于 feature-state 动态设置颜色和大小
+              'circle-color': [
+                'case',
+                ['feature-state', 'active'],
+                ACTIVE_POI_COLOR,  // 选中时：深橙色
+                DEFAULT_POI_COLOR  // 默认：红色
+              ],
+              'circle-radius': [
+                'case',
+                ['feature-state', 'active'],
+                ACTIVE_POI_RADIUS,   // 选中时：16px
+                DEFAULT_POI_RADIUS   // 默认：8px
+              ],
               'circle-stroke-width': 2,
               'circle-stroke-color': '#ffffff',
               'circle-opacity': 1.0,  // 完全不透明
@@ -171,7 +186,7 @@ export function MapView() {
     }
   }, [filteredFeatures]);
 
-  // 高亮激活的 POI
+  // 高亮激活的 POI 并定位地图
   useEffect(() => {
     if (!map.current) return;
 
@@ -189,12 +204,28 @@ export function MapView() {
         );
       });
 
-      // 设置新的活跃状态
+      // 设置新的活跃状态并飞到选中的 POI
       if (activePoi !== null) {
         map.current.setFeatureState(
           { source: 'pois', id: activePoi },
           { active: true }
         );
+
+        // 找到选中的 POI 特性
+        const selectedFeature = filteredFeatures.find(
+          (f) => f.properties?.id === activePoi
+        );
+
+        // 飞到选中的 POI 坐标
+        if (selectedFeature && selectedFeature.geometry.type === 'Point') {
+          const [lng, lat] = selectedFeature.geometry.coordinates;
+          map.current.flyTo({
+            center: [lng, lat],
+            zoom: 15,
+            duration: 800,
+            padding: 100,
+          });
+        }
       }
     };
 
