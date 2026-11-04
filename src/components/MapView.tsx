@@ -5,8 +5,8 @@ import { usePoiStore } from '../store/usePoiStore';
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/bright';
 const ACTIVE_POI_RADIUS = 16; // 选中POI的圆点大小
 const DEFAULT_POI_RADIUS = 8;  // 默认POI的圆点大小
-const ACTIVE_POI_COLOR = '#ff6b00'; // 选中POI的颜色（深橙色）
-const DEFAULT_POI_COLOR = '#ff0000'; // 默认POI的颜色（红色）
+const ACTIVE_POI_COLOR = '#ff0000'; // 选中POI的颜色（红色，更加突出）
+const DEFAULT_POI_COLOR = '#ff6b00'; // 默认POI的颜色（深橙色）
 
 export function MapView() {
   const mapContainer = useRef<HTMLDivElement>(null);
