@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.684723,
+          28.217827
+        ]
+      },
+      "properties": {
+        "id": "poi-089",
+        "name": "永嘉楠溪江狮子岩滩林大草坪营地",
+        "city": "温州市",
+        "cost": 50,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 楠溪江露营 楠溪江露营分免费野营地和收费营地，...",
+            "url": "https://www.douyin.com/video/7698399953067969807"
+          },
+          {
+            "platform": "小红书",
+            "title": "误打误撞找到的楠溪江露营地",
+            "url": "https://www.xiaohongshu.com/explore/6a0a8e080000000035029cee"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.812008,
+          28.328715
+        ]
+      },
+      "properties": {
+        "id": "poi-090",
+        "name": "永嘉楠溪江石桅岩山野营地",
+        "city": "温州市",
+        "cost": 98,
+        "bookingMethod": "微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 楠溪江露营 楠溪江露营分免费野营地和收费营地，...",
+            "url": "https://www.douyin.com/video/7698399953067969807"
+          },
+          {
+            "platform": "小红书",
+            "title": "误打误撞找到的楠溪江露营地",
+            "url": "https://www.xiaohongshu.com/explore/6a0a8e080000000035029cee"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.753453,
+          28.288655
+        ]
+      },
+      "properties": {
+        "id": "poi-091",
+        "name": "永嘉龙湾潭国家森林公园营地",
+        "city": "温州市",
+        "cost": 128,
+        "bookingMethod": "抖音团购预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "相关搜索 溪畔林语营地楠溪江 楠溪江露营十大圣地 楠溪江露营...",
+            "url": "https://www.douyin.com/video/7647965244497843497"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.620716,
+          28.461598
+        ]
+      },
+      "properties": {
+        "id": "poi-092",
+        "name": "永嘉源头村楠溪江畔野生露营地",
+        "city": "温州市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 楠溪江露营 楠溪江露营分免费野营地和收费营地，...",
+            "url": "https://www.douyin.com/video/7698399953067969807"
+          },
+          {
+            "platform": "小红书",
+            "title": "误打误撞找到的楠溪江露营地",
+            "url": "https://www.xiaohongshu.com/explore/6a0a8e080000000035029cee"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.851484,
+          27.58874
+        ]
+      },
+      "properties": {
+        "id": "poi-093",
+        "name": "泰顺云岚牧场高山野奢营地",
+        "city": "温州市",
+        "cost": 198,
+        "bookingMethod": "官方微信公众号预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "车直达水边|楠溪江藏了个会微笑的营地🏕️",
+            "url": "https://www.xiaohongshu.com/explore/6a293b4e000000001603e210"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.709259,
+          27.488428
+        ]
+      },
+      "properties": {
+        "id": "poi-094",
+        "name": "泰顺廊桥文化园溪畔营地",
+        "city": "温州市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由入场",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "‼️露营党狂喜！推荐3个江浙沪🚗直达免费营地",
+            "url": "https://www.xiaohongshu.com/explore/69bbdc4f000000002301edcf"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.043337,
+          27.857197
+        ]
+      },
+      "properties": {
+        "id": "poi-095",
+        "name": "文成百丈漈天顶湖露营基地",
+        "city": "温州市",
+        "cost": 88,
+        "bookingMethod": "景区现场登记入场",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "绍兴周末露营｜10个免费点位一次性收好",
+            "url": "https://www.xiaohongshu.com/explore/6ab121fd0000000038037daf"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352504,
+          27.567251
+        ]
+      },
+      "properties": {
+        "id": "poi-096",
+        "name": "平阳南雁荡山溪谷帐篷营地",
+        "city": "温州市",
+        "cost": 70,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "桐庐｜开个潦草露营盲盒",
+            "url": "https://www.xiaohongshu.com/explore/69d88f9c000000002301d9aa"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "city": "温州市",
+    "poiCount": 8,
+    "timestamp": "2026-11-03T16:09:54.277Z"
+  }
+}

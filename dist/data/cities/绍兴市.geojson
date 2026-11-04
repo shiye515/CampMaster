@@ -1,0 +1,270 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8534,
+          29.8921
+        ]
+      },
+      "properties": {
+        "id": "poi-007",
+        "name": "新昌大佛寺露营基地",
+        "city": "绍兴市",
+        "cost": 118,
+        "bookingMethod": "景区微信公众号预订",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "大佛脚下的星空露营",
+            "url": "https://www.douyin.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2345,
+          29.9876
+        ]
+      },
+      "properties": {
+        "id": "poi-008",
+        "name": "诸暨五泄风景区营地",
+        "city": "绍兴市",
+        "cost": 0,
+        "bookingMethod": "免费露营，需办理景区进山证",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "五泄瀑布露营攻略",
+            "url": "https://www.xiaohongshu.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.657662,
+          29.856681
+        ]
+      },
+      "properties": {
+        "id": "poi-081",
+        "name": "柯桥雪窦岭落羽杉水库野生营地",
+        "city": "绍兴市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "绍兴柯桥免费野营｜5处小众野生宝地✅无收费",
+            "url": "https://www.xiaohongshu.com/explore/6a335f890000000021009dd7"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.624656,
+          29.915129
+        ]
+      },
+      "properties": {
+        "id": "poi-082",
+        "name": "柯桥平水日铸岭山顶星空营地",
+        "city": "绍兴市",
+        "cost": 58,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "绍兴柯桥免费野营｜5处小众野生宝地✅无收费",
+            "url": "https://www.xiaohongshu.com/explore/6a335f890000000021009dd7"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.811861,
+          29.460829
+        ]
+      },
+      "properties": {
+        "id": "poi-083",
+        "name": "新昌穿岩十九峰下岩贝露营基地",
+        "city": "绍兴市",
+        "cost": 138,
+        "bookingMethod": "小红书私信预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "森林美术馆营地🏕️全面升级改造中⛏️",
+            "url": "https://www.xiaohongshu.com/explore/6a8fcf6000000000250394bd"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.912221,
+          29.388184
+        ]
+      },
+      "properties": {
+        "id": "poi-084",
+        "name": "新昌安山古道峡谷溪畔营地",
+        "city": "绍兴市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "杭州周边🚗开车可达山顶露营地｜附地图攻 这里是一片非常小众",
+            "url": "https://www.douyin.com/video/7696057779790187258"
+          },
+          {
+            "platform": "小红书",
+            "title": "浙江绍兴新昌｜小众独特悬崖边汽车露营",
+            "url": "https://www.xiaohongshu.com/explore/69707b57000000001a033cbd"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.456789,
+          29.544515
+        ]
+      },
+      "properties": {
+        "id": "poi-085",
+        "name": "诸暨东白山高山风车草甸营地",
+        "city": "绍兴市",
+        "cost": 0,
+        "bookingMethod": "生态保护区免预约自由搭帐篷",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": ".6万 （43期）免费山顶露营地，云海概率超高，轿车可达 人...",
+            "url": "https://www.douyin.com/video/7611878395424558382"
+          },
+          {
+            "platform": "小红书",
+            "title": "诸暨养心谷露营公园",
+            "url": "https://www.xiaohongshu.com/explore/691b3cb6000000000d03911b"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.082879,
+          29.7475
+        ]
+      },
+      "properties": {
+        "id": "poi-086",
+        "name": "诸暨五泄国家森林公园营地",
+        "city": "绍兴市",
+        "cost": 80,
+        "bookingMethod": "景区微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": ".6万 （43期）免费山顶露营地，云海概率超高，轿车可达 人...",
+            "url": "https://www.douyin.com/video/7611878395424558382"
+          },
+          {
+            "platform": "小红书",
+            "title": "诸暨养心谷露营公园",
+            "url": "https://www.xiaohongshu.com/explore/691b3cb6000000000d03911b"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.985023,
+          29.715019
+        ]
+      },
+      "properties": {
+        "id": "poi-087",
+        "name": "嵊州覆卮山梯田星空露营地",
+        "city": "绍兴市",
+        "cost": 68,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "江浙开车直达水杉湖边露营地｜附件地图攻略 在浙江嵊州的四明山",
+            "url": "https://www.douyin.com/video/7650050289618203065"
+          },
+          {
+            "platform": "小红书",
+            "title": "国庆嵊州牛场山包场看日出🌅",
+            "url": "https://www.xiaohongshu.com/explore/6ac890fd0000000015015dc2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.853781,
+          29.987996
+        ]
+      },
+      "properties": {
+        "id": "poi-088",
+        "name": "上虞皂李湖滨湖大草坪营地",
+        "city": "绍兴市",
+        "cost": 0,
+        "bookingMethod": "环湖绿道免费免预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "开车去湖边搭天幕野餐，绍兴1小时直达！ 带爸妈去了一趟绍兴上...",
+            "url": "https://www.douyin.com/video/7675899541857619234"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "city": "绍兴市",
+    "poiCount": 10,
+    "timestamp": "2026-11-03T16:09:54.277Z"
+  }
+}

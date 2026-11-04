@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.149034,
+          29.287974
+        ]
+      },
+      "properties": {
+        "id": "poi-109",
+        "name": "开化钱江源国家森林公园营地",
+        "city": "衢州市",
+        "cost": 0,
+        "bookingMethod": "外围草坪免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "🔥宁波营地露营指南｜岚隐云端",
+            "url": "https://www.xiaohongshu.com/explore/6919c373000000000503aa49"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.549416,
+          28.524771
+        ]
+      },
+      "properties": {
+        "id": "poi-110",
+        "name": "江山江郎山峡谷山涧营地",
+        "city": "衢州市",
+        "cost": 88,
+        "bookingMethod": "景区微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "总要有一次，住进悬崖边的风景里🏕️",
+            "url": "https://www.xiaohongshu.com/explore/69f092b1000000001a034bee"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "city": "衢州市",
+    "poiCount": 2,
+    "timestamp": "2026-11-03T16:09:54.278Z"
+  }
+}

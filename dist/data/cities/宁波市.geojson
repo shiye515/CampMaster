@@ -1,0 +1,265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.685268,
+          29.787923
+        ]
+      },
+      "properties": {
+        "id": "poi-071",
+        "name": "东钱湖小普陀滨湖草坪露营地",
+        "city": "宁波市",
+        "cost": 60,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 宁波露营地 想轻松看湖、骑行和亲子活动，先选东...",
+            "url": "https://www.douyin.com/video/7694264790226570534"
+          },
+          {
+            "platform": "小红书",
+            "title": "宁波清风杉谷营地",
+            "url": "https://www.xiaohongshu.com/explore/6ab888eb000000000a01fdb2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.654141,
+          29.747788
+        ]
+      },
+      "properties": {
+        "id": "poi-072",
+        "name": "东钱湖韩岭水上森林营地",
+        "city": "宁波市",
+        "cost": 128,
+        "bookingMethod": "微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 宁波露营地 想轻松看湖、骑行和亲子活动，先选东...",
+            "url": "https://www.douyin.com/video/7694264790226570534"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.225121,
+          29.714961
+        ]
+      },
+      "properties": {
+        "id": "poi-073",
+        "name": "奉化溪口雪窦山徐凫岩房车营地",
+        "city": "宁波市",
+        "cost": 188,
+        "bookingMethod": "景区微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 宁波露营地 想轻松看湖、骑行和亲子活动，先选东...",
+            "url": "https://www.douyin.com/video/7694264790226570534"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.198168,
+          29.727824
+        ]
+      },
+      "properties": {
+        "id": "poi-074",
+        "name": "奉化商量岗高山森林露营地",
+        "city": "宁波市",
+        "cost": 158,
+        "bookingMethod": "抖音团购预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "图文 1170 46家宁波周边露营地合，超全合集。夏日也无法...",
+            "url": "https://www.douyin.com/video/7122429306399247631"
+          },
+          {
+            "platform": "小红书",
+            "title": "宁波免费露营地推荐｜奉化 露营钓鱼玩水可冲",
+            "url": "https://www.xiaohongshu.com/explore/6aa8e1fe00000000290131b2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.954037,
+          29.460874
+        ]
+      },
+      "properties": {
+        "id": "poi-075",
+        "name": "象山松兰山海滨沙滩露营基地",
+        "city": "宁波市",
+        "cost": 98,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 宁波露营地 想轻松看湖、骑行和亲子活动，先选东...",
+            "url": "https://www.douyin.com/video/7694264790226570534"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.985126,
+          29.35675
+        ]
+      },
+      "properties": {
+        "id": "poi-076",
+        "name": "象山半边山度假区渔光营地",
+        "city": "宁波市",
+        "cost": 168,
+        "bookingMethod": "度假区官方微信预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "图文 1170 46家宁波周边露营地合，超全合集。夏日也无法...",
+            "url": "https://www.douyin.com/video/7122429306399247631"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.353838,
+          29.217068
+        ]
+      },
+      "properties": {
+        "id": "poi-077",
+        "name": "宁海前童古镇鹿山草坪营地",
+        "city": "宁波市",
+        "cost": 50,
+        "bookingMethod": "现场登记直接入场",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "宁波露营地推荐—宁海",
+            "url": "https://www.xiaohongshu.com/explore/6a9104f50000000008010b32"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.585427,
+          29.288238
+        ]
+      },
+      "properties": {
+        "id": "poi-078",
+        "name": "宁海胡陈乡东山桃园星空营地",
+        "city": "宁波市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "宁波露营地推荐—宁海",
+            "url": "https://www.xiaohongshu.com/explore/6a9104f50000000008010b32"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.053666,
+          29.756424
+        ]
+      },
+      "properties": {
+        "id": "poi-079",
+        "name": "余姚四明山地质公园高山营地",
+        "city": "宁波市",
+        "cost": 88,
+        "bookingMethod": "景区微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "江浙开车直达水杉湖边露营地｜附件地图攻略 在浙江嵊州的四明山",
+            "url": "https://www.douyin.com/video/7650050289618203065"
+          },
+          {
+            "platform": "小红书",
+            "title": "一家三口 四明山拎包入住过夜看日出🌅",
+            "url": "https://www.xiaohongshu.com/explore/6ad30900000000000a01fdd1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.214192,
+          29.987826
+        ]
+      },
+      "properties": {
+        "id": "poi-080",
+        "name": "余姚白水冲瀑布野溪露营点",
+        "city": "宁波市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "宁波100+开车直达的露营地！",
+            "url": "https://www.xiaohongshu.com/explore/691e8be6000000001e0280c5"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "city": "宁波市",
+    "poiCount": 10,
+    "timestamp": "2026-11-03T16:09:54.277Z"
+  }
+}

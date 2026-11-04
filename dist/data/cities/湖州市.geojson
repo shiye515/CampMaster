@@ -1,0 +1,666 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.538314,
+          30.487741
+        ]
+      },
+      "properties": {
+        "id": "poi-046",
+        "name": "安吉小杭坑生态露营地1号营区",
+        "city": "湖州市",
+        "cost": 198,
+        "bookingMethod": "微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "在安吉发现新露营地，大家感觉如何",
+            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.60896,
+          30.544685
+        ]
+      },
+      "properties": {
+        "id": "poi-048",
+        "name": "安吉和塔里松林湖泊营地",
+        "city": "湖州市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "不用私私私，江浙沪皖松林露营保姆级攻略",
+            "url": "https://www.xiaohongshu.com/explore/6968c080000000002103c050"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.642301,
+          30.566738
+        ]
+      },
+      "properties": {
+        "id": "poi-049",
+        "name": "安吉和村水杉林溪滩露营地",
+        "city": "湖州市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "安吉开车达免费松林湖泊露营地｜附地图攻略 在安吉发现了一个",
+            "url": "https://www.douyin.com/video/7630614958666318693"
+          },
+          {
+            "platform": "小红书",
+            "title": "安吉营地：和村水杉林",
+            "url": "https://www.xiaohongshu.com/explore/6ae6dc2f0000000026027473"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.581593,
+          30.514996
+        ]
+      },
+      "properties": {
+        "id": "poi-050",
+        "name": "安吉松林湖水库野奢营地",
+        "city": "湖州市",
+        "cost": 158,
+        "bookingMethod": "小红书私信预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "在安吉发现新露营地，大家感觉如何",
+            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.717952,
+          30.714847
+        ]
+      },
+      "properties": {
+        "id": "poi-051",
+        "name": "安吉猪罗纪山野露营基地",
+        "city": "湖州市",
+        "cost": 138,
+        "bookingMethod": "抖音团购预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "在安吉发现新露营地，大家感觉如何",
+            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.75073,
+          30.687744
+        ]
+      },
+      "properties": {
+        "id": "poi-052",
+        "name": "安吉安澜湖旅游度假露营区",
+        "city": "湖州市",
+        "cost": 88,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "在安吉发现新露营地，大家感觉如何",
+            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.762063,
+          30.747519
+        ]
+      },
+      "properties": {
+        "id": "poi-053",
+        "name": "安吉日回山湖边草坪野生营地",
+        "city": "湖州市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "在安吉发现新露营地，大家感觉如何",
+            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.681928,
+          30.52388
+        ]
+      },
+      "properties": {
+        "id": "poi-054",
+        "name": "安吉大竹海深溪野奢营地",
+        "city": "湖州市",
+        "cost": 188,
+        "bookingMethod": "电话提前预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "小三峡丛林穿越野营野钓路线",
+            "url": "https://www.xiaohongshu.com/explore/6a69f2dc000000001003fc61"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.621873,
+          30.660928
+        ]
+      },
+      "properties": {
+        "id": "poi-055",
+        "name": "安吉中南百草原大草坪营地",
+        "city": "湖州市",
+        "cost": 120,
+        "bookingMethod": "景区微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "在安吉发现新露营地，大家感觉如何",
+            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.70906,
+          30.428262
+        ]
+      },
+      "properties": {
+        "id": "poi-056",
+        "name": "安吉云上草原星空露营基地",
+        "city": "湖州市",
+        "cost": 288,
+        "bookingMethod": "景区官方微信预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "在安吉发现新露营地，大家感觉如何",
+            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.650612,
+          30.497746
+        ]
+      },
+      "properties": {
+        "id": "poi-057",
+        "name": "安吉深溪坞山涧清泉营地",
+        "city": "湖州市",
+        "cost": 50,
+        "bookingMethod": "现场登记入场",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "为你生成回答 安吉露营地 安吉露营地分收费正规营地和免费野营...",
+            "url": "https://www.douyin.com/video/7700146855052578091"
+          },
+          {
+            "platform": "小红书",
+            "title": "在安吉发现新露营地，大家感觉如何",
+            "url": "https://www.xiaohongshu.com/explore/69ba9a0b000000002200f27f"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.851195,
+          30.586727
+        ]
+      },
+      "properties": {
+        "id": "poi-058",
+        "name": "德清莫干山小野败犬野奢营地",
+        "city": "湖州市",
+        "cost": 238,
+        "bookingMethod": "小红书私信预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "相关搜索 安吉小杭坑露营现状 安吉日回山还能露营吗 安吉谷野...",
+            "url": "https://www.douyin.com/video/7273207282274915654"
+          },
+          {
+            "platform": "小红书",
+            "title": "莫干山顶汽车露营｜开车直达山巅",
+            "url": "https://www.xiaohongshu.com/explore/6a1a9ab10000000036001d15"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.818325,
+          30.627851
+        ]
+      },
+      "properties": {
+        "id": "poi-059",
+        "name": "德清莫干山仙潭村竹林营地",
+        "city": "湖州市",
+        "cost": 128,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "相关搜索 安吉小杭坑露营现状 安吉日回山还能露营吗 安吉谷野...",
+            "url": "https://www.douyin.com/video/7273207282274915654"
+          },
+          {
+            "platform": "小红书",
+            "title": "莫干山顶汽车露营｜开车直达山巅",
+            "url": "https://www.xiaohongshu.com/explore/6a1a9ab10000000036001d15"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.86235,
+          30.544659
+        ]
+      },
+      "properties": {
+        "id": "poi-060",
+        "name": "德清莫干山筏头溪谷露营地",
+        "city": "湖州市",
+        "cost": 98,
+        "bookingMethod": "抖音团购预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "相关搜索 安吉小杭坑露营现状 安吉日回山还能露营吗 安吉谷野...",
+            "url": "https://www.douyin.com/video/7273207282274915654"
+          },
+          {
+            "platform": "小红书",
+            "title": "莫干山顶汽车露营｜开车直达山巅",
+            "url": "https://www.xiaohongshu.com/explore/6a1a9ab10000000036001d15"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.022772,
+          30.514834
+        ]
+      },
+      "properties": {
+        "id": "poi-061",
+        "name": "德清下渚湖国家湿地公园营地",
+        "city": "湖州市",
+        "cost": 80,
+        "bookingMethod": "景区微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "端午露营攻略 | 浙江安吉露营地合集分享 出去露营，安吉是我",
+            "url": "https://www.douyin.com/video/7647849709951831302"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.809384,
+          30.570858
+        ]
+      },
+      "properties": {
+        "id": "poi-062",
+        "name": "德清后坞村西溪漫生营地",
+        "city": "湖州市",
+        "cost": 150,
+        "bookingMethod": "电话提前预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "相关搜索 安吉小杭坑露营现状 安吉日回山还能露营吗 安吉谷野...",
+            "url": "https://www.douyin.com/video/7273207282274915654"
+          },
+          {
+            "platform": "小红书",
+            "title": "莫干山顶汽车露营｜开车直达山巅",
+            "url": "https://www.xiaohongshu.com/explore/6a1a9ab10000000036001d15"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.892671,
+          30.556781
+        ]
+      },
+      "properties": {
+        "id": "poi-063",
+        "name": "德清莫干山沈园户外运动营地",
+        "city": "湖州市",
+        "cost": 110,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "相关搜索 安吉小杭坑露营现状 安吉日回山还能露营吗 安吉谷野...",
+            "url": "https://www.douyin.com/video/7273207282274915654"
+          },
+          {
+            "platform": "小红书",
+            "title": "莫干山顶汽车露营｜开车直达山巅",
+            "url": "https://www.xiaohongshu.com/explore/6a1a9ab10000000036001d15"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.082801,
+          30.987391
+        ]
+      },
+      "properties": {
+        "id": "poi-064",
+        "name": "长兴太湖图影湿地草坪营地",
+        "city": "湖州市",
+        "cost": 68,
+        "bookingMethod": "微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "不用私私私，江浙沪皖林间露营保姆级攻略",
+            "url": "https://www.xiaohongshu.com/explore/694e063e000000002102bbcb"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.782121,
+          31.05636
+        ]
+      },
+      "properties": {
+        "id": "poi-065",
+        "name": "长兴大唐贡茶院茶园营地",
+        "city": "湖州市",
+        "cost": 88,
+        "bookingMethod": "景区现场登记入场",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "桐洲岛森林美术馆营地｜江景营位预约现已上",
+            "url": "https://www.xiaohongshu.com/explore/6aa2a500000000002b01e545"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.709012,
+          31.087546
+        ]
+      },
+      "properties": {
+        "id": "poi-066",
+        "name": "长兴十里古银杏长廊露营区",
+        "city": "湖州市",
+        "cost": 45,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "终究还是选择这里露营过夜",
+            "url": "https://www.xiaohongshu.com/explore/69f898a00000000035038d6b"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.681898,
+          30.927683
+        ]
+      },
+      "properties": {
+        "id": "poi-067",
+        "name": "长兴仙山湖国家湿地露营地",
+        "city": "湖州市",
+        "cost": 70,
+        "bookingMethod": "景区官方微信预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "✅千岛湖4个免费露营地｜开车直达野营地🚗",
+            "url": "https://www.xiaohongshu.com/explore/69f4a7a5000000001e00ede8"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.212481,
+          30.827641
+        ]
+      },
+      "properties": {
+        "id": "poi-068",
+        "name": "湖州南浔荻港古村桑基鱼塘营地",
+        "city": "湖州市",
+        "cost": 50,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "杭州临安🚗直达免费日落露营地｜附地图攻略",
+            "url": "https://www.xiaohongshu.com/explore/695f51e2000000001a0205e9"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.043146,
+          30.96746
+        ]
+      },
+      "properties": {
+        "id": "poi-069",
+        "name": "湖州太湖龙之梦滨湖大草坪营地",
+        "city": "湖州市",
+        "cost": 128,
+        "bookingMethod": "抖音团购预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "桐庐洪石(宝藏露营地14)",
+            "url": "https://www.xiaohongshu.com/explore/693ad1e7000000001e00d7e7"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.951563,
+          30.856477
+        ]
+      },
+      "properties": {
+        "id": "poi-070",
+        "name": "湖州西塞山前陆羽茶文化营地",
+        "city": "湖州市",
+        "cost": 98,
+        "bookingMethod": "微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "端午露营攻略 | 浙江安吉露营地合集分享 出去露营，安吉是我",
+            "url": "https://www.douyin.com/video/7647849709951831302"
+          },
+          {
+            "platform": "小红书",
+            "title": "26露营季|湖州最新露营地目录（分区版）",
+            "url": "https://www.xiaohongshu.com/explore/69d636fc0000000022028b89"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "city": "湖州市",
+    "poiCount": 24,
+    "timestamp": "2026-11-03T16:09:54.277Z"
+  }
+}

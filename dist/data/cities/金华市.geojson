@@ -1,0 +1,106 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.520364,
+          28.988365
+        ]
+      },
+      "properties": {
+        "id": "poi-102",
+        "name": "磐安大盘山高山台地星空营地",
+        "city": "金华市",
+        "cost": 0,
+        "bookingMethod": "免预约自由搭帐篷",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "露营最佳季节！快来一起玩吧",
+            "url": "https://www.xiaohongshu.com/explore/6ae1e67f0000000034027380"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.581925,
+          28.657534
+        ]
+      },
+      "properties": {
+        "id": "poi-103",
+        "name": "武义牛头山国家森林野奢营地",
+        "city": "金华市",
+        "cost": 168,
+        "bookingMethod": "微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "又到了最美露营季节🏕️ ｜住进一线江景营地",
+            "url": "https://www.xiaohongshu.com/explore/69faaf9a0000000022028c22"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.349704,
+          29.256666
+        ]
+      },
+      "properties": {
+        "id": "poi-104",
+        "name": "兰溪诸葛八卦村外湖畔营地",
+        "city": "金华市",
+        "cost": 50,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "避雷露营基地！！！",
+            "url": "https://www.xiaohongshu.com/explore/6a02a3b10000000035021a29"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352515,
+          29.287931
+        ]
+      },
+      "properties": {
+        "id": "poi-105",
+        "name": "东阳花园村大草坪亲子露营区",
+        "city": "金华市",
+        "cost": 78,
+        "bookingMethod": "现场购票直接入场",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "杭州临安免费山涧瀑布露营地｜附地图攻略",
+            "url": "https://www.xiaohongshu.com/explore/6a6bf0fc000000002501101d"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "city": "金华市",
+    "poiCount": 4,
+    "timestamp": "2026-11-03T16:09:54.278Z"
+  }
+}
