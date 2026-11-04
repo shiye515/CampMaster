@@ -3,15 +3,16 @@ import maplibregl, { Map, Popup, GeoJSONSource } from 'maplibre-gl';
 import { usePoiStore } from '../store/usePoiStore';
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/bright';
-const ACTIVE_POI_RADIUS = 16; // 选中POI的圆点大小
-const DEFAULT_POI_RADIUS = 8;  // 默认POI的圆点大小
-const ACTIVE_POI_COLOR = '#ff0000'; // 选中POI的颜色（红色，更加突出）
-const DEFAULT_POI_COLOR = '#ff6b00'; // 默认POI的颜色（深橙色）
+const ACTIVE_POI_RADIUS = 8;  // 选中POI的圆点大小（8px）
+const DEFAULT_POI_RADIUS = 4; // 未选中POI的圆点大小（4px）
+const ACTIVE_POI_COLOR = '#ff0000'; // 选中POI的颜色（红色）
+const DEFAULT_POI_COLOR = '#000'; // 未选中POI的颜色（黑色）
 
 export function MapView() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<Map | null>(null);
   const popupRef = useRef<Popup | null>(null);
+  const prevActivePoiRef = useRef<string | number | null>(null);
 
   const filteredFeatures = usePoiStore((s) => s.filteredFeatures);
   const activePoi = usePoiStore((s) => s.activePoi);
@@ -48,6 +49,7 @@ export function MapView() {
             type: 'geojson',
             data: { type: 'FeatureCollection', features: [] },
             cluster: false,
+            promoteId: 'id',
           });
           (window as any).__mapDebug.sourceAdded = true;
         } else {
@@ -69,15 +71,15 @@ export function MapView() {
               // 基于 feature-state 动态设置颜色和大小
               'circle-color': [
                 'case',
-                ['feature-state', 'active'],
-                ACTIVE_POI_COLOR,  // 选中时：深橙色
-                DEFAULT_POI_COLOR  // 默认：红色
+                ['boolean', ['feature-state', 'active'], false],
+                ACTIVE_POI_COLOR,  // 选中时：红色（#ff0000）
+                DEFAULT_POI_COLOR  // 未选中时：黑色（#000）
               ],
               'circle-radius': [
                 'case',
-                ['feature-state', 'active'],
-                ACTIVE_POI_RADIUS,   // 选中时：16px
-                DEFAULT_POI_RADIUS   // 默认：8px
+                ['boolean', ['feature-state', 'active'], false],
+                ACTIVE_POI_RADIUS,   // 选中时：8px
+                DEFAULT_POI_RADIUS   // 未选中时：4px
               ],
               'circle-stroke-width': 2,
               'circle-stroke-color': '#ffffff',
@@ -102,22 +104,12 @@ export function MapView() {
 
     // 点击单个 POI
     map.current.on('click', 'poi-points', (e: any) => {
-      const feature = e.features[0];
-      const id = feature.properties.id;
-      setActivePoi(id);
-
-      if (popupRef.current) popupRef.current.remove();
-
-      popupRef.current = new Popup()
-        .setLngLat(feature.geometry.coordinates)
-        .setHTML(createPopupHTML(feature.properties))
-        .addTo(map.current!);
-
-      map.current!.flyTo({
-        center: feature.geometry.coordinates,
-        zoom: 15,
-        duration: 500,
-      });
+      const feature = e.features?.[0];
+      if (!feature) return;
+      const id = feature.properties?.id;
+      if (id !== undefined) {
+        setActivePoi(id);
+      }
     });
 
     // 鼠标悬停效果
@@ -161,7 +153,10 @@ export function MapView() {
         };
         source.setData({
           type: 'FeatureCollection',
-          features: filteredFeatures,
+          features: filteredFeatures.map((f) => ({
+            ...f,
+            id: f.properties?.id ?? (f as any).id,
+          })),
         });
         (window as any).__mapDebug.dataSet = true;
       } else {
@@ -196,35 +191,71 @@ export function MapView() {
       const source = map.current.getSource('pois');
       if (!source) return;
 
-      // 清除之前的状态
+      // 清除之前选中的状态
+      if (prevActivePoiRef.current !== null) {
+        try {
+          map.current?.setFeatureState(
+            { source: 'pois', id: prevActivePoiRef.current },
+            { active: false }
+          );
+        } catch {}
+      }
+
+      // 确保其它特征的状态也都被重置
       filteredFeatures.forEach((f) => {
-        map.current?.setFeatureState(
-          { source: 'pois', id: f.properties?.id },
-          { active: false }
-        );
+        if (f.properties?.id !== activePoi) {
+          try {
+            map.current?.setFeatureState(
+              { source: 'pois', id: f.properties?.id },
+              { active: false }
+            );
+          } catch {}
+        }
       });
 
       // 设置新的活跃状态并飞到选中的 POI
       if (activePoi !== null) {
-        map.current.setFeatureState(
-          { source: 'pois', id: activePoi },
-          { active: true }
-        );
+        try {
+          map.current?.setFeatureState(
+            { source: 'pois', id: activePoi },
+            { active: true }
+          );
+        } catch (e) {
+          console.warn('Failed to set feature state', e);
+        }
+        prevActivePoiRef.current = activePoi;
 
         // 找到选中的 POI 特性
         const selectedFeature = filteredFeatures.find(
           (f) => f.properties?.id === activePoi
         );
 
-        // 飞到选中的 POI 坐标
+        // 飞到选中的 POI 坐标并打开弹窗
         if (selectedFeature && selectedFeature.geometry.type === 'Point') {
           const [lng, lat] = selectedFeature.geometry.coordinates;
+
+          if (popupRef.current) popupRef.current.remove();
+          popupRef.current = new Popup()
+            .setLngLat([lng, lat])
+            .setHTML(createPopupHTML(selectedFeature.properties))
+            .addTo(map.current);
+
+          popupRef.current.on('close', () => {
+            popupRef.current = null;
+          });
+
           map.current.flyTo({
             center: [lng, lat],
             zoom: 15,
             duration: 800,
             padding: 100,
           });
+        }
+      } else {
+        prevActivePoiRef.current = null;
+        if (popupRef.current) {
+          popupRef.current.remove();
+          popupRef.current = null;
         }
       }
     };
@@ -256,7 +287,7 @@ function createPopupHTML(props: any): string {
 
   return `
     <div class="w-64">
-      <h3 class="font-bold text-base mb-1">${props.name}</h3>
+      <h3 class="font-bold text-base mb-1 pr-6 text-gray-900">${props.name}</h3>
       <p class="text-xs text-gray-600 mb-2">${props.city}</p>
       <p class="text-sm mb-1"><strong>人均费用:</strong> ¥${props.cost}</p>
       <p class="text-sm mb-2"><strong>下单:</strong> ${props.bookingMethod}</p>

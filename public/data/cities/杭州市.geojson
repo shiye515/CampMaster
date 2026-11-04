@@ -6,26 +6,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.1551,
-          30.2741
+          120.106528,
+          30.306812
         ]
       },
       "properties": {
         "id": "poi-001",
-        "name": "春晓苕溪大草坪营地",
+        "name": "大运河亚运公园花海草坪营地",
         "city": "杭州市",
-        "cost": 128,
-        "bookingMethod": "现场扫码无需预约",
+        "cost": 0,
+        "bookingMethod": "市政公园开放共享草坪，扫码免预约入场",
         "mediaLinks": [
           {
             "platform": "小红书",
-            "title": "春晓营地露营体验",
-            "url": "https://www.xiaohongshu.com"
+            "title": "城北露营宝藏地！大运河亚运公园大草坪",
+            "url": "https://www.xiaohongshu.com/explore/6451e001"
           },
           {
             "platform": "抖音",
-            "title": "看看我们的营地环境",
-            "url": "https://www.douyin.com"
+            "title": "大运河亚运公园露营放风筝野餐攻略",
+            "url": "https://www.douyin.com/video/7321001"
           }
         ]
       }
@@ -35,21 +35,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.3321,
-          30.1841
+          120.457812,
+          30.156543
         ]
       },
       "properties": {
         "id": "poi-002",
-        "name": "萧山瓜沥露营地",
+        "name": "萧山瓜沥航坞山森林露营地",
         "city": "杭州市",
         "cost": 0,
-        "bookingMethod": "免费，现场登记",
+        "bookingMethod": "航坞山山顶开阔林地，免预约自由露营",
         "mediaLinks": [
           {
-            "platform": "大众点评",
-            "title": "露营地评价及攻略",
-            "url": "https://www.dianping.com"
+            "platform": "小红书",
+            "title": "瓜沥航坞山日出云海露营机位",
+            "url": "https://www.xiaohongshu.com/explore/6451e002"
+          },
+          {
+            "platform": "抖音",
+            "title": "萧山人少景美的爬山露营宝藏地",
+            "url": "https://www.douyin.com/video/7321002"
           }
         ]
       }
@@ -59,31 +64,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.1858,
-          30.3145
+          120.124536,
+          30.252618
         ]
       },
       "properties": {
         "id": "poi-003",
-        "name": "西湖边野外营地",
+        "name": "杭州植物园草坪露营区",
         "city": "杭州市",
-        "cost": 198,
-        "bookingMethod": "微信小程序提前预订",
+        "cost": 10,
+        "bookingMethod": "西湖景区杭州植物园公众号购票入园",
         "mediaLinks": [
           {
             "platform": "小红书",
-            "title": "西湖露营完全攻略",
-            "url": "https://www.xiaohongshu.com"
+            "title": "西湖边唯一允许搭帐篷的植物园大草坪",
+            "url": "https://www.xiaohongshu.com/explore/6451e003"
           },
           {
             "platform": "抖音",
-            "title": "西湖夕阳下的营地美景",
-            "url": "https://www.douyin.com"
-          },
-          {
-            "platform": "大众点评",
-            "title": "用户评价",
-            "url": "https://www.dianping.com"
+            "title": "西湖景区天然氧吧沉浸式露营",
+            "url": "https://www.douyin.com/video/7321003"
           }
         ]
       }
@@ -93,21 +93,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.5321,
-          30.2541
+          120.218542,
+          30.134215
         ]
       },
       "properties": {
         "id": "poi-004",
-        "name": "江南水乡营地度假村",
+        "name": "萧山湘湖沐心岛房车露营地",
         "city": "杭州市",
-        "cost": 299,
-        "bookingMethod": "官网预订或电话预约：0571-xxxx",
+        "cost": 280,
+        "bookingMethod": "湘湖旅游度假区官方微信小程序预约",
         "mediaLinks": [
           {
             "platform": "小红书",
-            "title": "古镇露营文化节",
-            "url": "https://www.xiaohongshu.com"
+            "title": "湘湖水上森林秘境沐心岛帐篷营地",
+            "url": "https://www.xiaohongshu.com/explore/6451e004"
+          },
+          {
+            "platform": "抖音",
+            "title": "杭州市区自驾30分钟直达湖畔野奢露营",
+            "url": "https://www.douyin.com/video/7321004"
           }
         ]
       }
@@ -117,26 +122,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.6891,
-          30.4159
+          119.576524,
+          30.362145
         ]
       },
       "properties": {
         "id": "poi-005",
-        "name": "临安山里营地森林公园",
+        "name": "临安天目山九思村森林露营地",
         "city": "杭州市",
-        "cost": 158,
-        "bookingMethod": "App 预订（临安文旅）",
+        "cost": 128,
+        "bookingMethod": "微信小程序或电话预约",
         "mediaLinks": [
           {
-            "platform": "抖音",
-            "title": "山里露营生活",
-            "url": "https://www.douyin.com"
+            "platform": "小红书",
+            "title": "临安太湖源九思漫村森林溪流营地",
+            "url": "https://www.xiaohongshu.com/explore/6451e005"
           },
           {
-            "platform": "其他",
-            "title": "官方网站",
-            "url": "https://example.com"
+            "platform": "抖音",
+            "title": "天目山脚下听溪水声入眠的露营体验",
+            "url": "https://www.douyin.com/video/7321005"
           }
         ]
       }
@@ -146,26 +151,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.9421,
-          30.5234
+          119.957234,
+          29.914521
         ]
       },
       "properties": {
         "id": "poi-006",
-        "name": "富阳龙门古镇营地",
+        "name": "富阳龙门古镇砚池露营地",
         "city": "杭州市",
         "cost": 88,
-        "bookingMethod": "现场报名无需预约，节假日需提前1天",
+        "bookingMethod": "景区现场扫码购票，节假日建议提前预约",
         "mediaLinks": [
           {
             "platform": "小红书",
-            "title": "龙门古镇徒步+露营",
-            "url": "https://www.xiaohongshu.com"
+            "title": "富阳龙门古镇千年古樟与星空露营",
+            "url": "https://www.xiaohongshu.com/explore/6451e006"
           },
           {
             "platform": "大众点评",
-            "title": "古镇里的露营体验",
-            "url": "https://www.dianping.com"
+            "title": "龙门古镇周边配套与营地评价",
+            "url": "https://www.dianping.com/shop/6451e006"
           }
         ]
       }
@@ -175,26 +180,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.6234,
-          29.4521
+          119.548231,
+          29.905642
         ]
       },
       "properties": {
         "id": "poi-009",
-        "name": "桐庐瑶琳仙境营地",
+        "name": "桐庐瑶琳仙境森林露营地",
         "city": "杭州市",
-        "cost": 168,
-        "bookingMethod": "景区售票处或抖音直播间预定",
+        "cost": 118,
+        "bookingMethod": "景区微信公众号或美团预订",
         "mediaLinks": [
           {
-            "platform": "抖音",
-            "title": "溶洞营地直播间预定",
-            "url": "https://www.douyin.com"
+            "platform": "小红书",
+            "title": "桐庐瑶琳溶洞探秘+喀斯特森林露营",
+            "url": "https://www.xiaohongshu.com/explore/6451e009"
           },
           {
-            "platform": "小红书",
-            "title": "溶洞探险+露营二合一",
-            "url": "https://www.xiaohongshu.com"
+            "platform": "抖音",
+            "title": "夏日清凉18度！桐庐森林避暑露营",
+            "url": "https://www.douyin.com/video/7321009"
           }
         ]
       }
@@ -204,31 +209,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.7654,
-          30.6234
+          119.418523,
+          30.324816
         ]
       },
       "properties": {
         "id": "poi-010",
-        "name": "天目山森林小镇营地",
+        "name": "临安天目山天目小镇露营地",
         "city": "杭州市",
-        "cost": 238,
-        "bookingMethod": "小红书、抖音私信联系客服预订",
+        "cost": 150,
+        "bookingMethod": "电话提前预约，支持自带帐篷过夜",
         "mediaLinks": [
           {
             "platform": "小红书",
-            "title": "天目山露营全攻略",
-            "url": "https://www.xiaohongshu.com"
-          },
-          {
-            "platform": "抖音",
-            "title": "天目山视频介绍",
-            "url": "https://www.douyin.com"
+            "title": "天目山国家级自然保护区外围星空营地",
+            "url": "https://www.xiaohongshu.com/explore/6451e010"
           },
           {
             "platform": "大众点评",
-            "title": "用户点评",
-            "url": "https://www.dianping.com"
+            "title": "临安天目小镇营地设施与用户评分",
+            "url": "https://www.dianping.com/shop/6451e010"
           }
         ]
       }
@@ -1193,18 +1193,452 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.076455,
-          30.4534
+          120.169824,
+          30.317542
+        ]
+      },
+      "properties": {
+        "id": "poi-111",
+        "name": "城北体育公园阳光草坪营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "市政公园开放共享绿地，免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "拱墅区城北体育公园人少大草坪露营放风筝",
+            "url": "https://www.xiaohongshu.com/explore/6451e111"
+          },
+          {
+            "platform": "抖音",
+            "title": "杭州市区宝藏免费野餐露营公园",
+            "url": "https://www.douyin.com/video/7321111"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327618,
+          30.310235
+        ]
+      },
+      "properties": {
+        "id": "poi-112",
+        "name": "金沙湖公园大沙滩棕榈露营区",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "地铁直达，金沙湖草坪区免预约入场",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "杭州小三亚！金沙湖大沙滩白沙棕榈露营",
+            "url": "https://www.xiaohongshu.com/explore/6451e112"
+          },
+          {
+            "platform": "抖音",
+            "title": "金沙湖畔绝美落日露营机位",
+            "url": "https://www.douyin.com/video/7321112"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.067531,
+          30.268524
+        ]
+      },
+      "properties": {
+        "id": "poi-113",
+        "name": "西溪国家湿地公园绿堤草坪营地",
+        "city": "杭州市",
+        "cost": 80,
+        "bookingMethod": "西溪湿地官方微信公众号提前预约入园",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "西溪且留下！绿堤大草坪慢生活露营体验",
+            "url": "https://www.xiaohongshu.com/explore/6451e113"
+          },
+          {
+            "platform": "抖音",
+            "title": "春日西溪湿地花朝节草坪帐篷露营",
+            "url": "https://www.douyin.com/video/7321113"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.063215,
+          30.178542
+        ]
+      },
+      "properties": {
+        "id": "poi-114",
+        "name": "龙坞茶镇光明寺水库大草坪营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "茶园水库外围公共草坪，免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "杭州千亩茶园与碧水蓝湾露营地",
+            "url": "https://www.xiaohongshu.com/explore/6451e114"
+          },
+          {
+            "platform": "抖音",
+            "title": "龙坞光明寺水库日系动漫同款草坡露营",
+            "url": "https://www.douyin.com/video/7321114"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.924831,
+          30.395214
+        ]
+      },
+      "properties": {
+        "id": "poi-115",
+        "name": "余杭瓶窑北苕溪绿道刘家畈营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "苕溪绿道沿线溪滩，车可直达，免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "露营圈封神的北苕溪刘家畈！清溪野草绝景",
+            "url": "https://www.xiaohongshu.com/explore/6451e115"
+          },
+          {
+            "platform": "抖音",
+            "title": "杭州野生溯溪抓鱼露营天花板",
+            "url": "https://www.douyin.com/video/7321115"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.824536,
+          29.897615
+        ]
+      },
+      "properties": {
+        "id": "poi-116",
+        "name": "富阳壶源溪上臧村溪滩露营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "天然卵石滩涂，免预约自由露营（注意带走垃圾）",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "富阳上臧村小江南溪滩露营卡式炉野餐",
+            "url": "https://www.xiaohongshu.com/explore/6451e116"
+          },
+          {
+            "platform": "抖音",
+            "title": "富阳龙鳞坝旁绝美野营打卡点",
+            "url": "https://www.douyin.com/video/7321116"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.795412,
+          30.432156
+        ]
+      },
+      "properties": {
+        "id": "poi-117",
+        "name": "余杭径山进贤村蝴蝶谷溯溪营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "村道溪畔空地停车，免费免预约露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "径山深处的清凉避暑秘境蝴蝶谷露营",
+            "url": "https://www.xiaohongshu.com/explore/6451e117"
+          },
+          {
+            "platform": "抖音",
+            "title": "带上桌椅进山溯溪！杭州纯天然山野营地",
+            "url": "https://www.douyin.com/video/7321117"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.203521,
+          30.209843
+        ]
+      },
+      "properties": {
+        "id": "poi-118",
+        "name": "滨江闻涛路最美跑道沿江草坪营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "滨江区沿江公园共享绿地，扫码登记免预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "钱塘江一线江景落日！闻涛路樱花跑道露营",
+            "url": "https://www.xiaohongshu.com/explore/6451e118"
+          },
+          {
+            "platform": "抖音",
+            "title": "CBD对岸的晚风与落日露营生活",
+            "url": "https://www.douyin.com/video/7321118"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.968532,
+          30.043218
+        ]
+      },
+      "properties": {
+        "id": "poi-119",
+        "name": "富阳新沙岛玫瑰庄园露营地",
+        "city": "杭州市",
+        "cost": 168,
+        "bookingMethod": "轮渡上岛，景区微信小程序提前预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "富春江江心岛新沙岛！露营+卡丁车+烧烤",
+            "url": "https://www.xiaohongshu.com/explore/6451e119"
+          },
+          {
+            "platform": "抖音",
+            "title": "富春山居图里的江心绿洲露营地",
+            "url": "https://www.douyin.com/video/7321119"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.645218,
+          29.743125
+        ]
+      },
+      "properties": {
+        "id": "poi-120",
+        "name": "桐庐芦茨湾慢生活溪滩营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "慢生活体验区溪水沿岸，免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "富春江支流芦茨溪！玻璃水溪边扎帐篷",
+            "url": "https://www.xiaohongshu.com/explore/6451e120"
+          },
+          {
+            "platform": "抖音",
+            "title": "桐庐避暑玩水吃农家乐宝藏野营点",
+            "url": "https://www.douyin.com/video/7321120"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.965412,
+          29.582314
+        ]
+      },
+      "properties": {
+        "id": "poi-121",
+        "name": "千岛湖界首自行车运动小镇营地",
+        "city": "杭州市",
+        "cost": 98,
+        "bookingMethod": "亚运界首小镇微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "千岛湖骑行与星空露营结合！界首小镇测评",
+            "url": "https://www.xiaohongshu.com/explore/6451e121"
+          },
+          {
+            "platform": "抖音",
+            "title": "环千岛湖骑行必打卡的滨湖野奢露营区",
+            "url": "https://www.douyin.com/video/7321121"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.185423,
+          29.356214
+        ]
+      },
+      "properties": {
+        "id": "poi-122",
+        "name": "建德绿荷塘楠木林森林营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "华东最大天然楠木林保护区外围，免预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "建德寿昌绿荷塘古楠木森林！纯天然森林浴",
+            "url": "https://www.xiaohongshu.com/explore/6451e122"
+          },
+          {
+            "platform": "抖音",
+            "title": "探秘浙江绝美原始森林露营地",
+            "url": "https://www.douyin.com/video/7321122"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.905624,
+          30.412536
+        ]
+      },
+      "properties": {
+        "id": "poi-123",
+        "name": "余杭北湖草荡野生观鸟露营地",
+        "city": "杭州市",
+        "cost": 0,
+        "bookingMethod": "草荡湿地外围大堤，免预约自由搭天幕",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "杭州野生塞罕坝！北湖草荡秋日芦苇荡露营",
+            "url": "https://www.xiaohongshu.com/explore/6451e123"
+          },
+          {
+            "platform": "抖音",
+            "title": "余杭小众野生湿地观鸟野营打卡",
+            "url": "https://www.douyin.com/video/7321123"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.178523,
+          29.976541
+        ]
+      },
+      "properties": {
+        "id": "poi-124",
+        "name": "萧山戴村三清寨户外越野营地",
+        "city": "杭州市",
+        "cost": 120,
+        "bookingMethod": "现场扫码入场或电话预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "萧山戴村高山越野与星空天幕露营",
+            "url": "https://www.xiaohongshu.com/explore/6451e124"
+          },
+          {
+            "platform": "大众点评",
+            "title": "戴村三清寨生态营地团购与评价",
+            "url": "https://www.dianping.com/shop/6451e124"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.165421,
+          30.214532
+        ]
+      },
+      "properties": {
+        "id": "poi-125",
+        "name": "临安浙西大峡谷剑门关露营地",
+        "city": "杭州市",
+        "cost": 138,
+        "bookingMethod": "浙西大峡谷景区官方微信公众号预订",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "峡谷峭壁下的清凉露营！浙西大峡谷剑门关",
+            "url": "https://www.xiaohongshu.com/explore/6451e125"
+          },
+          {
+            "platform": "抖音",
+            "title": "杭州夏日避暑徒步+露营天花板",
+            "url": "https://www.douyin.com/video/7321125"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.85574584258997,
+          30.279685463795573
         ]
       },
       "properties": {
         "id": "露营_0",
         "name": "露营营地A",
         "city": "杭州市",
-        "cost": 516,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.272Z"
+        "cost": 258,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1212,18 +1646,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.049463,
-          30.460856
+          120.44119623341197,
+          30.757772607945604
         ]
       },
       "properties": {
         "id": "露营_1",
         "name": "露营营地B",
         "city": "杭州市",
-        "cost": 96,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 163,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1231,18 +1664,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.1444,
-          30.575307
+          119.89672980631308,
+          30.14149082800099
         ]
       },
       "properties": {
         "id": "露营_2",
         "name": "露营营地C",
         "city": "杭州市",
-        "cost": 796,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 167,
+        "bookingMethod": "无需预约",
+        "source": "露营"
       }
     },
     {
@@ -1250,18 +1682,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.703673,
-          30.518364
+          120.27840897429492,
+          30.171132144269436
         ]
       },
       "properties": {
         "id": "露营_3",
         "name": "露营营地D",
         "city": "杭州市",
-        "cost": 2,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 762,
+        "bookingMethod": "线上预订",
+        "source": "露营"
       }
     },
     {
@@ -1269,18 +1700,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.602805,
-          30.277826
+          120.26200959082236,
+          30.28068144783643
         ]
       },
       "properties": {
         "id": "露营_4",
         "name": "露营营地E",
         "city": "杭州市",
-        "cost": 624,
+        "cost": 205,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1288,18 +1718,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.167756,
-          30.080089
+          119.98816818505323,
+          30.180056027605364
         ]
       },
       "properties": {
         "id": "露营_5",
         "name": "露营营地F",
         "city": "杭州市",
-        "cost": 348,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 144,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1307,18 +1736,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.700409,
-          30.493727
+          119.67685832406006,
+          29.788681050123635
         ]
       },
       "properties": {
         "id": "露营_6",
         "name": "露营营地G",
         "city": "杭州市",
-        "cost": 556,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 415,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1326,18 +1754,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.863143,
-          29.890356
+          120.11328194402867,
+          29.86797422550238
         ]
       },
       "properties": {
         "id": "露营_7",
         "name": "露营营地H",
         "city": "杭州市",
-        "cost": 673,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 436,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1345,18 +1772,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.78827,
-          29.859657
+          120.13667343595539,
+          30.01760440750648
         ]
       },
       "properties": {
         "id": "露营_8",
         "name": "露营营地I",
         "city": "杭州市",
-        "cost": 326,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 541,
+        "bookingMethod": "无需预约",
+        "source": "露营"
       }
     },
     {
@@ -1364,18 +1790,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.029801,
-          30.248933
+          119.74172277564693,
+          30.312909827990687
         ]
       },
       "properties": {
         "id": "露营_9",
         "name": "露营营地J",
         "city": "杭州市",
-        "cost": 372,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 172,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1383,18 +1808,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.392043,
-          30.075844
+          119.90083706114882,
+          30.226281783160484
         ]
       },
       "properties": {
         "id": "露营_10",
         "name": "露营营地K",
         "city": "杭州市",
-        "cost": 374,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 439,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1402,18 +1826,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.807632,
-          30.568713
+          120.09928726847862,
+          30.35627868172914
         ]
       },
       "properties": {
         "id": "露营_11",
         "name": "露营营地L",
         "city": "杭州市",
-        "cost": 460,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 411,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1421,18 +1844,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.034345,
-          30.475914
+          119.66672168850117,
+          30.01061314981881
         ]
       },
       "properties": {
         "id": "露营_12",
         "name": "露营营地M",
         "city": "杭州市",
-        "cost": 400,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 653,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1440,18 +1862,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.694035,
-          30.078054
+          119.67202831965952,
+          30.60176646767266
         ]
       },
       "properties": {
         "id": "露营_13",
         "name": "露营营地N",
         "city": "杭州市",
-        "cost": 370,
+        "cost": 656,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1459,18 +1880,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.980993,
-          30.041991
+          120.40304485671352,
+          30.56274326769312
         ]
       },
       "properties": {
         "id": "露营_14",
         "name": "露营营地O",
         "city": "杭州市",
-        "cost": 30,
+        "cost": 782,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1478,18 +1898,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.488439,
-          30.546079
+          120.37111101149198,
+          30.297946654085152
         ]
       },
       "properties": {
         "id": "露营_15",
         "name": "露营营地P",
         "city": "杭州市",
-        "cost": 544,
+        "cost": 699,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1497,18 +1916,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.58599,
-          30.462601
+          120.55963030156724,
+          30.436657335976804
         ]
       },
       "properties": {
         "id": "露营_16",
         "name": "露营营地Q",
         "city": "杭州市",
-        "cost": 479,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 24,
+        "bookingMethod": "无需预约",
+        "source": "露营"
       }
     },
     {
@@ -1516,18 +1934,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.759951,
-          29.988681
+          120.25301403027423,
+          30.054669931005883
         ]
       },
       "properties": {
         "id": "露营_17",
         "name": "露营营地R",
         "city": "杭州市",
-        "cost": 251,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 361,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1535,18 +1952,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.203756,
-          30.675349
+          119.9516489104348,
+          30.01348052298876
         ]
       },
       "properties": {
         "id": "露营_18",
         "name": "露营营地S",
         "city": "杭州市",
-        "cost": 127,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 441,
+        "bookingMethod": "无需预约",
+        "source": "露营"
       }
     },
     {
@@ -1554,18 +1970,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.496751,
-          30.356917
+          119.65828221622539,
+          30.408988433884844
         ]
       },
       "properties": {
         "id": "露营_19",
         "name": "露营营地T",
         "city": "杭州市",
-        "cost": 699,
+        "cost": 346,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1573,18 +1988,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.980884,
-          30.413992
+          120.12282386597421,
+          30.170186939164743
         ]
       },
       "properties": {
         "id": "露营_20",
         "name": "露营营地U",
         "city": "杭州市",
-        "cost": 298,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 753,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1592,18 +2006,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.485783,
-          30.357644
+          119.73622735810709,
+          30.426817458634634
         ]
       },
       "properties": {
         "id": "露营_21",
         "name": "露营营地V",
         "city": "杭州市",
-        "cost": 420,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 427,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1611,18 +2024,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.083149,
-          30.15945
+          119.91859204425792,
+          30.500591722885837
         ]
       },
       "properties": {
         "id": "露营_22",
         "name": "露营营地W",
         "city": "杭州市",
-        "cost": 443,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 390,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1630,18 +2042,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.843137,
-          30.68788
+          119.77852067133675,
+          30.4573968552552
         ]
       },
       "properties": {
         "id": "露营_23",
         "name": "露营营地X",
         "city": "杭州市",
-        "cost": 434,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 534,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1649,18 +2060,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.402191,
-          30.163591
+          120.4808798016911,
+          30.36096702517007
         ]
       },
       "properties": {
         "id": "露营_24",
         "name": "露营营地Y",
         "city": "杭州市",
-        "cost": 311,
+        "cost": 743,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1668,18 +2078,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.198019,
-          30.624586
+          119.96652484767311,
+          30.016241982434643
         ]
       },
       "properties": {
         "id": "露营_25",
         "name": "露营营地Z",
         "city": "杭州市",
-        "cost": 32,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 601,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1687,18 +2096,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.457499,
-          29.833696
+          120.63996370992197,
+          30.544501543041108
         ]
       },
       "properties": {
         "id": "露营_26",
         "name": "露营营地A1",
         "city": "杭州市",
-        "cost": 69,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 641,
+        "bookingMethod": "线上预订",
+        "source": "露营"
       }
     },
     {
@@ -1706,18 +2114,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.06649,
-          30.452988
+          120.04914214058839,
+          30.144620326082578
         ]
       },
       "properties": {
         "id": "露营_27",
         "name": "露营营地B1",
         "city": "杭州市",
-        "cost": 6,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 321,
+        "bookingMethod": "线上预订",
+        "source": "露营"
       }
     },
     {
@@ -1725,18 +2132,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.960969,
-          29.983658
+          120.55961196411782,
+          30.156398743057327
         ]
       },
       "properties": {
         "id": "露营_28",
         "name": "露营营地C1",
         "city": "杭州市",
-        "cost": 780,
+        "cost": 287,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1744,18 +2150,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.140112,
-          30.22003
+          120.49814413479979,
+          30.462218842417936
         ]
       },
       "properties": {
         "id": "露营_29",
         "name": "露营营地D1",
         "city": "杭州市",
-        "cost": 91,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 238,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1763,18 +2168,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.752872,
-          30.609063
+          119.8691485206521,
+          30.235917188845182
         ]
       },
       "properties": {
         "id": "露营_30",
         "name": "露营营地E1",
         "city": "杭州市",
-        "cost": 45,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 354,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1782,18 +2186,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.525597,
-          30.739885
+          120.60084118472778,
+          30.320203758390402
         ]
       },
       "properties": {
         "id": "露营_31",
         "name": "露营营地F1",
         "city": "杭州市",
-        "cost": 560,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 364,
+        "bookingMethod": "无需预约",
+        "source": "露营"
       }
     },
     {
@@ -1801,18 +2204,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.325751,
-          29.92134
+          120.14557588648088,
+          30.194586576298708
         ]
       },
       "properties": {
         "id": "露营_32",
         "name": "露营营地G1",
         "city": "杭州市",
-        "cost": 453,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 372,
+        "bookingMethod": "无需预约",
+        "source": "露营"
       }
     },
     {
@@ -1820,18 +2222,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.340168,
-          30.679919
+          119.66297074279915,
+          30.70878594295283
         ]
       },
       "properties": {
         "id": "露营_33",
         "name": "露营营地H1",
         "city": "杭州市",
-        "cost": 5,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 769,
+        "bookingMethod": "无需预约",
+        "source": "露营"
       }
     },
     {
@@ -1839,18 +2240,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.183752,
-          30.106999
+          120.3399910338728,
+          30.62509736262365
         ]
       },
       "properties": {
         "id": "露营_34",
         "name": "露营营地I1",
         "city": "杭州市",
-        "cost": 361,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 138,
+        "bookingMethod": "线上预订",
+        "source": "露营"
       }
     },
     {
@@ -1858,18 +2258,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.21953,
-          30.717942
+          120.57356267166861,
+          30.383877037633443
         ]
       },
       "properties": {
         "id": "露营_35",
         "name": "露营营地J1",
         "city": "杭州市",
-        "cost": 187,
+        "cost": 409,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1877,18 +2276,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.958132,
-          30.740072
+          120.28335918695716,
+          30.468731349828914
         ]
       },
       "properties": {
         "id": "露营_36",
         "name": "露营营地K1",
         "city": "杭州市",
-        "cost": 714,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 168,
+        "bookingMethod": "无需预约",
+        "source": "露营"
       }
     },
     {
@@ -1896,18 +2294,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.532952,
-          29.910977
+          119.8536444538199,
+          30.630764229579963
         ]
       },
       "properties": {
         "id": "露营_37",
         "name": "露营营地L1",
         "city": "杭州市",
-        "cost": 751,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 418,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -1915,18 +2312,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.148518,
-          30.121603
+          120.2901939618102,
+          30.59918316680479
         ]
       },
       "properties": {
         "id": "露营_38",
         "name": "露营营地M1",
         "city": "杭州市",
-        "cost": 114,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 648,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -1934,18 +2330,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.511666,
-          30.406969
+          120.51742396629858,
+          30.1073057067751
         ]
       },
       "properties": {
         "id": "露营_39",
         "name": "露营营地N1",
         "city": "杭州市",
-        "cost": 771,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 762,
+        "bookingMethod": "线上预订",
+        "source": "露营"
       }
     },
     {
@@ -1953,18 +2348,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.09791,
-          29.890796
+          120.49334014414397,
+          30.62334755215148
         ]
       },
       "properties": {
         "id": "露营_40",
         "name": "露营营地O1",
         "city": "杭州市",
-        "cost": 334,
+        "cost": 573,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -1972,18 +2366,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.53761,
-          30.075594
+          120.49490408981794,
+          30.73667218609702
         ]
       },
       "properties": {
         "id": "露营_41",
         "name": "露营营地P1",
         "city": "杭州市",
-        "cost": 368,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 672,
+        "bookingMethod": "线上预订",
+        "source": "露营"
       }
     },
     {
@@ -1991,18 +2384,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.975643,
-          29.809005
+          119.99286399273674,
+          29.86981102015194
         ]
       },
       "properties": {
         "id": "露营_42",
         "name": "露营营地Q1",
         "city": "杭州市",
-        "cost": 792,
+        "cost": 760,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -2010,18 +2402,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.590726,
-          30.41256
+          119.65850028183874,
+          30.457904392896005
         ]
       },
       "properties": {
         "id": "露营_43",
         "name": "露营营地R1",
         "city": "杭州市",
-        "cost": 365,
+        "cost": 574,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -2029,18 +2420,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.302843,
-          30.058697
+          120.51145090605253,
+          29.95962895979664
         ]
       },
       "properties": {
         "id": "露营_44",
         "name": "露营营地S1",
         "city": "杭州市",
-        "cost": 699,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 446,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -2048,18 +2438,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.1465,
-          30.657532
+          119.97739848122411,
+          30.084476392937304
         ]
       },
       "properties": {
         "id": "露营_45",
         "name": "露营营地T1",
         "city": "杭州市",
-        "cost": 535,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 701,
+        "bookingMethod": "电话预约",
+        "source": "露营"
       }
     },
     {
@@ -2067,18 +2456,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.661352,
-          30.072242
+          120.56439126918487,
+          30.20155693895402
         ]
       },
       "properties": {
         "id": "露营_46",
         "name": "露营营地U1",
         "city": "杭州市",
-        "cost": 556,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 35,
+        "bookingMethod": "扫码预约",
+        "source": "露营"
       }
     },
     {
@@ -2086,18 +2474,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.663151,
-          30.514771
+          119.68477736400578,
+          30.692364476863766
         ]
       },
       "properties": {
         "id": "露营_47",
         "name": "露营营地V1",
         "city": "杭州市",
-        "cost": 736,
+        "cost": 411,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营"
       }
     },
     {
@@ -2105,18 +2492,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.032139,
-          30.236123
+          120.07979461868138,
+          30.06770680473628
         ]
       },
       "properties": {
         "id": "露营地_0",
         "name": "露营地营地A",
         "city": "杭州市",
-        "cost": 328,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 611,
+        "bookingMethod": "线上预订",
+        "source": "露营地"
       }
     },
     {
@@ -2124,18 +2510,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.804883,
-          30.328163
+          120.18501443981275,
+          29.902209539685103
         ]
       },
       "properties": {
         "id": "露营地_1",
         "name": "露营地营地B",
         "city": "杭州市",
-        "cost": 552,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 105,
+        "bookingMethod": "线上预订",
+        "source": "露营地"
       }
     },
     {
@@ -2143,18 +2528,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.025157,
-          30.757922
+          120.62292914775064,
+          29.828254564488677
         ]
       },
       "properties": {
         "id": "露营地_2",
         "name": "露营地营地C",
         "city": "杭州市",
-        "cost": 774,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 89,
+        "bookingMethod": "线上预订",
+        "source": "露营地"
       }
     },
     {
@@ -2162,18 +2546,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.031296,
-          30.460891
+          119.66332448376545,
+          29.86367040088229
         ]
       },
       "properties": {
         "id": "露营地_3",
         "name": "露营地营地D",
         "city": "杭州市",
-        "cost": 735,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 30,
+        "bookingMethod": "无需预约",
+        "source": "露营地"
       }
     },
     {
@@ -2181,18 +2564,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.47361,
-          30.338446
+          120.59089442461533,
+          30.174284792976486
         ]
       },
       "properties": {
         "id": "露营地_4",
         "name": "露营地营地E",
         "city": "杭州市",
-        "cost": 444,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 487,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2200,18 +2582,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.552114,
-          30.764885
+          119.76549244737384,
+          30.711203571243338
         ]
       },
       "properties": {
         "id": "露营地_5",
         "name": "露营地营地F",
         "city": "杭州市",
-        "cost": 618,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 731,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2219,18 +2600,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.356342,
-          30.10562
+          119.86356219115271,
+          30.58824739854022
         ]
       },
       "properties": {
         "id": "露营地_6",
         "name": "露营地营地G",
         "city": "杭州市",
-        "cost": 498,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 17,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2238,18 +2618,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.375634,
-          30.573365
+          120.07814669405273,
+          30.22960649042925
         ]
       },
       "properties": {
         "id": "露营地_7",
         "name": "露营地营地H",
         "city": "杭州市",
-        "cost": 771,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 211,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2257,18 +2636,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.831774,
-          29.911296
+          119.74458556936925,
+          30.324888716638892
         ]
       },
       "properties": {
         "id": "露营地_8",
         "name": "露营地营地I",
         "city": "杭州市",
-        "cost": 180,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 457,
+        "bookingMethod": "无需预约",
+        "source": "露营地"
       }
     },
     {
@@ -2276,18 +2654,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.361273,
-          30.006032
+          120.36973890023631,
+          29.933493137266776
         ]
       },
       "properties": {
         "id": "露营地_9",
         "name": "露营地营地J",
         "city": "杭州市",
-        "cost": 329,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 101,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2295,18 +2672,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.76362,
-          30.554517
+          120.42048423482792,
+          30.773775863017477
         ]
       },
       "properties": {
         "id": "露营地_10",
         "name": "露营地营地K",
         "city": "杭州市",
-        "cost": 25,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 317,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2314,18 +2690,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.709101,
-          30.641242
+          119.71919682479806,
+          30.150446009255827
         ]
       },
       "properties": {
         "id": "露营地_11",
         "name": "露营地营地L",
         "city": "杭州市",
-        "cost": 210,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 686,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2333,18 +2708,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.485813,
-          30.64109
+          120.49650489008134,
+          29.799834744957096
         ]
       },
       "properties": {
         "id": "露营地_12",
         "name": "露营地营地M",
         "city": "杭州市",
-        "cost": 543,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 507,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2352,18 +2726,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.654737,
-          30.018588
+          119.80750550574373,
+          30.37025075849843
         ]
       },
       "properties": {
         "id": "露营地_13",
         "name": "露营地营地N",
         "city": "杭州市",
-        "cost": 331,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 475,
+        "bookingMethod": "扫码预约",
+        "source": "露营地"
       }
     },
     {
@@ -2371,18 +2744,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.054573,
-          30.392875
+          120.45437670980114,
+          30.019785894821702
         ]
       },
       "properties": {
         "id": "露营地_14",
         "name": "露营地营地O",
         "city": "杭州市",
-        "cost": 581,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 333,
+        "bookingMethod": "扫码预约",
+        "source": "露营地"
       }
     },
     {
@@ -2390,18 +2762,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.211927,
-          30.062681
+          119.85707173657774,
+          30.294129395197515
         ]
       },
       "properties": {
         "id": "露营地_15",
         "name": "露营地营地P",
         "city": "杭州市",
-        "cost": 774,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 316,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2409,18 +2780,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.232708,
-          30.16641
+          119.73635315119157,
+          30.42906912757677
         ]
       },
       "properties": {
         "id": "露营地_16",
         "name": "露营地营地Q",
         "city": "杭州市",
-        "cost": 328,
+        "cost": 273,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营地"
       }
     },
     {
@@ -2428,18 +2798,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.923147,
-          30.363085
+          120.37763637067478,
+          29.973210931065093
         ]
       },
       "properties": {
         "id": "露营地_17",
         "name": "露营地营地R",
         "city": "杭州市",
-        "cost": 130,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 697,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2447,18 +2816,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.549002,
-          30.432198
+          119.76691377776885,
+          30.01630553605024
         ]
       },
       "properties": {
         "id": "露营地_18",
         "name": "露营地营地S",
         "city": "杭州市",
-        "cost": 152,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 193,
+        "bookingMethod": "线上预订",
+        "source": "露营地"
       }
     },
     {
@@ -2466,18 +2834,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.669582,
-          29.96667
+          119.90481397626206,
+          29.818751306623952
         ]
       },
       "properties": {
         "id": "露营地_19",
         "name": "露营地营地T",
         "city": "杭州市",
-        "cost": 662,
+        "cost": 689,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营地"
       }
     },
     {
@@ -2485,18 +2852,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.79744,
-          30.684003
+          120.18172485517005,
+          29.988114132295276
         ]
       },
       "properties": {
         "id": "露营地_20",
         "name": "露营地营地U",
         "city": "杭州市",
-        "cost": 193,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 267,
+        "bookingMethod": "无需预约",
+        "source": "露营地"
       }
     },
     {
@@ -2504,18 +2870,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.012797,
-          29.887564
+          119.91078991894727,
+          29.95342653588149
         ]
       },
       "properties": {
         "id": "露营地_21",
         "name": "露营地营地V",
         "city": "杭州市",
-        "cost": 232,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 593,
+        "bookingMethod": "线上预订",
+        "source": "露营地"
       }
     },
     {
@@ -2523,18 +2888,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.624712,
-          30.243866
+          119.83478700409735,
+          30.515263294391477
         ]
       },
       "properties": {
         "id": "露营地_22",
         "name": "露营地营地W",
         "city": "杭州市",
-        "cost": 425,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 406,
+        "bookingMethod": "扫码预约",
+        "source": "露营地"
       }
     },
     {
@@ -2542,18 +2906,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.619363,
-          30.290888
+          120.23555996013424,
+          30.473775593400422
         ]
       },
       "properties": {
         "id": "露营地_23",
         "name": "露营地营地X",
         "city": "杭州市",
-        "cost": 557,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 12,
+        "bookingMethod": "扫码预约",
+        "source": "露营地"
       }
     },
     {
@@ -2561,18 +2924,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.309191,
-          30.547767
+          119.88243405629656,
+          30.353534720940115
         ]
       },
       "properties": {
         "id": "露营地_24",
         "name": "露营地营地Y",
         "city": "杭州市",
-        "cost": 695,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 582,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
       }
     },
     {
@@ -2580,18 +2942,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.911764,
-          30.177283
+          119.95384282332968,
+          29.823720773468757
         ]
       },
       "properties": {
         "id": "露营地_25",
         "name": "露营地营地Z",
         "city": "杭州市",
-        "cost": 56,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 448,
+        "bookingMethod": "无需预约",
+        "source": "露营地"
       }
     },
     {
@@ -2599,18 +2960,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.184568,
-          30.328643
+          120.3215136804688,
+          30.359588557577602
         ]
       },
       "properties": {
         "id": "露营地_26",
         "name": "露营地营地A1",
         "city": "杭州市",
-        "cost": 742,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 407,
+        "bookingMethod": "扫码预约",
+        "source": "露营地"
       }
     },
     {
@@ -2618,18 +2978,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.502706,
-          30.160632
+          120.30147031999985,
+          29.84147776616325
         ]
       },
       "properties": {
         "id": "露营地_27",
         "name": "露营地营地B1",
         "city": "杭州市",
-        "cost": 733,
+        "cost": 605,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营地"
       }
     },
     {
@@ -2637,18 +2996,179 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.644879,
-          29.866734
+          120.24219846510624,
+          30.154983217664036
+        ]
+      },
+      "properties": {
+        "id": "露营地_28",
+        "name": "露营地营地C1",
+        "city": "杭州市",
+        "cost": 472,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.02858308336307,
+          30.099704490977153
+        ]
+      },
+      "properties": {
+        "id": "露营地_29",
+        "name": "露营地营地D1",
+        "city": "杭州市",
+        "cost": 60,
+        "bookingMethod": "扫码预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.82465633814276,
+          30.023041941054004
+        ]
+      },
+      "properties": {
+        "id": "露营地_30",
+        "name": "露营地营地E1",
+        "city": "杭州市",
+        "cost": 557,
+        "bookingMethod": "无需预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9359387201014,
+          30.08362645065129
+        ]
+      },
+      "properties": {
+        "id": "露营地_31",
+        "name": "露营地营地F1",
+        "city": "杭州市",
+        "cost": 639,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2649955460644,
+          29.97819014716444
+        ]
+      },
+      "properties": {
+        "id": "露营地_32",
+        "name": "露营地营地G1",
+        "city": "杭州市",
+        "cost": 251,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9405683349329,
+          29.952582843342174
+        ]
+      },
+      "properties": {
+        "id": "露营地_33",
+        "name": "露营地营地H1",
+        "city": "杭州市",
+        "cost": 555,
+        "bookingMethod": "扫码预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34448481233343,
+          30.400529394473065
+        ]
+      },
+      "properties": {
+        "id": "露营地_34",
+        "name": "露营地营地I1",
+        "city": "杭州市",
+        "cost": 255,
+        "bookingMethod": "电话预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6415881542691,
+          29.850599901301706
+        ]
+      },
+      "properties": {
+        "id": "露营地_35",
+        "name": "露营地营地J1",
+        "city": "杭州市",
+        "cost": 551,
+        "bookingMethod": "无需预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3767864421394,
+          30.25863373745795
+        ]
+      },
+      "properties": {
+        "id": "露营地_36",
+        "name": "露营地营地K1",
+        "city": "杭州市",
+        "cost": 570,
+        "bookingMethod": "扫码预约",
+        "source": "露营地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28559380946153,
+          30.088020938618065
         ]
       },
       "properties": {
         "id": "露营基地_0",
         "name": "露营基地营地A",
         "city": "杭州市",
-        "cost": 446,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 74,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2656,18 +3176,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.103926,
-          30.271133
+          119.82732130460418,
+          30.564360669491176
         ]
       },
       "properties": {
         "id": "露营基地_1",
         "name": "露营基地营地B",
         "city": "杭州市",
-        "cost": 537,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 276,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2675,18 +3194,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.834791,
-          29.971301
+          119.91486747114546,
+          30.408235195405116
         ]
       },
       "properties": {
         "id": "露营基地_2",
         "name": "露营基地营地C",
         "city": "杭州市",
-        "cost": 128,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 747,
+        "bookingMethod": "电话预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2694,18 +3212,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.321457,
-          30.198636
+          119.861514943,
+          30.31272924381437
         ]
       },
       "properties": {
         "id": "露营基地_3",
         "name": "露营基地营地D",
         "city": "杭州市",
-        "cost": 752,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 121,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2713,18 +3230,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.367458,
-          30.488815
+          120.2849301957797,
+          30.0874808875761
         ]
       },
       "properties": {
         "id": "露营基地_4",
         "name": "露营基地营地E",
         "city": "杭州市",
-        "cost": 410,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 143,
+        "bookingMethod": "电话预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2732,18 +3248,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.940345,
-          30.379891
+          120.56641204733224,
+          30.559062712302307
         ]
       },
       "properties": {
         "id": "露营基地_5",
         "name": "露营基地营地F",
         "city": "杭州市",
-        "cost": 585,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 725,
+        "bookingMethod": "电话预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2751,18 +3266,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.119808,
-          30.640637
+          119.99280862105829,
+          29.797427564640078
         ]
       },
       "properties": {
         "id": "露营基地_6",
         "name": "露营基地营地G",
         "city": "杭州市",
-        "cost": 180,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 521,
+        "bookingMethod": "线上预订",
+        "source": "露营基地"
       }
     },
     {
@@ -2770,18 +3284,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.838497,
-          30.384346
+          119.93889477249861,
+          30.047871842545927
         ]
       },
       "properties": {
         "id": "露营基地_7",
         "name": "露营基地营地H",
         "city": "杭州市",
-        "cost": 318,
+        "cost": 285,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营基地"
       }
     },
     {
@@ -2789,18 +3302,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.088382,
-          29.962325
+          119.84990530504976,
+          30.741611282009583
         ]
       },
       "properties": {
         "id": "露营基地_8",
         "name": "露营基地营地I",
         "city": "杭州市",
-        "cost": 73,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 585,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2808,18 +3320,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.051074,
-          30.678778
+          119.83976653142604,
+          29.812042752441783
         ]
       },
       "properties": {
         "id": "露营基地_9",
         "name": "露营基地营地J",
         "city": "杭州市",
-        "cost": 511,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 623,
+        "bookingMethod": "电话预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2827,18 +3338,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.859919,
-          30.422392
+          119.69906133439214,
+          30.068489592539333
         ]
       },
       "properties": {
         "id": "露营基地_10",
         "name": "露营基地营地K",
         "city": "杭州市",
-        "cost": 668,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 611,
+        "bookingMethod": "线上预订",
+        "source": "露营基地"
       }
     },
     {
@@ -2846,18 +3356,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.126821,
-          29.948247
+          120.01269578231968,
+          30.41857280244453
         ]
       },
       "properties": {
         "id": "露营基地_11",
         "name": "露营基地营地L",
         "city": "杭州市",
-        "cost": 236,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 62,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2865,18 +3374,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.849746,
-          30.18889
+          120.08658927987258,
+          30.298365020410383
         ]
       },
       "properties": {
         "id": "露营基地_12",
         "name": "露营基地营地M",
         "city": "杭州市",
-        "cost": 17,
+        "cost": 528,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营基地"
       }
     },
     {
@@ -2884,18 +3392,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.066343,
-          30.573878
+          120.65429263303041,
+          30.567572794250097
         ]
       },
       "properties": {
         "id": "露营基地_13",
         "name": "露营基地营地N",
         "city": "杭州市",
-        "cost": 86,
+        "cost": 619,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营基地"
       }
     },
     {
@@ -2903,18 +3410,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.023121,
-          30.228862
+          120.36097342593136,
+          30.750668538444693
         ]
       },
       "properties": {
         "id": "露营基地_14",
         "name": "露营基地营地O",
         "city": "杭州市",
-        "cost": 162,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 31,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2922,18 +3428,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.607068,
-          30.217985
+          120.03170934322279,
+          30.01226017296552
         ]
       },
       "properties": {
         "id": "露营基地_15",
         "name": "露营基地营地P",
         "city": "杭州市",
-        "cost": 365,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 126,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2941,18 +3446,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.042693,
-          29.936511
+          120.30651909329166,
+          30.056715636683737
         ]
       },
       "properties": {
         "id": "露营基地_16",
         "name": "露营基地营地Q",
         "city": "杭州市",
-        "cost": 312,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 181,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2960,18 +3464,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.499516,
-          30.736325
+          120.05836503422375,
+          29.893644343788054
         ]
       },
       "properties": {
         "id": "露营基地_17",
         "name": "露营基地营地R",
         "city": "杭州市",
-        "cost": 107,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 716,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2979,18 +3482,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.820962,
-          29.93955
+          120.36924210173497,
+          30.730894317916352
         ]
       },
       "properties": {
         "id": "露营基地_18",
         "name": "露营基地营地S",
         "city": "杭州市",
-        "cost": 78,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 388,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -2998,18 +3500,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.073645,
-          30.634088
+          120.05172652291965,
+          30.181361409076423
         ]
       },
       "properties": {
         "id": "露营基地_19",
         "name": "露营基地营地T",
         "city": "杭州市",
-        "cost": 338,
+        "cost": 792,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营基地"
       }
     },
     {
@@ -3017,18 +3518,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.213599,
-          30.658786
+          119.85070861943572,
+          29.907736880742966
         ]
       },
       "properties": {
         "id": "露营基地_20",
         "name": "露营基地营地U",
         "city": "杭州市",
-        "cost": 537,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 364,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3036,18 +3536,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.994176,
-          29.884655
+          120.08907578346539,
+          30.741268501571508
         ]
       },
       "properties": {
         "id": "露营基地_21",
         "name": "露营基地营地V",
         "city": "杭州市",
-        "cost": 330,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 321,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3055,18 +3554,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.973873,
-          30.723669
+          119.66810632159722,
+          30.122085292168514
         ]
       },
       "properties": {
         "id": "露营基地_22",
         "name": "露营基地营地W",
         "city": "杭州市",
-        "cost": 665,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 32,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3074,18 +3572,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.552046,
-          29.813814
+          119.73569945790443,
+          30.33058862173734
         ]
       },
       "properties": {
         "id": "露营基地_23",
         "name": "露营基地营地X",
         "city": "杭州市",
-        "cost": 331,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 343,
+        "bookingMethod": "电话预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3093,18 +3590,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.054087,
-          30.47994
+          120.09913352526311,
+          30.15936542449101
         ]
       },
       "properties": {
         "id": "露营基地_24",
         "name": "露营基地营地Y",
         "city": "杭州市",
-        "cost": 557,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 751,
+        "bookingMethod": "线上预订",
+        "source": "露营基地"
       }
     },
     {
@@ -3112,18 +3608,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.477629,
-          29.90881
+          120.2231941717748,
+          29.79372441065412
         ]
       },
       "properties": {
         "id": "露营基地_25",
         "name": "露营基地营地Z",
         "city": "杭州市",
-        "cost": 653,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 284,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3131,18 +3626,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.217223,
-          30.185754
+          120.53929114416799,
+          29.981302743217586
         ]
       },
       "properties": {
         "id": "露营基地_26",
         "name": "露营基地营地A1",
         "city": "杭州市",
-        "cost": 538,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 130,
+        "bookingMethod": "电话预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3150,18 +3644,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.126284,
-          29.778408
+          119.95550588623287,
+          30.207040312340173
         ]
       },
       "properties": {
         "id": "露营基地_27",
         "name": "露营基地营地B1",
         "city": "杭州市",
-        "cost": 374,
+        "cost": 567,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营基地"
       }
     },
     {
@@ -3169,18 +3662,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.532448,
-          30.100875
+          119.98906149276014,
+          30.45801884874851
         ]
       },
       "properties": {
         "id": "露营基地_28",
         "name": "露营基地营地C1",
         "city": "杭州市",
-        "cost": 146,
+        "cost": 256,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "露营基地"
       }
     },
     {
@@ -3188,18 +3680,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.828345,
-          30.643165
+          119.68532496016412,
+          30.562338530560577
         ]
       },
       "properties": {
         "id": "露营基地_29",
         "name": "露营基地营地D1",
         "city": "杭州市",
-        "cost": 82,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 330,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3207,18 +3698,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.001958,
-          30.581114
+          120.06035585470457,
+          30.004389591498157
         ]
       },
       "properties": {
         "id": "露营基地_30",
         "name": "露营基地营地E1",
         "city": "杭州市",
-        "cost": 738,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 527,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3226,18 +3716,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.114208,
-          29.999025
+          120.1725488304708,
+          30.47540509192853
         ]
       },
       "properties": {
         "id": "露营基地_31",
         "name": "露营基地营地F1",
         "city": "杭州市",
-        "cost": 389,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 691,
+        "bookingMethod": "无需预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3245,18 +3734,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.176544,
-          30.038411
+          120.36977918871598,
+          30.09892425826536
         ]
       },
       "properties": {
         "id": "露营基地_32",
         "name": "露营基地营地G1",
         "city": "杭州市",
-        "cost": 364,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 285,
+        "bookingMethod": "线上预订",
+        "source": "露营基地"
       }
     },
     {
@@ -3264,18 +3752,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.139784,
-          30.65205
+          119.83681343349906,
+          30.263981756367937
         ]
       },
       "properties": {
         "id": "露营基地_33",
         "name": "露营基地营地H1",
         "city": "杭州市",
-        "cost": 518,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 399,
+        "bookingMethod": "线上预订",
+        "source": "露营基地"
       }
     },
     {
@@ -3283,18 +3770,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.320177,
-          30.698975
+          120.12761667877218,
+          29.93002008505757
         ]
       },
       "properties": {
         "id": "露营基地_34",
         "name": "露营基地营地I1",
         "city": "杭州市",
-        "cost": 396,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 532,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3302,18 +3788,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.450602,
-          29.790892
+          120.57373968823029,
+          30.0339611732106
         ]
       },
       "properties": {
         "id": "露营基地_35",
         "name": "露营基地营地J1",
         "city": "杭州市",
-        "cost": 690,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 590,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
       }
     },
     {
@@ -3321,18 +3806,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.134962,
-          30.623933
+          119.69073685960797,
+          30.514789116936097
         ]
       },
       "properties": {
         "id": "露营基地_36",
         "name": "露营基地营地K1",
         "city": "杭州市",
-        "cost": 318,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 263,
+        "bookingMethod": "线上预订",
+        "source": "露营基地"
       }
     },
     {
@@ -3340,18 +3824,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.338648,
-          30.174539
+          120.24852266946381,
+          30.632047610009725
+        ]
+      },
+      "properties": {
+        "id": "露营基地_37",
+        "name": "露营基地营地L1",
+        "city": "杭州市",
+        "cost": 461,
+        "bookingMethod": "扫码预约",
+        "source": "露营基地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.68700640160289,
+          30.482001574608738
         ]
       },
       "properties": {
         "id": "临安露营_0",
         "name": "临安露营营地A",
         "city": "杭州市",
-        "cost": 185,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 97,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3359,18 +3860,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.538818,
-          29.792734
+          120.53778530980412,
+          29.991923534513834
         ]
       },
       "properties": {
         "id": "临安露营_1",
         "name": "临安露营营地B",
         "city": "杭州市",
-        "cost": 774,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 536,
+        "bookingMethod": "扫码预约",
+        "source": "临安露营"
       }
     },
     {
@@ -3378,18 +3878,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.981666,
-          30.697741
+          120.22125017456055,
+          29.905016885573033
         ]
       },
       "properties": {
         "id": "临安露营_2",
         "name": "临安露营营地C",
         "city": "杭州市",
-        "cost": 488,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 628,
+        "bookingMethod": "扫码预约",
+        "source": "临安露营"
       }
     },
     {
@@ -3397,18 +3896,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.387588,
-          30.308889
+          120.02024349208087,
+          30.59429541206103
         ]
       },
       "properties": {
         "id": "临安露营_3",
         "name": "临安露营营地D",
         "city": "杭州市",
-        "cost": 76,
+        "cost": 274,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "临安露营"
       }
     },
     {
@@ -3416,18 +3914,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.535551,
-          30.176679
+          120.56457630380372,
+          30.478054708729644
         ]
       },
       "properties": {
         "id": "临安露营_4",
         "name": "临安露营营地E",
         "city": "杭州市",
-        "cost": 726,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 282,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3435,18 +3932,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.38643,
-          30.545716
+          120.39750854450793,
+          30.44041992596596
         ]
       },
       "properties": {
         "id": "临安露营_5",
         "name": "临安露营营地F",
         "city": "杭州市",
-        "cost": 15,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 224,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3454,18 +3950,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.023063,
-          30.482859
+          119.93278282602735,
+          30.030023989564675
         ]
       },
       "properties": {
         "id": "临安露营_6",
         "name": "临安露营营地G",
         "city": "杭州市",
-        "cost": 37,
+        "cost": 766,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "临安露营"
       }
     },
     {
@@ -3473,18 +3968,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.1507,
-          30.435167
+          120.39090571221446,
+          30.493986353293277
         ]
       },
       "properties": {
         "id": "临安露营_7",
         "name": "临安露营营地H",
         "city": "杭州市",
-        "cost": 304,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 408,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3492,18 +3986,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.267081,
-          30.580492
+          120.64065836479172,
+          30.64488218407535
         ]
       },
       "properties": {
         "id": "临安露营_8",
         "name": "临安露营营地I",
         "city": "杭州市",
-        "cost": 302,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 549,
+        "bookingMethod": "无需预约",
+        "source": "临安露营"
       }
     },
     {
@@ -3511,18 +4004,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.998348,
-          30.065714
+          119.9031976644588,
+          30.483534574040796
         ]
       },
       "properties": {
         "id": "临安露营_9",
         "name": "临安露营营地J",
         "city": "杭州市",
-        "cost": 774,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 417,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3530,18 +4022,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.705749,
-          30.490352
+          120.3658769462348,
+          30.680348819652583
         ]
       },
       "properties": {
         "id": "临安露营_10",
         "name": "临安露营营地K",
         "city": "杭州市",
-        "cost": 227,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 430,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3549,18 +4040,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.398308,
-          30.122883
+          120.09592869808993,
+          29.85916399077846
         ]
       },
       "properties": {
         "id": "临安露营_11",
         "name": "临安露营营地L",
         "city": "杭州市",
-        "cost": 492,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 548,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
       }
     },
     {
@@ -3568,18 +4058,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.303035,
-          29.967137
+          119.663449435504,
+          30.048749047543737
         ]
       },
       "properties": {
         "id": "临安露营_12",
         "name": "临安露营营地M",
         "city": "杭州市",
-        "cost": 487,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 133,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
       }
     },
     {
@@ -3587,18 +4076,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.871719,
-          30.523809
+          120.56723781293216,
+          30.067466549607953
         ]
       },
       "properties": {
         "id": "临安露营_13",
         "name": "临安露营营地N",
         "city": "杭州市",
-        "cost": 278,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 220,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
       }
     },
     {
@@ -3606,18 +4094,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.494883,
-          30.360704
+          119.82121444750881,
+          30.210539174469965
         ]
       },
       "properties": {
         "id": "临安露营_14",
         "name": "临安露营营地O",
         "city": "杭州市",
-        "cost": 321,
+        "cost": 755,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "临安露营"
       }
     },
     {
@@ -3625,18 +4112,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.868111,
-          30.75504
+          120.10191264903818,
+          29.914476895406384
         ]
       },
       "properties": {
         "id": "临安露营_15",
         "name": "临安露营营地P",
         "city": "杭州市",
-        "cost": 386,
+        "cost": 476,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "临安露营"
       }
     },
     {
@@ -3644,18 +4130,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.848474,
-          30.259263
+          120.53321313279095,
+          30.02602736956167
         ]
       },
       "properties": {
         "id": "临安露营_16",
         "name": "临安露营营地Q",
         "city": "杭州市",
-        "cost": 376,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 656,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3663,18 +4148,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.179558,
-          30.340886
+          119.93948582127517,
+          30.435477575923333
         ]
       },
       "properties": {
         "id": "临安露营_17",
         "name": "临安露营营地R",
         "city": "杭州市",
-        "cost": 535,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 484,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3682,18 +4166,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.203542,
-          30.105792
+          120.20090082487015,
+          30.021666388489486
         ]
       },
       "properties": {
         "id": "临安露营_18",
         "name": "临安露营营地S",
         "city": "杭州市",
-        "cost": 242,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 690,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3701,18 +4184,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.564953,
-          29.78749
+          120.40155058683187,
+          30.41953975747279
         ]
       },
       "properties": {
         "id": "临安露营_19",
         "name": "临安露营营地T",
         "city": "杭州市",
-        "cost": 535,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 137,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3720,18 +4202,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.060795,
-          29.810251
+          119.8490040800596,
+          30.164078040107917
         ]
       },
       "properties": {
         "id": "临安露营_20",
         "name": "临安露营营地U",
         "city": "杭州市",
-        "cost": 411,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 636,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
       }
     },
     {
@@ -3739,18 +4220,269 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.366214,
-          30.26897
+          119.90112787997741,
+          30.737588884757997
+        ]
+      },
+      "properties": {
+        "id": "临安露营_21",
+        "name": "临安露营营地V",
+        "city": "杭州市",
+        "cost": 548,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8548786798963,
+          30.070551570088618
+        ]
+      },
+      "properties": {
+        "id": "临安露营_22",
+        "name": "临安露营营地W",
+        "city": "杭州市",
+        "cost": 599,
+        "bookingMethod": "无需预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5012862137159,
+          30.27630146055387
+        ]
+      },
+      "properties": {
+        "id": "临安露营_23",
+        "name": "临安露营营地X",
+        "city": "杭州市",
+        "cost": 182,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.40094812382202,
+          30.168872505912418
+        ]
+      },
+      "properties": {
+        "id": "临安露营_24",
+        "name": "临安露营营地Y",
+        "city": "杭州市",
+        "cost": 184,
+        "bookingMethod": "扫码预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.36558815624407,
+          29.931265143380962
+        ]
+      },
+      "properties": {
+        "id": "临安露营_25",
+        "name": "临安露营营地Z",
+        "city": "杭州市",
+        "cost": 435,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.06404376627844,
+          30.647488089101092
+        ]
+      },
+      "properties": {
+        "id": "临安露营_26",
+        "name": "临安露营营地A1",
+        "city": "杭州市",
+        "cost": 121,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.07465865151894,
+          30.31539305531975
+        ]
+      },
+      "properties": {
+        "id": "临安露营_27",
+        "name": "临安露营营地B1",
+        "city": "杭州市",
+        "cost": 440,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.42874968508855,
+          30.711900537364517
+        ]
+      },
+      "properties": {
+        "id": "临安露营_28",
+        "name": "临安露营营地C1",
+        "city": "杭州市",
+        "cost": 425,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2894076115905,
+          30.320633694562684
+        ]
+      },
+      "properties": {
+        "id": "临安露营_29",
+        "name": "临安露营营地D1",
+        "city": "杭州市",
+        "cost": 352,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.05400914269408,
+          30.471112323868436
+        ]
+      },
+      "properties": {
+        "id": "临安露营_30",
+        "name": "临安露营营地E1",
+        "city": "杭州市",
+        "cost": 483,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.02623212465734,
+          30.68394977199882
+        ]
+      },
+      "properties": {
+        "id": "临安露营_31",
+        "name": "临安露营营地F1",
+        "city": "杭州市",
+        "cost": 58,
+        "bookingMethod": "电话预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9575860941362,
+          30.2437999492244
+        ]
+      },
+      "properties": {
+        "id": "临安露营_32",
+        "name": "临安露营营地G1",
+        "city": "杭州市",
+        "cost": 82,
+        "bookingMethod": "无需预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.66351284038825,
+          29.961642640134375
+        ]
+      },
+      "properties": {
+        "id": "临安露营_33",
+        "name": "临安露营营地H1",
+        "city": "杭州市",
+        "cost": 491,
+        "bookingMethod": "扫码预约",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.96513929815914,
+          29.95578636423642
+        ]
+      },
+      "properties": {
+        "id": "临安露营_34",
+        "name": "临安露营营地I1",
+        "city": "杭州市",
+        "cost": 16,
+        "bookingMethod": "线上预订",
+        "source": "临安露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.73772141317146,
+          30.455156268163535
         ]
       },
       "properties": {
         "id": "西湖露营_0",
         "name": "西湖露营营地A",
         "city": "杭州市",
-        "cost": 429,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 245,
+        "bookingMethod": "扫码预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3758,18 +4490,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.941505,
-          29.918352
+          119.72787433291128,
+          30.528266003294995
         ]
       },
       "properties": {
         "id": "西湖露营_1",
         "name": "西湖露营营地B",
         "city": "杭州市",
-        "cost": 543,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 568,
+        "bookingMethod": "线上预订",
+        "source": "西湖露营"
       }
     },
     {
@@ -3777,18 +4508,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.360128,
-          30.484029
+          120.53122320059785,
+          30.671759992268665
         ]
       },
       "properties": {
         "id": "西湖露营_2",
         "name": "西湖露营营地C",
         "city": "杭州市",
-        "cost": 719,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 184,
+        "bookingMethod": "扫码预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3796,18 +4526,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.641747,
-          30.117738
+          120.28358002502692,
+          30.48784244474921
         ]
       },
       "properties": {
         "id": "西湖露营_3",
         "name": "西湖露营营地D",
         "city": "杭州市",
-        "cost": 116,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 651,
+        "bookingMethod": "无需预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3815,18 +4544,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.815961,
-          29.878103
+          119.98080741924221,
+          29.776989237049364
         ]
       },
       "properties": {
         "id": "西湖露营_4",
         "name": "西湖露营营地E",
         "city": "杭州市",
-        "cost": 767,
+        "cost": 711,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "西湖露营"
       }
     },
     {
@@ -3834,18 +4562,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.605429,
-          30.244183
+          119.69853734145366,
+          30.06364624667692
         ]
       },
       "properties": {
         "id": "西湖露营_5",
         "name": "西湖露营营地F",
         "city": "杭州市",
-        "cost": 549,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 799,
+        "bookingMethod": "扫码预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3853,18 +4580,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.636931,
-          30.07298
+          120.60659463649563,
+          30.07313843231703
         ]
       },
       "properties": {
         "id": "西湖露营_6",
         "name": "西湖露营营地G",
         "city": "杭州市",
-        "cost": 495,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 285,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3872,18 +4598,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.357152,
-          30.1638
+          119.89740523366996,
+          29.992303642383735
         ]
       },
       "properties": {
         "id": "西湖露营_7",
         "name": "西湖露营营地H",
         "city": "杭州市",
-        "cost": 430,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 756,
+        "bookingMethod": "无需预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3891,18 +4616,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.540806,
-          29.988724
+          120.49804917163647,
+          30.69783885944075
         ]
       },
       "properties": {
         "id": "西湖露营_8",
         "name": "西湖露营营地I",
         "city": "杭州市",
-        "cost": 61,
+        "cost": 305,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "西湖露营"
       }
     },
     {
@@ -3910,18 +4634,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.673226,
-          30.535527
+          120.42060079955775,
+          30.569713460705394
         ]
       },
       "properties": {
         "id": "西湖露营_9",
         "name": "西湖露营营地J",
         "city": "杭州市",
-        "cost": 556,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 635,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3929,18 +4652,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.126688,
-          30.665383
+          120.46942030651054,
+          30.13245137881884
         ]
       },
       "properties": {
         "id": "西湖露营_10",
         "name": "西湖露营营地K",
         "city": "杭州市",
-        "cost": 53,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 414,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3948,18 +4670,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.216222,
-          30.610717
+          119.75104393709994,
+          30.14550278116173
         ]
       },
       "properties": {
         "id": "西湖露营_11",
         "name": "西湖露营营地L",
         "city": "杭州市",
-        "cost": 5,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 660,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3967,18 +4688,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.000965,
-          30.553269
+          120.40741764206807,
+          30.45098494120647
         ]
       },
       "properties": {
         "id": "西湖露营_12",
         "name": "西湖露营营地M",
         "city": "杭州市",
-        "cost": 573,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 781,
+        "bookingMethod": "无需预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -3986,18 +4706,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.771613,
-          30.441726
+          120.04310003609605,
+          29.83984879892657
         ]
       },
       "properties": {
         "id": "西湖露营_13",
         "name": "西湖露营营地N",
         "city": "杭州市",
-        "cost": 373,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 709,
+        "bookingMethod": "无需预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4005,18 +4724,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.220243,
-          30.071695
+          119.70887934582765,
+          30.294628695039115
         ]
       },
       "properties": {
         "id": "西湖露营_14",
         "name": "西湖露营营地O",
         "city": "杭州市",
-        "cost": 70,
+        "cost": 262,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "西湖露营"
       }
     },
     {
@@ -4024,18 +4742,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.550803,
-          30.278239
+          120.33770226001666,
+          30.55114456919114
         ]
       },
       "properties": {
         "id": "西湖露营_15",
         "name": "西湖露营营地P",
         "city": "杭州市",
-        "cost": 395,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 523,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4043,18 +4760,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.511337,
-          30.738737
+          120.09674887791986,
+          30.62065076933358
         ]
       },
       "properties": {
         "id": "西湖露营_16",
         "name": "西湖露营营地Q",
         "city": "杭州市",
-        "cost": 409,
+        "cost": 520,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "西湖露营"
       }
     },
     {
@@ -4062,18 +4778,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.312195,
-          29.962516
+          119.72073662001317,
+          30.696539161440093
         ]
       },
       "properties": {
         "id": "西湖露营_17",
         "name": "西湖露营营地R",
         "city": "杭州市",
-        "cost": 438,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 781,
+        "bookingMethod": "无需预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4081,18 +4796,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.905828,
-          30.491076
+          120.04233447900327,
+          30.388510925037753
+        ]
+      },
+      "properties": {
+        "id": "西湖露营_18",
+        "name": "西湖露营营地S",
+        "city": "杭州市",
+        "cost": 460,
+        "bookingMethod": "扫码预约",
+        "source": "西湖露营"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6816352383375,
+          30.248338175109573
         ]
       },
       "properties": {
         "id": "西湖露营_19",
         "name": "西湖露营营地T",
         "city": "杭州市",
-        "cost": 163,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 166,
+        "bookingMethod": "无需预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4100,18 +4832,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.653424,
-          30.71601
+          120.12496556410859,
+          30.615719183725936
         ]
       },
       "properties": {
         "id": "西湖露营_20",
         "name": "西湖露营营地U",
         "city": "杭州市",
-        "cost": 612,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 563,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4119,18 +4850,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.033154,
-          30.622178
+          120.42875610513784,
+          30.696053391600877
         ]
       },
       "properties": {
         "id": "西湖露营_21",
         "name": "西湖露营营地V",
         "city": "杭州市",
-        "cost": 98,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 735,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4138,18 +4868,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.376428,
-          30.067518
+          120.15973727088112,
+          30.76879922044117
         ]
       },
       "properties": {
         "id": "西湖露营_22",
         "name": "西湖露营营地W",
         "city": "杭州市",
-        "cost": 703,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 256,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4157,18 +4886,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.450599,
-          30.174701
+          119.78684650336105,
+          29.777921450697853
         ]
       },
       "properties": {
         "id": "西湖露营_23",
         "name": "西湖露营营地X",
         "city": "杭州市",
-        "cost": 497,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 409,
+        "bookingMethod": "线上预订",
+        "source": "西湖露营"
       }
     },
     {
@@ -4176,18 +4904,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.861643,
-          30.550377
+          120.52613899183572,
+          30.02639947532717
         ]
       },
       "properties": {
         "id": "西湖露营_24",
         "name": "西湖露营营地Y",
         "city": "杭州市",
-        "cost": 503,
+        "cost": 294,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "西湖露营"
       }
     },
     {
@@ -4195,18 +4922,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.758487,
-          30.663195
+          119.86630228489172,
+          29.91865494447161
         ]
       },
       "properties": {
         "id": "西湖露营_25",
         "name": "西湖露营营地Z",
         "city": "杭州市",
-        "cost": 394,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 138,
+        "bookingMethod": "无需预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4214,18 +4940,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.234157,
-          30.549724
+          120.16959735047881,
+          29.77780747757063
         ]
       },
       "properties": {
         "id": "西湖露营_26",
         "name": "西湖露营营地A1",
         "city": "杭州市",
-        "cost": 592,
+        "cost": 201,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "西湖露营"
       }
     },
     {
@@ -4233,18 +4958,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.987405,
-          30.488133
+          119.67426875203238,
+          30.376421838894835
         ]
       },
       "properties": {
         "id": "西湖露营_27",
         "name": "西湖露营营地B1",
         "city": "杭州市",
-        "cost": 710,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 271,
+        "bookingMethod": "线上预订",
+        "source": "西湖露营"
       }
     },
     {
@@ -4252,18 +4976,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.83928,
-          30.617048
+          120.6439653179215,
+          30.564190723678657
         ]
       },
       "properties": {
         "id": "西湖露营_28",
         "name": "西湖露营营地C1",
         "city": "杭州市",
-        "cost": 724,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 130,
+        "bookingMethod": "无需预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4271,18 +4994,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.336517,
-          30.102854
+          119.69753278668024,
+          30.034589515421555
         ]
       },
       "properties": {
         "id": "西湖露营_29",
         "name": "西湖露营营地D1",
         "city": "杭州市",
-        "cost": 411,
+        "cost": 257,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "西湖露营"
       }
     },
     {
@@ -4290,18 +5012,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.065843,
-          29.913115
+          120.50721478364873,
+          30.283050780886047
         ]
       },
       "properties": {
         "id": "西湖露营_30",
         "name": "西湖露营营地E1",
         "city": "杭州市",
-        "cost": 334,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 48,
+        "bookingMethod": "扫码预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4309,18 +5030,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.636499,
-          30.12328
+          119.82966794386498,
+          29.986885172481156
         ]
       },
       "properties": {
         "id": "西湖露营_31",
         "name": "西湖露营营地F1",
         "city": "杭州市",
-        "cost": 310,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 655,
+        "bookingMethod": "电话预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4328,18 +5048,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.973485,
-          29.937821
+          120.14795623812097,
+          30.452763525596694
         ]
       },
       "properties": {
         "id": "西湖露营_32",
         "name": "西湖露营营地G1",
         "city": "杭州市",
-        "cost": 2,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 502,
+        "bookingMethod": "扫码预约",
+        "source": "西湖露营"
       }
     },
     {
@@ -4347,151 +5066,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.493547,
-          30.350689
-        ]
-      },
-      "properties": {
-        "id": "西湖露营_33",
-        "name": "西湖露营营地H1",
-        "city": "杭州市",
-        "cost": 362,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.199391,
-          29.836617
-        ]
-      },
-      "properties": {
-        "id": "西湖露营_34",
-        "name": "西湖露营营地I1",
-        "city": "杭州市",
-        "cost": 434,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.111705,
-          30.663989
-        ]
-      },
-      "properties": {
-        "id": "西湖露营_35",
-        "name": "西湖露营营地J1",
-        "city": "杭州市",
-        "cost": 767,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.038805,
-          30.156461
-        ]
-      },
-      "properties": {
-        "id": "西湖露营_36",
-        "name": "西湖露营营地K1",
-        "city": "杭州市",
-        "cost": 233,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.492788,
-          29.884921
-        ]
-      },
-      "properties": {
-        "id": "西湖露营_37",
-        "name": "西湖露营营地L1",
-        "city": "杭州市",
-        "cost": 595,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.376543,
-          30.074048
-        ]
-      },
-      "properties": {
-        "id": "西湖露营_38",
-        "name": "西湖露营营地M1",
-        "city": "杭州市",
-        "cost": 60,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.72426,
-          30.296397
-        ]
-      },
-      "properties": {
-        "id": "西湖露营_39",
-        "name": "西湖露营营地N1",
-        "city": "杭州市",
-        "cost": 317,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.095527,
-          30.372348
+          119.97968760691747,
+          29.95337363496032
         ]
       },
       "properties": {
         "id": "免费露营_0",
         "name": "免费露营营地A",
         "city": "杭州市",
-        "cost": 4,
+        "cost": 367,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4499,18 +5084,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.465653,
-          30.615565
+          120.25076510010571,
+          30.35986991094595
         ]
       },
       "properties": {
         "id": "免费露营_1",
         "name": "免费露营营地B",
         "city": "杭州市",
-        "cost": 20,
+        "cost": 646,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4518,18 +5102,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.09098,
-          29.939635
+          120.10219596172168,
+          30.15477176339064
         ]
       },
       "properties": {
         "id": "免费露营_2",
         "name": "免费露营营地C",
         "city": "杭州市",
-        "cost": 119,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 47,
+        "bookingMethod": "电话预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4537,18 +5120,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.840939,
-          30.54809
+          120.15746269246233,
+          30.517625746337878
         ]
       },
       "properties": {
         "id": "免费露营_3",
         "name": "免费露营营地D",
         "city": "杭州市",
-        "cost": 495,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 581,
+        "bookingMethod": "线上预订",
+        "source": "免费露营"
       }
     },
     {
@@ -4556,18 +5138,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.741398,
-          30.246156
+          120.29769511505629,
+          30.491228195438072
         ]
       },
       "properties": {
         "id": "免费露营_4",
         "name": "免费露营营地E",
         "city": "杭州市",
-        "cost": 492,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 108,
+        "bookingMethod": "无需预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4575,18 +5156,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.323515,
-          30.155176
+          119.65924788761953,
+          30.67547016461714
         ]
       },
       "properties": {
         "id": "免费露营_5",
         "name": "免费露营营地F",
         "city": "杭州市",
-        "cost": 650,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 260,
+        "bookingMethod": "线上预订",
+        "source": "免费露营"
       }
     },
     {
@@ -4594,18 +5174,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.246119,
-          30.320502
+          120.45669273481678,
+          29.908132039066146
         ]
       },
       "properties": {
         "id": "免费露营_6",
         "name": "免费露营营地G",
         "city": "杭州市",
-        "cost": 11,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 124,
+        "bookingMethod": "线上预订",
+        "source": "免费露营"
       }
     },
     {
@@ -4613,18 +5192,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.53959,
-          30.217657
+          120.06298093785824,
+          29.90999805679556
         ]
       },
       "properties": {
         "id": "免费露营_7",
         "name": "免费露营营地H",
         "city": "杭州市",
-        "cost": 363,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 518,
+        "bookingMethod": "无需预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4632,18 +5210,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.84852,
-          29.914164
+          120.40043613041536,
+          29.793734512792643
         ]
       },
       "properties": {
         "id": "免费露营_8",
         "name": "免费露营营地I",
         "city": "杭州市",
-        "cost": 533,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 797,
+        "bookingMethod": "电话预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4651,18 +5228,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.257272,
-          29.981979
+          119.79993552612004,
+          30.03498263009347
         ]
       },
       "properties": {
         "id": "免费露营_9",
         "name": "免费露营营地J",
         "city": "杭州市",
-        "cost": 17,
+        "cost": 680,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4670,18 +5246,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.674699,
-          29.830147
+          120.30231955950151,
+          30.52231410636908
         ]
       },
       "properties": {
         "id": "免费露营_10",
         "name": "免费露营营地K",
         "city": "杭州市",
-        "cost": 796,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 6,
+        "bookingMethod": "电话预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4689,18 +5264,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.932463,
-          30.232877
+          120.6426243215659,
+          30.76851080430202
         ]
       },
       "properties": {
         "id": "免费露营_11",
         "name": "免费露营营地L",
         "city": "杭州市",
-        "cost": 589,
+        "cost": 31,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4708,18 +5282,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.54364,
-          30.372528
+          119.99072295013092,
+          30.567201216343648
         ]
       },
       "properties": {
         "id": "免费露营_12",
         "name": "免费露营营地M",
         "city": "杭州市",
-        "cost": 349,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 103,
+        "bookingMethod": "无需预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4727,18 +5300,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.118226,
-          30.758775
+          120.3970261590432,
+          30.19044215494349
         ]
       },
       "properties": {
         "id": "免费露营_13",
         "name": "免费露营营地N",
         "city": "杭州市",
-        "cost": 206,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 520,
+        "bookingMethod": "线上预订",
+        "source": "免费露营"
       }
     },
     {
@@ -4746,18 +5318,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.499006,
-          30.164806
+          120.29843005178307,
+          30.465637381611952
         ]
       },
       "properties": {
         "id": "免费露营_14",
         "name": "免费露营营地O",
         "city": "杭州市",
-        "cost": 297,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 604,
+        "bookingMethod": "扫码预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4765,18 +5336,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.593792,
-          30.737542
+          120.2272962484424,
+          30.19429328749718
         ]
       },
       "properties": {
         "id": "免费露营_15",
         "name": "免费露营营地P",
         "city": "杭州市",
-        "cost": 734,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 312,
+        "bookingMethod": "扫码预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4784,18 +5354,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.507434,
-          30.640313
+          120.6539476068446,
+          30.74647653727608
         ]
       },
       "properties": {
         "id": "免费露营_16",
         "name": "免费露营营地Q",
         "city": "杭州市",
-        "cost": 604,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 237,
+        "bookingMethod": "电话预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4803,18 +5372,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.901588,
-          30.004351
+          119.91547002736341,
+          30.12373766477449
         ]
       },
       "properties": {
         "id": "免费露营_17",
         "name": "免费露营营地R",
         "city": "杭州市",
-        "cost": 433,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 147,
+        "bookingMethod": "线上预订",
+        "source": "免费露营"
       }
     },
     {
@@ -4822,18 +5390,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.820552,
-          30.106102
+          119.77165468396188,
+          30.47608182782697
         ]
       },
       "properties": {
         "id": "免费露营_18",
         "name": "免费露营营地S",
         "city": "杭州市",
-        "cost": 0,
+        "cost": 544,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4841,18 +5408,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.78727,
-          29.868434
+          120.46197479436711,
+          30.049516001735054
         ]
       },
       "properties": {
         "id": "免费露营_19",
         "name": "免费露营营地T",
         "city": "杭州市",
-        "cost": 607,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 562,
+        "bookingMethod": "扫码预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4860,18 +5426,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.358785,
-          30.461497
+          119.6671986887063,
+          30.186470231846908
         ]
       },
       "properties": {
         "id": "免费露营_20",
         "name": "免费露营营地U",
         "city": "杭州市",
-        "cost": 170,
+        "cost": 289,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4879,18 +5444,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.285821,
-          29.906341
+          120.00898737395842,
+          29.798287221160315
         ]
       },
       "properties": {
         "id": "免费露营_21",
         "name": "免费露营营地V",
         "city": "杭州市",
-        "cost": 605,
+        "cost": 340,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4898,18 +5462,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.105634,
-          29.801375
+          120.5391491426628,
+          30.186172488749772
         ]
       },
       "properties": {
         "id": "免费露营_22",
         "name": "免费露营营地W",
         "city": "杭州市",
-        "cost": 378,
+        "cost": 708,
         "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4917,18 +5480,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.682055,
-          30.170078
+          120.57061018492742,
+          29.934374134924614
         ]
       },
       "properties": {
         "id": "免费露营_23",
         "name": "免费露营营地X",
         "city": "杭州市",
-        "cost": 558,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 479,
+        "bookingMethod": "线上预订",
+        "source": "免费露营"
       }
     },
     {
@@ -4936,18 +5498,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.036746,
-          30.478751
+          119.83087194041995,
+          30.29800299374537
         ]
       },
       "properties": {
         "id": "免费露营_24",
         "name": "免费露营营地Y",
         "city": "杭州市",
-        "cost": 542,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 638,
+        "bookingMethod": "无需预约",
+        "source": "免费露营"
       }
     },
     {
@@ -4955,18 +5516,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.531845,
-          30.308546
+          120.36927945736527,
+          30.59836206794643
         ]
       },
       "properties": {
         "id": "免费露营_25",
         "name": "免费露营营地Z",
         "city": "杭州市",
-        "cost": 493,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 48,
+        "bookingMethod": "线上预订",
+        "source": "免费露营"
       }
     },
     {
@@ -4974,18 +5534,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.552456,
-          30.243631
+          120.29846558166624,
+          30.106064069077462
         ]
       },
       "properties": {
         "id": "免费露营_26",
         "name": "免费露营营地A1",
         "city": "杭州市",
-        "cost": 704,
+        "cost": 66,
         "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -4993,18 +5552,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.55777,
-          30.674115
+          120.17326291630172,
+          30.56998125375708
         ]
       },
       "properties": {
         "id": "免费露营_27",
         "name": "免费露营营地B1",
         "city": "杭州市",
-        "cost": 272,
+        "cost": 104,
         "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -5012,18 +5570,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.980554,
-          30.153761
+          120.50935633278513,
+          30.1513881105378
         ]
       },
       "properties": {
         "id": "免费露营_28",
         "name": "免费露营营地C1",
         "city": "杭州市",
-        "cost": 235,
+        "cost": 662,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     },
     {
@@ -5031,18 +5588,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.169574,
-          30.530898
+          119.71937871598061,
+          30.003017694656922
         ]
       },
       "properties": {
         "id": "免费露营_29",
         "name": "免费露营营地D1",
         "city": "杭州市",
-        "cost": 403,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "cost": 569,
+        "bookingMethod": "线上预订",
+        "source": "免费露营"
       }
     },
     {
@@ -5050,309 +5606,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.397589,
-          30.213681
+          120.1143168236287,
+          30.14183779978059
         ]
       },
       "properties": {
         "id": "免费露营_30",
         "name": "免费露营营地E1",
         "city": "杭州市",
-        "cost": 132,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.981146,
-          30.765793
-        ]
-      },
-      "properties": {
-        "id": "免费露营_31",
-        "name": "免费露营营地F1",
-        "city": "杭州市",
-        "cost": 332,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.744378,
-          30.627867
-        ]
-      },
-      "properties": {
-        "id": "免费露营_32",
-        "name": "免费露营营地G1",
-        "city": "杭州市",
-        "cost": 229,
+        "cost": 732,
         "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.032344,
-          29.936656
-        ]
-      },
-      "properties": {
-        "id": "免费露营_33",
-        "name": "免费露营营地H1",
-        "city": "杭州市",
-        "cost": 645,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.594229,
-          29.974155
-        ]
-      },
-      "properties": {
-        "id": "免费露营_34",
-        "name": "免费露营营地I1",
-        "city": "杭州市",
-        "cost": 546,
-        "bookingMethod": "无需预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.506196,
-          30.082296
-        ]
-      },
-      "properties": {
-        "id": "免费露营_35",
-        "name": "免费露营营地J1",
-        "city": "杭州市",
-        "cost": 26,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.313326,
-          30.665582
-        ]
-      },
-      "properties": {
-        "id": "免费露营_36",
-        "name": "免费露营营地K1",
-        "city": "杭州市",
-        "cost": 182,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.185458,
-          29.974327
-        ]
-      },
-      "properties": {
-        "id": "免费露营_37",
-        "name": "免费露营营地L1",
-        "city": "杭州市",
-        "cost": 91,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.754827,
-          30.562374
-        ]
-      },
-      "properties": {
-        "id": "免费露营_38",
-        "name": "免费露营营地M1",
-        "city": "杭州市",
-        "cost": 385,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.974936,
-          30.739033
-        ]
-      },
-      "properties": {
-        "id": "免费露营_39",
-        "name": "免费露营营地N1",
-        "city": "杭州市",
-        "cost": 585,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.843398,
-          30.740805
-        ]
-      },
-      "properties": {
-        "id": "免费露营_40",
-        "name": "免费露营营地O1",
-        "city": "杭州市",
-        "cost": 243,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.724791,
-          30.138091
-        ]
-      },
-      "properties": {
-        "id": "免费露营_41",
-        "name": "免费露营营地P1",
-        "city": "杭州市",
-        "cost": 262,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.323911,
-          29.90238
-        ]
-      },
-      "properties": {
-        "id": "免费露营_42",
-        "name": "免费露营营地Q1",
-        "city": "杭州市",
-        "cost": 25,
-        "bookingMethod": "扫码预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.422633,
-          29.96564
-        ]
-      },
-      "properties": {
-        "id": "免费露营_43",
-        "name": "免费露营营地R1",
-        "city": "杭州市",
-        "cost": 527,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.372133,
-          29.786193
-        ]
-      },
-      "properties": {
-        "id": "免费露营_44",
-        "name": "免费露营营地S1",
-        "city": "杭州市",
-        "cost": 755,
-        "bookingMethod": "线上预订",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.416361,
-          30.584437
-        ]
-      },
-      "properties": {
-        "id": "免费露营_45",
-        "name": "免费露营营地T1",
-        "city": "杭州市",
-        "cost": 377,
-        "bookingMethod": "电话预约",
-        "mediaLinks": [],
-        "timestamp": "2026-11-03T16:09:54.273Z"
+        "source": "免费露营"
       }
     }
-  ],
-  "metadata": {
-    "city": "杭州市",
-    "poiCount": 262,
-    "timestamp": "2026-11-03T16:09:54.277Z"
-  }
+  ]
 }
