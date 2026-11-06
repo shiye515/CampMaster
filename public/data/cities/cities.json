@@ -1,0 +1,38 @@
+[
+  {
+    "name": "丽水市",
+    "poiCount": 3
+  },
+  {
+    "name": "台州市",
+    "poiCount": 5
+  },
+  {
+    "name": "宁波市",
+    "poiCount": 10
+  },
+  {
+    "name": "杭州市",
+    "poiCount": 64
+  },
+  {
+    "name": "温州市",
+    "poiCount": 8
+  },
+  {
+    "name": "湖州市",
+    "poiCount": 24
+  },
+  {
+    "name": "绍兴市",
+    "poiCount": 10
+  },
+  {
+    "name": "衢州市",
+    "poiCount": 2
+  },
+  {
+    "name": "金华市",
+    "poiCount": 4
+  }
+]
