@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.584646,
+          28.688703
+        ]
+      },
+      "properties": {
+        "id": "poi-097",
+        "name": "仙居淡竹原始森林溪滩营地",
+        "city": "台州市",
+        "cost": 0,
+        "bookingMethod": "水源保护区外免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "杭州桐庐车直达免费玩水露营地｜附地图攻略 前阵子在桐庐走山",
+            "url": "https://www.douyin.com/video/7655993627520546555"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.611796,
+          28.728677
+        ]
+      },
+      "properties": {
+        "id": "poi-098",
+        "name": "仙居神仙居房车星空露营地",
+        "city": "台州市",
+        "cost": 188,
+        "bookingMethod": "神仙居微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "杭州桐庐车直达免费玩水露营地｜附地图攻略 前阵子在桐庐走山",
+            "url": "https://www.douyin.com/video/7655993627520546555"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.05369,
+          29.187993
+        ]
+      },
+      "properties": {
+        "id": "poi-099",
+        "name": "天台后岸村十里铁甲龙营地",
+        "city": "台州市",
+        "cost": 60,
+        "bookingMethod": "村委现场登记入场",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "温州｜车直达｜带大草坪｜🆓免费露营⛺️",
+            "url": "https://www.xiaohongshu.com/explore/6ae0a3a20000000023012a62"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.185055,
+          29.24782
+        ]
+      },
+      "properties": {
+        "id": "poi-100",
+        "name": "天台华顶国家森林避暑营地",
+        "city": "台州市",
+        "cost": 80,
+        "bookingMethod": "景区官方微信预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "不用私私私，江浙沪皖林间露营保姆级攻略",
+            "url": "https://www.xiaohongshu.com/explore/694e063e000000002102bbcb"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.28517,
+          28.757145
+        ]
+      },
+      "properties": {
+        "id": "poi-101",
+        "name": "临海胜坑古村石桥溪畔野营点",
+        "city": "台州市",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "杭州周边15个车能开上山顶的绝美地方",
+            "url": "https://www.xiaohongshu.com/explore/6acde39d0000000018012d25"
+          }
+        ]
+      }
+    }
+  ]
+}

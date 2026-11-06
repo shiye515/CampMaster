@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.041019,
+          28.588469
+        ]
+      },
+      "properties": {
+        "id": "poi-106",
+        "name": "遂昌南尖岩云海梯田星空营地",
+        "city": "丽水市",
+        "cost": 138,
+        "bookingMethod": "景区微信小程序预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "睡在海拔600多米的山顶帐篷里是什么体验",
+            "url": "https://www.xiaohongshu.com/explore/6ac440f5000000001303fc83"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.417258,
+          28.461263
+        ]
+      },
+      "properties": {
+        "id": "poi-107",
+        "name": "松阳陈家铺古村崖壁野奢营地",
+        "city": "丽水市",
+        "cost": 218,
+        "bookingMethod": "电话提前预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "杭州周边5个宝藏露营地，🚗开车直达，可过夜",
+            "url": "https://www.xiaohongshu.com/explore/6adadc110000000033009301"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.123073,
+          28.715441
+        ]
+      },
+      "properties": {
+        "id": "poi-108",
+        "name": "缙云仙都朱潭山滨水大草坪营地",
+        "city": "丽水市",
+        "cost": 68,
+        "bookingMethod": "现场扫码无需预约",
+        "mediaLinks": [
+          {
+            "platform": "小红书",
+            "title": "找到了！江浙沪开车直达的“无人区”露营地🍂",
+            "url": "https://www.xiaohongshu.com/explore/6960e813000000001a01ffaf"
+          }
+        ]
+      }
+    }
+  ]
+}
