@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.15282,
+          30.271929
+        ]
+      },
+      "properties": {
+        "id": "poi-001",
+        "name": "突然发江浙的露营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "突然发江浙的露营地，已经全面进入2.0时代了 露营 露营地 养心",
+            "url": "https://www.douyin.com/video/7704672681245240250"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.130212,
+          30.273394
+        ]
+      },
+      "properties": {
+        "id": "poi-002",
+        "name": "我在一片森林营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "我在一片森林里露营｜车中泊 户外 露营 江浙沪 车中泊 @梨",
+            "url": "https://www.douyin.com/video/7640039559878872335"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.15282,
+          30.277929
+        ]
+      },
+      "properties": {
+        "id": "poi-003",
+        "name": "青田.乌岩",
+        "city": "杭州",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "江浙沪开车可达免费湖泊露营地｜附地图攻略 在浙江还有这么漂亮的免费露",
+            "url": "https://www.douyin.com/video/7630277418905022650"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.217634,
+          30.270537
+        ]
+      },
+      "properties": {
+        "id": "poi-004",
+        "name": "不过我就是喜欢在森林营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "单人BC天幕吊床野炊 这次玩的比较随意，好多装备没有用上，不过我就是喜",
+            "url": "https://www.douyin.com/video/7685328525640894193"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.09859,
+          30.27637
+        ]
+      },
+      "properties": {
+        "id": "poi-005",
+        "name": "【第37期】沉浸式水杉营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "【第37期】沉浸式水杉林露营🏕️｜盐焗虾 热牛奶｜冬日篝火 沉浸",
+            "url": "https://www.douyin.com/video/7602593270162283514"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.122679,
+          30.280884
+        ]
+      },
+      "properties": {
+        "id": "poi-006",
+        "name": "免费露营地",
+        "city": "杭州",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": ".3万 来了姊妹又是我呀，今个拉了个帮手来的，更新的是星期六的视频哈，...",
+            "url": "https://www.douyin.com/video/7644139343037193830"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -25,7 +25,7 @@
     },
     "杭州市": {
       "filename": "杭州市.geojson",
-      "poiCount": 280
+      "poiCount": 58
     },
     "温州市": {
       "filename": "温州市.geojson",
@@ -48,6 +48,6 @@
       "poiCount": 4
     }
   },
-  "timestamp": "2026-11-05T00:03:00.000Z",
-  "totalPois": 346
+  "timestamp": "2026-11-05T00:53:22.449Z",
+  "totalPois": 124
 }
