@@ -3960,6 +3960,81 @@
         "bookingMethod": "电话预约",
         "source": "免费露营"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1551,
+          30.2875
+        ]
+      },
+      "properties": {
+        "id": "poi-new-001",
+        "name": "西溪湿地露营基地",
+        "city": "杭州市",
+        "cost": 150,
+        "bookingMethod": "电话预约: 0571-88062298",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "西溪湿地野炊体验",
+            "url": "https://www.douyin.com/video/9999001"
+          }
+        ],
+        "timestamp": "2026-11-17T23:43:17.661+08:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3236,
+          30.4428
+        ]
+      },
+      "properties": {
+        "id": "poi-new-002",
+        "name": "临安青山湖露营地",
+        "city": "杭州市",
+        "cost": 200,
+        "bookingMethod": "微信公众号预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "青山湖野营攻略",
+            "url": "https://www.douyin.com/video/9999002"
+          }
+        ],
+        "timestamp": "2026-11-17T23:43:17.661+08:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2541,
+          30.3283
+        ]
+      },
+      "properties": {
+        "id": "poi-new-003",
+        "name": "钱塘江滨江露营营地",
+        "city": "杭州市",
+        "cost": 100,
+        "bookingMethod": "app预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "钱塘江边露营享受",
+            "url": "https://www.douyin.com/video/9999003"
+          }
+        ],
+        "timestamp": "2026-11-17T23:43:17.661+08:00"
+      }
     }
   ]
 }
