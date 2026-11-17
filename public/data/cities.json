@@ -11,41 +11,41 @@
     "温州市"
   ],
   "cityData": {
+    "丽水市": {
+      "filename": "丽水市.geojson",
+      "poiCount": 3
+    },
+    "台州市": {
+      "filename": "台州市.geojson",
+      "poiCount": 5
+    },
+    "宁波市": {
+      "filename": "宁波市.geojson",
+      "poiCount": 10
+    },
     "杭州市": {
       "filename": "杭州市.geojson",
-      "poiCount": 286
+      "poiCount": 296
+    },
+    "温州市": {
+      "filename": "温州市.geojson",
+      "poiCount": 8
     },
     "湖州市": {
       "filename": "湖州市.geojson",
       "poiCount": 24
     },
-    "金华市": {
-      "filename": "金华市.geojson",
-      "poiCount": 4
-    },
-    "丽水市": {
-      "filename": "丽水市.geojson",
-      "poiCount": 3
-    },
-    "宁波市": {
-      "filename": "宁波市.geojson",
+    "绍兴市": {
+      "filename": "绍兴市.geojson",
       "poiCount": 10
     },
     "衢州市": {
       "filename": "衢州市.geojson",
       "poiCount": 2
     },
-    "绍兴市": {
-      "filename": "绍兴市.geojson",
-      "poiCount": 10
-    },
-    "台州市": {
-      "filename": "台州市.geojson",
-      "poiCount": 5
-    },
-    "温州市": {
-      "filename": "温州市.geojson",
-      "poiCount": 8
+    "金华市": {
+      "filename": "金华市.geojson",
+      "poiCount": 4
     }
   }
 }

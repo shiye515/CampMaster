@@ -5762,6 +5762,246 @@
           }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.220646,
+          30.282539
+        ]
+      },
+      "properties": {
+        "id": "poi-001",
+        "name": "交通",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "图文 1037 不用私私私，江浙沪皖松林露营保姆级攻略。可明火🔥|卫...",
+            "url": "https://www.douyin.com/video/7595538936593455995"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.103105,
+          30.271872
+        ]
+      },
+      "properties": {
+        "id": "poi-002",
+        "name": "深夜湖营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "图文 8 不过夜的，只能叫野炊？真实生活分享计划 分享我的实用经验 我...",
+            "url": "https://www.douyin.com/video/7707850984059308217"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.166388,
+          30.280953
+        ]
+      },
+      "properties": {
+        "id": "poi-003",
+        "name": "逃离城市露营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "下雨天，关我露营什么事？ 泗安里 户外露营 江浙沪周边游 逃",
+            "url": "https://www.douyin.com/video/7692406959115071859"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.082044,
+          30.274874
+        ]
+      },
+      "properties": {
+        "id": "poi-004",
+        "name": "宝藏露营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "找到一个在红枫林里的营地，车到，可以日归可以过夜，这次住了两天，还挺满",
+            "url": "https://www.douyin.com/video/7706860354051113403"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.124186,
+          30.276386
+        ]
+      },
+      "properties": {
+        "id": "poi-005",
+        "name": "这里整片海边大草坪",
+        "city": "杭州",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "平潭大练岛🏝️｜福建小众海岛露营天花板 来平潭露营真的千万别再只扎",
+            "url": "https://www.douyin.com/video/7687812434002937531"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.082044,
+          30.282374
+        ]
+      },
+      "properties": {
+        "id": "poi-006",
+        "name": "附近露营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "相关搜索 附近露营地 露营去野自助烤场 4分钟30秒露营视频 露营装备...",
+            "url": "https://www.douyin.com/video/6712665344953029903"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.109126,
+          30.268874
+        ]
+      },
+      "properties": {
+        "id": "poi-007",
+        "name": "小众露营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "江边篝火 喝着酒 听着音乐 这样算几级孤独江边治愈系露营 小众露营",
+            "url": "https://www.douyin.com/video/7686831952439602021"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.223658,
+          30.269043
+        ]
+      },
+      "properties": {
+        "id": "poi-008",
+        "name": "分享江浙沪免费山顶露营地",
+        "city": "杭州",
+        "cost": 0,
+        "bookingMethod": "免费免预约自由露营",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "分享江浙沪免费山顶露营地！ 露营 山顶的风景总要自己去看 云海",
+            "url": "https://www.douyin.com/video/7704277480531071097"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.103105,
+          30.271872
+        ]
+      },
+      "properties": {
+        "id": "poi-012",
+        "name": "杭州壶源溪🚗开车可达露营地",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "杭州壶源溪🚗开车可达露营地｜附地图攻略 如果你想找一个人少、水清、",
+            "url": "https://www.douyin.com/video/7626294062920324217"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.187495,
+          30.279492
+        ]
+      },
+      "properties": {
+        "id": "poi-013",
+        "name": "搜索：富阳泥舍村",
+        "city": "杭州",
+        "cost": 88,
+        "bookingMethod": "现场扫码或线上预约",
+        "mediaLinks": [
+          {
+            "platform": "抖音",
+            "title": "（51期）泥舍村开车直达山顶日出日落云海详细攻略 ❌私人场地不可过夜",
+            "url": "https://www.douyin.com/video/7649991521714916773"
+          }
+        ]
+      }
     }
   ]
 }
