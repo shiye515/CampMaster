@@ -12,11 +12,23 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { resolve, extname } from 'node:path';
 
-const CITIES_DIR = resolve(process.cwd(), 'public/data/cities');
+const CITIES_DIR = resolve(process.cwd(), '../public/data/cities');
 const CRAWLER_OUTPUT = process.argv[2] || 'douyin_poi_results.geojson';
 
 console.log(`[Process] 开始处理爬虫数据...`);
 console.log(`[Process] 输入文件: ${CRAWLER_OUTPUT}`);
+
+// 城市名规范化函数
+function normalizeCity(city) {
+  if (!city) return '未知城市';
+  // 杭州 -> 杭州市
+  if (city === '杭州') return '杭州市';
+  // 其他城市也做规范化处理
+  if (!city.endsWith('市') && !city.endsWith('区') && !city.endsWith('县')) {
+    return city + '市';
+  }
+  return city;
+}
 
 // 1. 读取爬虫输出数据
 let crawlerData;
@@ -32,10 +44,11 @@ try {
   process.exit(1);
 }
 
-// 2. 按城市分组爬虫数据
+// 2. 按城市分组爬虫数据（并规范化城市名）
 const crawlerByCity = {};
 for (const feature of crawlerData.features) {
-  const city = feature.properties.city || '未知城市';
+  const city = normalizeCity(feature.properties.city);
+  feature.properties.city = city; // 更新特性中的城市名
   if (!crawlerByCity[city]) {
     crawlerByCity[city] = [];
   }
